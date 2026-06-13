@@ -1,0 +1,195 @@
+{
+    "device_node": {
+        "device_id": "utility_room_dehumidifier_1",
+        "device_name": "Dehumidifier",
+        "room_id": "bathroom",
+        "vendor_name": "LG Electronics",
+        "clusters": [
+            "FanControl",
+            "RelativeHumidityMeasurement",
+            "OnOff",
+            "BasicInformation"
+        ]
+    },
+    "cluster_nodes": [
+        {
+            "cluster_id": "utility_room_dehumidifier_1.FanControl",
+            "cluster_name": "FanControl",
+            "endpoint_id": 1,
+            "device_id": "utility_room_dehumidifier_1"
+        },
+        {
+            "cluster_id": "utility_room_dehumidifier_1.RelativeHumidityMeasurement",
+            "cluster_name": "RelativeHumidityMeasurement",
+            "endpoint_id": 2,
+            "device_id": "utility_room_dehumidifier_1"
+        },
+        {
+            "cluster_id": "utility_room_dehumidifier_1.OnOff",
+            "cluster_name": "OnOff",
+            "endpoint_id": 1,
+            "device_id": "utility_room_dehumidifier_1"
+        }
+    ],
+    "state_intervals": [
+        {
+            "state_interval_id": "si_1_FanControl_FanMode",
+            "cluster_id": "utility_room_dehumidifier_1.FanControl",
+            "attribute_name": "FanMode",
+            "value": 1,
+            "start_time": "10-36-54",
+            "end_time": null
+        },
+        {
+            "state_interval_id": "si_1_FanControl_FanModeSequence",
+            "cluster_id": "utility_room_dehumidifier_1.FanControl",
+            "attribute_name": "FanModeSequence",
+            "value": 1,
+            "start_time": "10-36-54",
+            "end_time": null
+        },
+        {
+            "state_interval_id": "si_1_FanControl_PercentCurrent",
+            "cluster_id": "utility_room_dehumidifier_1.FanControl",
+            "attribute_name": "PercentCurrent",
+            "value": 3,
+            "start_time": "10-36-54",
+            "end_time": null
+        },
+        {
+            "state_interval_id": "si_1_FanControl_PercentSetting",
+            "cluster_id": "utility_room_dehumidifier_1.FanControl",
+            "attribute_name": "PercentSetting",
+            "value": 3,
+            "start_time": "10-36-54",
+            "end_time": null
+        },
+        {
+            "state_interval_id": "si_1_OnOff_OnOff",
+            "cluster_id": "utility_room_dehumidifier_1.OnOff",
+            "attribute_name": "OnOff",
+            "value": true,
+            "start_time": "10-36-54",
+            "end_time": null
+        },
+        {
+            "state_interval_id": "si_2_RelativeHumidityMeasurement_MaxMeasuredValue",
+            "cluster_id": "utility_room_dehumidifier_1.RelativeHumidityMeasurement",
+            "attribute_name": "MaxMeasuredValue",
+            "value": 95.0,
+            "start_time": "10-36-54",
+            "end_time": null
+        },
+        {
+            "state_interval_id": "si_2_RelativeHumidityMeasurement_MeasuredValue",
+            "cluster_id": "utility_room_dehumidifier_1.RelativeHumidityMeasurement",
+            "attribute_name": "MeasuredValue",
+            "value": 64.45,
+            "start_time": "10-36-54",
+            "end_time": null
+        },
+        {
+            "state_interval_id": "si_2_RelativeHumidityMeasurement_MinMeasuredValue",
+            "cluster_id": "utility_room_dehumidifier_1.RelativeHumidityMeasurement",
+            "attribute_name": "MinMeasuredValue",
+            "value": 10.0,
+            "start_time": "10-36-54",
+            "end_time": null
+        },
+        {
+            "state_interval_id": "si_2_RelativeHumidityMeasurement_Tolerance",
+            "cluster_id": "utility_room_dehumidifier_1.RelativeHumidityMeasurement",
+            "attribute_name": "Tolerance",
+            "value": null,
+            "start_time": "10-36-54",
+            "end_time": null
+        }
+    ],
+    "edges": [
+        {
+            "source": "utility_room_dehumidifier_1",
+            "target": "bathroom",
+            "edge_type": "INSTALLED_IN"
+        },
+        {
+            "source": "utility_room_dehumidifier_1",
+            "target": "utility_room_dehumidifier_1.FanControl",
+            "edge_type": "HAS_CLUSTER"
+        },
+        {
+            "source": "utility_room_dehumidifier_1",
+            "target": "utility_room_dehumidifier_1.RelativeHumidityMeasurement",
+            "edge_type": "HAS_CLUSTER"
+        },
+        {
+            "source": "utility_room_dehumidifier_1",
+            "target": "utility_room_dehumidifier_1.OnOff",
+            "edge_type": "HAS_CLUSTER"
+        },
+        {
+            "source": "utility_room_dehumidifier_1.BasicInformation",
+            "target": "si_0_BasicInformation_ProductID",
+            "edge_type": "HAS_STATE"
+        },
+        {
+            "source": "utility_room_dehumidifier_1.BasicInformation",
+            "target": "si_0_BasicInformation_ProductName",
+            "edge_type": "HAS_STATE"
+        },
+        {
+            "source": "utility_room_dehumidifier_1.BasicInformation",
+            "target": "si_0_BasicInformation_VendorID",
+            "edge_type": "HAS_STATE"
+        },
+        {
+            "source": "utility_room_dehumidifier_1.BasicInformation",
+            "target": "si_0_BasicInformation_VendorName",
+            "edge_type": "HAS_STATE"
+        },
+        {
+            "source": "utility_room_dehumidifier_1.FanControl",
+            "target": "si_1_FanControl_FanMode",
+            "edge_type": "HAS_STATE"
+        },
+        {
+            "source": "utility_room_dehumidifier_1.FanControl",
+            "target": "si_1_FanControl_FanModeSequence",
+            "edge_type": "HAS_STATE"
+        },
+        {
+            "source": "utility_room_dehumidifier_1.FanControl",
+            "target": "si_1_FanControl_PercentCurrent",
+            "edge_type": "HAS_STATE"
+        },
+        {
+            "source": "utility_room_dehumidifier_1.FanControl",
+            "target": "si_1_FanControl_PercentSetting",
+            "edge_type": "HAS_STATE"
+        },
+        {
+            "source": "utility_room_dehumidifier_1.OnOff",
+            "target": "si_1_OnOff_OnOff",
+            "edge_type": "HAS_STATE"
+        },
+        {
+            "source": "utility_room_dehumidifier_1.RelativeHumidityMeasurement",
+            "target": "si_2_RelativeHumidityMeasurement_MaxMeasuredValue",
+            "edge_type": "HAS_STATE"
+        },
+        {
+            "source": "utility_room_dehumidifier_1.RelativeHumidityMeasurement",
+            "target": "si_2_RelativeHumidityMeasurement_MeasuredValue",
+            "edge_type": "HAS_STATE"
+        },
+        {
+            "source": "utility_room_dehumidifier_1.RelativeHumidityMeasurement",
+            "target": "si_2_RelativeHumidityMeasurement_MinMeasuredValue",
+            "edge_type": "HAS_STATE"
+        },
+        {
+            "source": "utility_room_dehumidifier_1.RelativeHumidityMeasurement",
+            "target": "si_2_RelativeHumidityMeasurement_Tolerance",
+            "edge_type": "HAS_STATE"
+        }
+    ]
+}

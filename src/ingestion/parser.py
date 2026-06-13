@@ -107,6 +107,9 @@ def parse_device(device:dict,room_id=str,base_time=str)->json:
     output["edges"]=edges
     #output={"device_node":output["device_node"],"cluster_nodes":output["cluster_nodes"],"state_intervals":output["state_intervals"],"edges":output["edges"]}
     output=json.dumps(output,indent=4)
+
+    with open ("skeleton.json","a") as f:
+        f.write(output)
     return output
 if __name__=="__main__":
     device={
