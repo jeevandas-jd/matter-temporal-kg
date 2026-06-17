@@ -9,6 +9,8 @@ def parse_time(t: Optional[str]) -> datetime:
 def normalize_interval(interval: Dict[str, Any]) -> tuple[datetime, datetime]:
     start = parse_time(interval.get("start_time"))
     end = parse_time(interval.get("end_time"))
+    
+
 
     if start > end:
         raise ValueError(f"Invalid interval: start {start} is after end {end}")
@@ -51,7 +53,7 @@ def during(x: dict, y: dict) -> bool:
     return ys < xs < xe < ye
 
 if __name__ == "__main__":
-    A = {"start_time": "2025-08-23 08:00:00", "end_time": "2025-08-23 10:00:00"}
+    A = {"start_time": "2025-08-23 08:00:00", "end_time": None}
     B = {"start_time": "2025-08-23 09:00:00", "end_time": "2025-08-23 11:00:00"}
     C = {"start_time": "2025-08-23 09:00:00", "end_time": "2025-08-23 09:30:00"}
 
