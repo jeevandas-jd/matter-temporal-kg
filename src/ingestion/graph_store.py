@@ -20,6 +20,13 @@ class GraphStore:
         self.graph["state_intervals"] = {n["state_interval_id"]: n 
                                         for n in episode_data["state_intervals"]}
         self.graph["all_edges"]       = episode_data["all_edges"]
+        self.graph["intervals_by_cluster"] = {}
+
+        for si_id, si in self.graph["state_intervals"].items():
+            cluster_id = si["cluster_id"]
+            if cluster_id not in self.graph["intervals_by_cluster"]:
+                self.graph["intervals_by_cluster"][cluster_id] = []
+            self.graph["intervals_by_cluster"][cluster_id].append(si_id)
     def get_node(self, node_type, node_id):
         if node_type == "user_nodes":
             return self.graph["user_node"]
@@ -39,6 +46,15 @@ class GraphStore:
         print(f"State Interval nodes: {len(self.graph.get('state_intervals', []))}")
         print(f"Event nodes: {len(self.graph.get('event_nodes', []))}")
         print(f"Total edges: {len(self.graph["all_edges"])}")
+    def save_graph(self):
+        try:
+            with open("graph_store.json","w") as f:
+
+                json.dump(self.graph,f,indent=2)
+            print("graph saved successfully !")
+        except Exception as e:
+
+            print(f"error occourd : {e}")
 
 if __name__ == "__main__":
     DATA = os.path.join(os.getcwd(), "src", "data", "qt1_feasible_seed_1.json")
@@ -48,14 +64,12 @@ if __name__ == "__main__":
     graph_store.load_episode(episode_json)
     #print(f"graph loaded preview: {graph_store.graph}")
     #print(f"Graph loaded with {len(graph_store.graph)} node types and {len(graph_store.get_edges("bathroom"))} edges.")
-    """print(F"graph keys: {graph_store.graph.keys()}")
-    print(f"user node {graph_store.get_node('user_nodes', 'user_1')}")
-    print(f"device node {graph_store.get_node('device_nodes', 'bathroom_air_conditioner_1')}")"""
-    graph_store.summary()
-    print(graph_store.get_node("device_nodes", "bathroom_air_conditioner_1"))
-    print(graph_store.get_node("location_nodes", "bathroom"))
+    #print(F"graph keys: {graph_store.graph.keys()}")
+    #print(f"user node {graph_store.get_node('user_nodes', 'user_1')}")
+    print(f"device node {graph_store.get_node('device_nodes', 'bathroom_air_conditioner_1')}")
+    
 
-    print(f"content of usert node:{graph_store.graph['user_node']}")
+    graph_store.save_graph()
     #print("\nRetrieving node 'user_1':")
     #user_node = graph_store.get_node("user_nodes", "user_1")
     #

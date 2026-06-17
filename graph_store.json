@@ -1,0 +1,4991 @@
+{
+  "user_node": {
+    "user_id": "user_1",
+    "user_name": "user_1",
+    "location": "kitchen"
+  },
+  "location_nodes": {
+    "bathroom": {
+      "location_id": "bathroom",
+      "location_name": "bathroom",
+      "temperature": 27.93,
+      "humidity": 42.15,
+      "illuminance": 100.0,
+      "pm10": 41.49,
+      "devices": [
+        "bathroom_air_conditioner_1",
+        "bathroom_air_purifier_1",
+        "bathroom_fan_1",
+        "bathroom_laundry_washer_1",
+        "bathroom_on_off_light_1",
+        "bathroom_window_covering_controller_1",
+        "bathroom_window_covering_controller_2"
+      ]
+    },
+    "dining_room": {
+      "location_id": "dining_room",
+      "location_name": "dining_room",
+      "temperature": 27.81,
+      "humidity": 37.15,
+      "illuminance": 502.09,
+      "pm10": 79.8,
+      "devices": [
+        "dining_room_dehumidifier_1",
+        "dining_room_humidifier_1",
+        "dining_room_on_off_light_1",
+        "dining_room_window_covering_controller_1"
+      ]
+    },
+    "kitchen": {
+      "location_id": "kitchen",
+      "location_name": "kitchen",
+      "temperature": 27.85,
+      "humidity": 38.11,
+      "illuminance": 301.01,
+      "pm10": 80.94,
+      "devices": [
+        "kitchen_air_purifier_1",
+        "kitchen_dishwasher_1",
+        "kitchen_fan_1",
+        "kitchen_freezer_1",
+        "kitchen_on_off_light_1",
+        "kitchen_refrigerator_1"
+      ]
+    },
+    "living_room": {
+      "location_id": "living_room",
+      "location_name": "living_room",
+      "temperature": 27.43,
+      "humidity": 39.35,
+      "illuminance": 1060.54,
+      "pm10": 54.43,
+      "devices": [
+        "living_room_air_conditioner_1",
+        "living_room_dimmable_light_1",
+        "living_room_dimmable_light_2",
+        "living_room_on_off_light_1",
+        "living_room_on_off_light_2",
+        "living_room_tv_1",
+        "living_room_window_covering_controller_1"
+      ]
+    },
+    "utility_room": {
+      "location_id": "utility_room",
+      "location_name": "utility_room",
+      "temperature": 28.52,
+      "humidity": 35.0,
+      "illuminance": 681.81,
+      "pm10": 24.24,
+      "devices": [
+        "utility_room_air_conditioner_1",
+        "utility_room_air_purifier_1",
+        "utility_room_heat_pump_1",
+        "utility_room_laundry_dryer_1",
+        "utility_room_laundry_washer_1",
+        "utility_room_laundry_washer_2",
+        "utility_room_on_off_light_1"
+      ]
+    }
+  },
+  "device_nodes": {
+    "bathroom_air_conditioner_1": {
+      "device_id": "bathroom_air_conditioner_1",
+      "device_name": "Air Conditioner",
+      "room_id": "bathroom",
+      "vendor_name": "LG Electronics",
+      "clusters": [
+        "OnOff",
+        "BasicInformation",
+        "FanControl",
+        "Thermostat"
+      ]
+    },
+    "bathroom_air_purifier_1": {
+      "device_id": "bathroom_air_purifier_1",
+      "device_name": "Air Purifier",
+      "room_id": "bathroom",
+      "vendor_name": "LG Electronics",
+      "clusters": [
+        "BasicInformation",
+        "Identify",
+        "Descriptor",
+        "OnOff",
+        "FanControl"
+      ]
+    },
+    "bathroom_fan_1": {
+      "device_id": "bathroom_fan_1",
+      "device_name": "Fan",
+      "room_id": "bathroom",
+      "vendor_name": "LG Electronics",
+      "clusters": [
+        "OnOff",
+        "BasicInformation",
+        "FanControl"
+      ]
+    },
+    "bathroom_laundry_washer_1": {
+      "device_id": "bathroom_laundry_washer_1",
+      "device_name": "Laundry Washer",
+      "room_id": "bathroom",
+      "vendor_name": "Samsung Electronics",
+      "clusters": [
+        "LaundryWasherControls",
+        "BasicInformation",
+        "TemperatureControl",
+        "LaundryWasherMode",
+        "OperationalState",
+        "OnOff"
+      ]
+    },
+    "bathroom_on_off_light_1": {
+      "device_id": "bathroom_on_off_light_1",
+      "device_name": "On/Off Light",
+      "room_id": "bathroom",
+      "vendor_name": "LG Electronics",
+      "clusters": [
+        "OnOff",
+        "BasicInformation"
+      ]
+    },
+    "bathroom_window_covering_controller_1": {
+      "device_id": "bathroom_window_covering_controller_1",
+      "device_name": "Window Covering Controller",
+      "room_id": "bathroom",
+      "vendor_name": "LG Electronics",
+      "clusters": [
+        "WindowCovering",
+        "BasicInformation"
+      ]
+    },
+    "bathroom_window_covering_controller_2": {
+      "device_id": "bathroom_window_covering_controller_2",
+      "device_name": "Window Covering Controller",
+      "room_id": "bathroom",
+      "vendor_name": "LG Electronics",
+      "clusters": [
+        "WindowCovering",
+        "BasicInformation"
+      ]
+    },
+    "dining_room_dehumidifier_1": {
+      "device_id": "dining_room_dehumidifier_1",
+      "device_name": "Dehumidifier",
+      "room_id": "dining_room",
+      "vendor_name": "LG Electronics",
+      "clusters": [
+        "OnOff",
+        "BasicInformation",
+        "FanControl",
+        "RelativeHumidityMeasurement"
+      ]
+    },
+    "dining_room_humidifier_1": {
+      "device_id": "dining_room_humidifier_1",
+      "device_name": "Humidifier",
+      "room_id": "dining_room",
+      "vendor_name": "LG Electronics",
+      "clusters": [
+        "OnOff",
+        "BasicInformation",
+        "FanControl",
+        "RelativeHumidityMeasurement"
+      ]
+    },
+    "dining_room_on_off_light_1": {
+      "device_id": "dining_room_on_off_light_1",
+      "device_name": "On/Off Light",
+      "room_id": "dining_room",
+      "vendor_name": "LG Electronics",
+      "clusters": [
+        "OnOff",
+        "BasicInformation"
+      ]
+    },
+    "dining_room_window_covering_controller_1": {
+      "device_id": "dining_room_window_covering_controller_1",
+      "device_name": "Window Covering Controller",
+      "room_id": "dining_room",
+      "vendor_name": "LG Electronics",
+      "clusters": [
+        "WindowCovering",
+        "BasicInformation"
+      ]
+    },
+    "kitchen_air_purifier_1": {
+      "device_id": "kitchen_air_purifier_1",
+      "device_name": "Air Purifier",
+      "room_id": "kitchen",
+      "vendor_name": "LG Electronics",
+      "clusters": [
+        "BasicInformation",
+        "Identify",
+        "Descriptor",
+        "OnOff",
+        "FanControl"
+      ]
+    },
+    "kitchen_dishwasher_1": {
+      "device_id": "kitchen_dishwasher_1",
+      "device_name": "Dishwasher",
+      "room_id": "kitchen",
+      "vendor_name": "LG Electronics",
+      "clusters": [
+        "BasicInformation",
+        "DishwasherAlarm",
+        "DishwasherMode",
+        "OperationalState",
+        "OnOff"
+      ]
+    },
+    "kitchen_fan_1": {
+      "device_id": "kitchen_fan_1",
+      "device_name": "Fan",
+      "room_id": "kitchen",
+      "vendor_name": "LG Electronics",
+      "clusters": [
+        "OnOff",
+        "BasicInformation",
+        "FanControl"
+      ]
+    },
+    "kitchen_freezer_1": {
+      "device_id": "kitchen_freezer_1",
+      "device_name": "Freezer",
+      "room_id": "kitchen",
+      "vendor_name": "LG Electronics",
+      "clusters": [
+        "BasicInformation",
+        "TemperatureMeasurement",
+        "TemperatureControl",
+        "Descriptor",
+        "RTCCMode"
+      ]
+    },
+    "kitchen_on_off_light_1": {
+      "device_id": "kitchen_on_off_light_1",
+      "device_name": "On/Off Light",
+      "room_id": "kitchen",
+      "vendor_name": "LG Electronics",
+      "clusters": [
+        "OnOff",
+        "BasicInformation"
+      ]
+    },
+    "kitchen_refrigerator_1": {
+      "device_id": "kitchen_refrigerator_1",
+      "device_name": "Refrigerator",
+      "room_id": "kitchen",
+      "vendor_name": "LG Electronics",
+      "clusters": [
+        "BasicInformation",
+        "TemperatureMeasurement",
+        "TemperatureControl",
+        "Descriptor",
+        "RTCCMode"
+      ]
+    },
+    "living_room_air_conditioner_1": {
+      "device_id": "living_room_air_conditioner_1",
+      "device_name": "Air Conditioner",
+      "room_id": "living_room",
+      "vendor_name": "LG Electronics",
+      "clusters": [
+        "OnOff",
+        "BasicInformation",
+        "FanControl",
+        "Thermostat"
+      ]
+    },
+    "living_room_dimmable_light_1": {
+      "device_id": "living_room_dimmable_light_1",
+      "device_name": "Dimmable Light",
+      "room_id": "living_room",
+      "vendor_name": "LG Electronics",
+      "clusters": [
+        "OnOff",
+        "LevelControl",
+        "BasicInformation"
+      ]
+    },
+    "living_room_dimmable_light_2": {
+      "device_id": "living_room_dimmable_light_2",
+      "device_name": "Dimmable Light",
+      "room_id": "living_room",
+      "vendor_name": "LG Electronics",
+      "clusters": [
+        "OnOff",
+        "LevelControl",
+        "BasicInformation"
+      ]
+    },
+    "living_room_on_off_light_1": {
+      "device_id": "living_room_on_off_light_1",
+      "device_name": "On/Off Light",
+      "room_id": "living_room",
+      "vendor_name": "LG Electronics",
+      "clusters": [
+        "OnOff",
+        "BasicInformation"
+      ]
+    },
+    "living_room_on_off_light_2": {
+      "device_id": "living_room_on_off_light_2",
+      "device_name": "On/Off Light",
+      "room_id": "living_room",
+      "vendor_name": "LG Electronics",
+      "clusters": [
+        "OnOff",
+        "BasicInformation"
+      ]
+    },
+    "living_room_tv_1": {
+      "device_id": "living_room_tv_1",
+      "device_name": "TV",
+      "room_id": "living_room",
+      "vendor_name": "LG Electronics",
+      "clusters": [
+        "OnOff",
+        "BasicInformation",
+        "KeypadInput",
+        "MediaPlayback",
+        "Channel",
+        "LevelControl"
+      ]
+    },
+    "living_room_window_covering_controller_1": {
+      "device_id": "living_room_window_covering_controller_1",
+      "device_name": "Window Covering Controller",
+      "room_id": "living_room",
+      "vendor_name": "LG Electronics",
+      "clusters": [
+        "WindowCovering",
+        "BasicInformation"
+      ]
+    },
+    "utility_room_air_conditioner_1": {
+      "device_id": "utility_room_air_conditioner_1",
+      "device_name": "Air Conditioner",
+      "room_id": "utility_room",
+      "vendor_name": "LG Electronics",
+      "clusters": [
+        "OnOff",
+        "BasicInformation",
+        "FanControl",
+        "Thermostat"
+      ]
+    },
+    "utility_room_air_purifier_1": {
+      "device_id": "utility_room_air_purifier_1",
+      "device_name": "Air Purifier",
+      "room_id": "utility_room",
+      "vendor_name": "LG Electronics",
+      "clusters": [
+        "BasicInformation",
+        "Identify",
+        "Descriptor",
+        "OnOff",
+        "FanControl"
+      ]
+    },
+    "utility_room_heat_pump_1": {
+      "device_id": "utility_room_heat_pump_1",
+      "device_name": "Heat Pump",
+      "room_id": "utility_room",
+      "vendor_name": "Heat Pump",
+      "clusters": [
+        "BasicInformation",
+        "ElectricalEnergyMeasurement",
+        "PowerTopology",
+        "Descriptor",
+        "Thermostat",
+        "ElectricalPowerMeasurement",
+        "DeviceEnergyManagement",
+        "PowerSource"
+      ]
+    },
+    "utility_room_laundry_dryer_1": {
+      "device_id": "utility_room_laundry_dryer_1",
+      "device_name": "Laundry Dryer",
+      "room_id": "utility_room",
+      "vendor_name": "Generic Vendor",
+      "clusters": [
+        "OnOff",
+        "LaundryDryerControls",
+        "BasicInformation",
+        "OperationalState"
+      ]
+    },
+    "utility_room_laundry_washer_1": {
+      "device_id": "utility_room_laundry_washer_1",
+      "device_name": "Laundry Washer",
+      "room_id": "utility_room",
+      "vendor_name": "Samsung Electronics",
+      "clusters": [
+        "LaundryWasherControls",
+        "BasicInformation",
+        "TemperatureControl",
+        "LaundryWasherMode",
+        "OperationalState",
+        "OnOff"
+      ]
+    },
+    "utility_room_laundry_washer_2": {
+      "device_id": "utility_room_laundry_washer_2",
+      "device_name": "Laundry Washer",
+      "room_id": "utility_room",
+      "vendor_name": "Samsung Electronics",
+      "clusters": [
+        "LaundryWasherControls",
+        "BasicInformation",
+        "TemperatureControl",
+        "LaundryWasherMode",
+        "OperationalState",
+        "OnOff"
+      ]
+    },
+    "utility_room_on_off_light_1": {
+      "device_id": "utility_room_on_off_light_1",
+      "device_name": "On/Off Light",
+      "room_id": "utility_room",
+      "vendor_name": "LG Electronics",
+      "clusters": [
+        "OnOff",
+        "BasicInformation"
+      ]
+    }
+  },
+  "cluster_nodes": {
+    "bathroom_air_conditioner_1.BasicInformation": {
+      "cluster_id": "bathroom_air_conditioner_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "bathroom_air_conditioner_1"
+    },
+    "bathroom_air_conditioner_1.FanControl": {
+      "cluster_id": "bathroom_air_conditioner_1.FanControl",
+      "cluster_name": "FanControl",
+      "endpoint_id": 1,
+      "device_id": "bathroom_air_conditioner_1"
+    },
+    "bathroom_air_conditioner_1.OnOff": {
+      "cluster_id": "bathroom_air_conditioner_1.OnOff",
+      "cluster_name": "OnOff",
+      "endpoint_id": 1,
+      "device_id": "bathroom_air_conditioner_1"
+    },
+    "bathroom_air_conditioner_1.Thermostat": {
+      "cluster_id": "bathroom_air_conditioner_1.Thermostat",
+      "cluster_name": "Thermostat",
+      "endpoint_id": 1,
+      "device_id": "bathroom_air_conditioner_1"
+    },
+    "bathroom_air_purifier_1.BasicInformation": {
+      "cluster_id": "bathroom_air_purifier_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "bathroom_air_purifier_1"
+    },
+    "bathroom_air_purifier_1.Descriptor": {
+      "cluster_id": "bathroom_air_purifier_1.Descriptor",
+      "cluster_name": "Descriptor",
+      "endpoint_id": 1,
+      "device_id": "bathroom_air_purifier_1"
+    },
+    "bathroom_air_purifier_1.FanControl": {
+      "cluster_id": "bathroom_air_purifier_1.FanControl",
+      "cluster_name": "FanControl",
+      "endpoint_id": 1,
+      "device_id": "bathroom_air_purifier_1"
+    },
+    "bathroom_air_purifier_1.Identify": {
+      "cluster_id": "bathroom_air_purifier_1.Identify",
+      "cluster_name": "Identify",
+      "endpoint_id": 1,
+      "device_id": "bathroom_air_purifier_1"
+    },
+    "bathroom_air_purifier_1.OnOff": {
+      "cluster_id": "bathroom_air_purifier_1.OnOff",
+      "cluster_name": "OnOff",
+      "endpoint_id": 1,
+      "device_id": "bathroom_air_purifier_1"
+    },
+    "bathroom_fan_1.BasicInformation": {
+      "cluster_id": "bathroom_fan_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "bathroom_fan_1"
+    },
+    "bathroom_fan_1.FanControl": {
+      "cluster_id": "bathroom_fan_1.FanControl",
+      "cluster_name": "FanControl",
+      "endpoint_id": 1,
+      "device_id": "bathroom_fan_1"
+    },
+    "bathroom_fan_1.OnOff": {
+      "cluster_id": "bathroom_fan_1.OnOff",
+      "cluster_name": "OnOff",
+      "endpoint_id": 1,
+      "device_id": "bathroom_fan_1"
+    },
+    "bathroom_laundry_washer_1.BasicInformation": {
+      "cluster_id": "bathroom_laundry_washer_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "bathroom_laundry_washer_1"
+    },
+    "bathroom_laundry_washer_1.LaundryWasherControls": {
+      "cluster_id": "bathroom_laundry_washer_1.LaundryWasherControls",
+      "cluster_name": "LaundryWasherControls",
+      "endpoint_id": 1,
+      "device_id": "bathroom_laundry_washer_1"
+    },
+    "bathroom_laundry_washer_1.LaundryWasherMode": {
+      "cluster_id": "bathroom_laundry_washer_1.LaundryWasherMode",
+      "cluster_name": "LaundryWasherMode",
+      "endpoint_id": 1,
+      "device_id": "bathroom_laundry_washer_1"
+    },
+    "bathroom_laundry_washer_1.OnOff": {
+      "cluster_id": "bathroom_laundry_washer_1.OnOff",
+      "cluster_name": "OnOff",
+      "endpoint_id": 1,
+      "device_id": "bathroom_laundry_washer_1"
+    },
+    "bathroom_laundry_washer_1.OperationalState": {
+      "cluster_id": "bathroom_laundry_washer_1.OperationalState",
+      "cluster_name": "OperationalState",
+      "endpoint_id": 1,
+      "device_id": "bathroom_laundry_washer_1"
+    },
+    "bathroom_laundry_washer_1.TemperatureControl": {
+      "cluster_id": "bathroom_laundry_washer_1.TemperatureControl",
+      "cluster_name": "TemperatureControl",
+      "endpoint_id": 1,
+      "device_id": "bathroom_laundry_washer_1"
+    },
+    "bathroom_on_off_light_1.BasicInformation": {
+      "cluster_id": "bathroom_on_off_light_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "bathroom_on_off_light_1"
+    },
+    "bathroom_on_off_light_1.OnOff": {
+      "cluster_id": "bathroom_on_off_light_1.OnOff",
+      "cluster_name": "OnOff",
+      "endpoint_id": 1,
+      "device_id": "bathroom_on_off_light_1"
+    },
+    "bathroom_window_covering_controller_1.BasicInformation": {
+      "cluster_id": "bathroom_window_covering_controller_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "bathroom_window_covering_controller_1"
+    },
+    "bathroom_window_covering_controller_1.WindowCovering": {
+      "cluster_id": "bathroom_window_covering_controller_1.WindowCovering",
+      "cluster_name": "WindowCovering",
+      "endpoint_id": 1,
+      "device_id": "bathroom_window_covering_controller_1"
+    },
+    "bathroom_window_covering_controller_2.BasicInformation": {
+      "cluster_id": "bathroom_window_covering_controller_2.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "bathroom_window_covering_controller_2"
+    },
+    "bathroom_window_covering_controller_2.WindowCovering": {
+      "cluster_id": "bathroom_window_covering_controller_2.WindowCovering",
+      "cluster_name": "WindowCovering",
+      "endpoint_id": 1,
+      "device_id": "bathroom_window_covering_controller_2"
+    },
+    "dining_room_dehumidifier_1.BasicInformation": {
+      "cluster_id": "dining_room_dehumidifier_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "dining_room_dehumidifier_1"
+    },
+    "dining_room_dehumidifier_1.FanControl": {
+      "cluster_id": "dining_room_dehumidifier_1.FanControl",
+      "cluster_name": "FanControl",
+      "endpoint_id": 1,
+      "device_id": "dining_room_dehumidifier_1"
+    },
+    "dining_room_dehumidifier_1.OnOff": {
+      "cluster_id": "dining_room_dehumidifier_1.OnOff",
+      "cluster_name": "OnOff",
+      "endpoint_id": 1,
+      "device_id": "dining_room_dehumidifier_1"
+    },
+    "dining_room_dehumidifier_1.RelativeHumidityMeasurement": {
+      "cluster_id": "dining_room_dehumidifier_1.RelativeHumidityMeasurement",
+      "cluster_name": "RelativeHumidityMeasurement",
+      "endpoint_id": 2,
+      "device_id": "dining_room_dehumidifier_1"
+    },
+    "dining_room_humidifier_1.BasicInformation": {
+      "cluster_id": "dining_room_humidifier_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "dining_room_humidifier_1"
+    },
+    "dining_room_humidifier_1.FanControl": {
+      "cluster_id": "dining_room_humidifier_1.FanControl",
+      "cluster_name": "FanControl",
+      "endpoint_id": 1,
+      "device_id": "dining_room_humidifier_1"
+    },
+    "dining_room_humidifier_1.OnOff": {
+      "cluster_id": "dining_room_humidifier_1.OnOff",
+      "cluster_name": "OnOff",
+      "endpoint_id": 1,
+      "device_id": "dining_room_humidifier_1"
+    },
+    "dining_room_humidifier_1.RelativeHumidityMeasurement": {
+      "cluster_id": "dining_room_humidifier_1.RelativeHumidityMeasurement",
+      "cluster_name": "RelativeHumidityMeasurement",
+      "endpoint_id": 2,
+      "device_id": "dining_room_humidifier_1"
+    },
+    "dining_room_on_off_light_1.BasicInformation": {
+      "cluster_id": "dining_room_on_off_light_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "dining_room_on_off_light_1"
+    },
+    "dining_room_on_off_light_1.OnOff": {
+      "cluster_id": "dining_room_on_off_light_1.OnOff",
+      "cluster_name": "OnOff",
+      "endpoint_id": 1,
+      "device_id": "dining_room_on_off_light_1"
+    },
+    "dining_room_window_covering_controller_1.BasicInformation": {
+      "cluster_id": "dining_room_window_covering_controller_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "dining_room_window_covering_controller_1"
+    },
+    "dining_room_window_covering_controller_1.WindowCovering": {
+      "cluster_id": "dining_room_window_covering_controller_1.WindowCovering",
+      "cluster_name": "WindowCovering",
+      "endpoint_id": 1,
+      "device_id": "dining_room_window_covering_controller_1"
+    },
+    "kitchen_air_purifier_1.BasicInformation": {
+      "cluster_id": "kitchen_air_purifier_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "kitchen_air_purifier_1"
+    },
+    "kitchen_air_purifier_1.Descriptor": {
+      "cluster_id": "kitchen_air_purifier_1.Descriptor",
+      "cluster_name": "Descriptor",
+      "endpoint_id": 1,
+      "device_id": "kitchen_air_purifier_1"
+    },
+    "kitchen_air_purifier_1.FanControl": {
+      "cluster_id": "kitchen_air_purifier_1.FanControl",
+      "cluster_name": "FanControl",
+      "endpoint_id": 1,
+      "device_id": "kitchen_air_purifier_1"
+    },
+    "kitchen_air_purifier_1.Identify": {
+      "cluster_id": "kitchen_air_purifier_1.Identify",
+      "cluster_name": "Identify",
+      "endpoint_id": 1,
+      "device_id": "kitchen_air_purifier_1"
+    },
+    "kitchen_air_purifier_1.OnOff": {
+      "cluster_id": "kitchen_air_purifier_1.OnOff",
+      "cluster_name": "OnOff",
+      "endpoint_id": 1,
+      "device_id": "kitchen_air_purifier_1"
+    },
+    "kitchen_dishwasher_1.BasicInformation": {
+      "cluster_id": "kitchen_dishwasher_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "kitchen_dishwasher_1"
+    },
+    "kitchen_dishwasher_1.DishwasherAlarm": {
+      "cluster_id": "kitchen_dishwasher_1.DishwasherAlarm",
+      "cluster_name": "DishwasherAlarm",
+      "endpoint_id": 1,
+      "device_id": "kitchen_dishwasher_1"
+    },
+    "kitchen_dishwasher_1.DishwasherMode": {
+      "cluster_id": "kitchen_dishwasher_1.DishwasherMode",
+      "cluster_name": "DishwasherMode",
+      "endpoint_id": 1,
+      "device_id": "kitchen_dishwasher_1"
+    },
+    "kitchen_dishwasher_1.OnOff": {
+      "cluster_id": "kitchen_dishwasher_1.OnOff",
+      "cluster_name": "OnOff",
+      "endpoint_id": 1,
+      "device_id": "kitchen_dishwasher_1"
+    },
+    "kitchen_dishwasher_1.OperationalState": {
+      "cluster_id": "kitchen_dishwasher_1.OperationalState",
+      "cluster_name": "OperationalState",
+      "endpoint_id": 1,
+      "device_id": "kitchen_dishwasher_1"
+    },
+    "kitchen_fan_1.BasicInformation": {
+      "cluster_id": "kitchen_fan_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "kitchen_fan_1"
+    },
+    "kitchen_fan_1.FanControl": {
+      "cluster_id": "kitchen_fan_1.FanControl",
+      "cluster_name": "FanControl",
+      "endpoint_id": 1,
+      "device_id": "kitchen_fan_1"
+    },
+    "kitchen_fan_1.OnOff": {
+      "cluster_id": "kitchen_fan_1.OnOff",
+      "cluster_name": "OnOff",
+      "endpoint_id": 1,
+      "device_id": "kitchen_fan_1"
+    },
+    "kitchen_freezer_1.BasicInformation": {
+      "cluster_id": "kitchen_freezer_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "kitchen_freezer_1"
+    },
+    "kitchen_freezer_1.Descriptor": {
+      "cluster_id": "kitchen_freezer_1.Descriptor",
+      "cluster_name": "Descriptor",
+      "endpoint_id": 1,
+      "device_id": "kitchen_freezer_1"
+    },
+    "kitchen_freezer_1.RTCCMode": {
+      "cluster_id": "kitchen_freezer_1.RTCCMode",
+      "cluster_name": "RTCCMode",
+      "endpoint_id": 1,
+      "device_id": "kitchen_freezer_1"
+    },
+    "kitchen_freezer_1.TemperatureControl": {
+      "cluster_id": "kitchen_freezer_1.TemperatureControl",
+      "cluster_name": "TemperatureControl",
+      "endpoint_id": 1,
+      "device_id": "kitchen_freezer_1"
+    },
+    "kitchen_freezer_1.TemperatureMeasurement": {
+      "cluster_id": "kitchen_freezer_1.TemperatureMeasurement",
+      "cluster_name": "TemperatureMeasurement",
+      "endpoint_id": 1,
+      "device_id": "kitchen_freezer_1"
+    },
+    "kitchen_on_off_light_1.BasicInformation": {
+      "cluster_id": "kitchen_on_off_light_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "kitchen_on_off_light_1"
+    },
+    "kitchen_on_off_light_1.OnOff": {
+      "cluster_id": "kitchen_on_off_light_1.OnOff",
+      "cluster_name": "OnOff",
+      "endpoint_id": 1,
+      "device_id": "kitchen_on_off_light_1"
+    },
+    "kitchen_refrigerator_1.BasicInformation": {
+      "cluster_id": "kitchen_refrigerator_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "kitchen_refrigerator_1"
+    },
+    "kitchen_refrigerator_1.Descriptor": {
+      "cluster_id": "kitchen_refrigerator_1.Descriptor",
+      "cluster_name": "Descriptor",
+      "endpoint_id": 1,
+      "device_id": "kitchen_refrigerator_1"
+    },
+    "kitchen_refrigerator_1.RTCCMode": {
+      "cluster_id": "kitchen_refrigerator_1.RTCCMode",
+      "cluster_name": "RTCCMode",
+      "endpoint_id": 1,
+      "device_id": "kitchen_refrigerator_1"
+    },
+    "kitchen_refrigerator_1.TemperatureControl": {
+      "cluster_id": "kitchen_refrigerator_1.TemperatureControl",
+      "cluster_name": "TemperatureControl",
+      "endpoint_id": 1,
+      "device_id": "kitchen_refrigerator_1"
+    },
+    "kitchen_refrigerator_1.TemperatureMeasurement": {
+      "cluster_id": "kitchen_refrigerator_1.TemperatureMeasurement",
+      "cluster_name": "TemperatureMeasurement",
+      "endpoint_id": 1,
+      "device_id": "kitchen_refrigerator_1"
+    },
+    "living_room_air_conditioner_1.BasicInformation": {
+      "cluster_id": "living_room_air_conditioner_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "living_room_air_conditioner_1"
+    },
+    "living_room_air_conditioner_1.FanControl": {
+      "cluster_id": "living_room_air_conditioner_1.FanControl",
+      "cluster_name": "FanControl",
+      "endpoint_id": 1,
+      "device_id": "living_room_air_conditioner_1"
+    },
+    "living_room_air_conditioner_1.OnOff": {
+      "cluster_id": "living_room_air_conditioner_1.OnOff",
+      "cluster_name": "OnOff",
+      "endpoint_id": 1,
+      "device_id": "living_room_air_conditioner_1"
+    },
+    "living_room_air_conditioner_1.Thermostat": {
+      "cluster_id": "living_room_air_conditioner_1.Thermostat",
+      "cluster_name": "Thermostat",
+      "endpoint_id": 1,
+      "device_id": "living_room_air_conditioner_1"
+    },
+    "living_room_dimmable_light_1.BasicInformation": {
+      "cluster_id": "living_room_dimmable_light_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "living_room_dimmable_light_1"
+    },
+    "living_room_dimmable_light_1.LevelControl": {
+      "cluster_id": "living_room_dimmable_light_1.LevelControl",
+      "cluster_name": "LevelControl",
+      "endpoint_id": 1,
+      "device_id": "living_room_dimmable_light_1"
+    },
+    "living_room_dimmable_light_1.OnOff": {
+      "cluster_id": "living_room_dimmable_light_1.OnOff",
+      "cluster_name": "OnOff",
+      "endpoint_id": 1,
+      "device_id": "living_room_dimmable_light_1"
+    },
+    "living_room_dimmable_light_2.BasicInformation": {
+      "cluster_id": "living_room_dimmable_light_2.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "living_room_dimmable_light_2"
+    },
+    "living_room_dimmable_light_2.LevelControl": {
+      "cluster_id": "living_room_dimmable_light_2.LevelControl",
+      "cluster_name": "LevelControl",
+      "endpoint_id": 1,
+      "device_id": "living_room_dimmable_light_2"
+    },
+    "living_room_dimmable_light_2.OnOff": {
+      "cluster_id": "living_room_dimmable_light_2.OnOff",
+      "cluster_name": "OnOff",
+      "endpoint_id": 1,
+      "device_id": "living_room_dimmable_light_2"
+    },
+    "living_room_on_off_light_1.BasicInformation": {
+      "cluster_id": "living_room_on_off_light_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "living_room_on_off_light_1"
+    },
+    "living_room_on_off_light_1.OnOff": {
+      "cluster_id": "living_room_on_off_light_1.OnOff",
+      "cluster_name": "OnOff",
+      "endpoint_id": 1,
+      "device_id": "living_room_on_off_light_1"
+    },
+    "living_room_on_off_light_2.BasicInformation": {
+      "cluster_id": "living_room_on_off_light_2.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "living_room_on_off_light_2"
+    },
+    "living_room_on_off_light_2.OnOff": {
+      "cluster_id": "living_room_on_off_light_2.OnOff",
+      "cluster_name": "OnOff",
+      "endpoint_id": 1,
+      "device_id": "living_room_on_off_light_2"
+    },
+    "living_room_tv_1.BasicInformation": {
+      "cluster_id": "living_room_tv_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "living_room_tv_1"
+    },
+    "living_room_tv_1.Channel": {
+      "cluster_id": "living_room_tv_1.Channel",
+      "cluster_name": "Channel",
+      "endpoint_id": 1,
+      "device_id": "living_room_tv_1"
+    },
+    "living_room_tv_1.KeypadInput": {
+      "cluster_id": "living_room_tv_1.KeypadInput",
+      "cluster_name": "KeypadInput",
+      "endpoint_id": 1,
+      "device_id": "living_room_tv_1"
+    },
+    "living_room_tv_1.LevelControl": {
+      "cluster_id": "living_room_tv_1.LevelControl",
+      "cluster_name": "LevelControl",
+      "endpoint_id": 1,
+      "device_id": "living_room_tv_1"
+    },
+    "living_room_tv_1.MediaPlayback": {
+      "cluster_id": "living_room_tv_1.MediaPlayback",
+      "cluster_name": "MediaPlayback",
+      "endpoint_id": 1,
+      "device_id": "living_room_tv_1"
+    },
+    "living_room_tv_1.OnOff": {
+      "cluster_id": "living_room_tv_1.OnOff",
+      "cluster_name": "OnOff",
+      "endpoint_id": 1,
+      "device_id": "living_room_tv_1"
+    },
+    "living_room_window_covering_controller_1.BasicInformation": {
+      "cluster_id": "living_room_window_covering_controller_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "living_room_window_covering_controller_1"
+    },
+    "living_room_window_covering_controller_1.WindowCovering": {
+      "cluster_id": "living_room_window_covering_controller_1.WindowCovering",
+      "cluster_name": "WindowCovering",
+      "endpoint_id": 1,
+      "device_id": "living_room_window_covering_controller_1"
+    },
+    "utility_room_air_conditioner_1.BasicInformation": {
+      "cluster_id": "utility_room_air_conditioner_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "utility_room_air_conditioner_1"
+    },
+    "utility_room_air_conditioner_1.FanControl": {
+      "cluster_id": "utility_room_air_conditioner_1.FanControl",
+      "cluster_name": "FanControl",
+      "endpoint_id": 1,
+      "device_id": "utility_room_air_conditioner_1"
+    },
+    "utility_room_air_conditioner_1.OnOff": {
+      "cluster_id": "utility_room_air_conditioner_1.OnOff",
+      "cluster_name": "OnOff",
+      "endpoint_id": 1,
+      "device_id": "utility_room_air_conditioner_1"
+    },
+    "utility_room_air_conditioner_1.Thermostat": {
+      "cluster_id": "utility_room_air_conditioner_1.Thermostat",
+      "cluster_name": "Thermostat",
+      "endpoint_id": 1,
+      "device_id": "utility_room_air_conditioner_1"
+    },
+    "utility_room_air_purifier_1.BasicInformation": {
+      "cluster_id": "utility_room_air_purifier_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "utility_room_air_purifier_1"
+    },
+    "utility_room_air_purifier_1.Descriptor": {
+      "cluster_id": "utility_room_air_purifier_1.Descriptor",
+      "cluster_name": "Descriptor",
+      "endpoint_id": 1,
+      "device_id": "utility_room_air_purifier_1"
+    },
+    "utility_room_air_purifier_1.FanControl": {
+      "cluster_id": "utility_room_air_purifier_1.FanControl",
+      "cluster_name": "FanControl",
+      "endpoint_id": 1,
+      "device_id": "utility_room_air_purifier_1"
+    },
+    "utility_room_air_purifier_1.Identify": {
+      "cluster_id": "utility_room_air_purifier_1.Identify",
+      "cluster_name": "Identify",
+      "endpoint_id": 1,
+      "device_id": "utility_room_air_purifier_1"
+    },
+    "utility_room_air_purifier_1.OnOff": {
+      "cluster_id": "utility_room_air_purifier_1.OnOff",
+      "cluster_name": "OnOff",
+      "endpoint_id": 1,
+      "device_id": "utility_room_air_purifier_1"
+    },
+    "utility_room_heat_pump_1.BasicInformation": {
+      "cluster_id": "utility_room_heat_pump_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "utility_room_heat_pump_1"
+    },
+    "utility_room_heat_pump_1.Descriptor": {
+      "cluster_id": "utility_room_heat_pump_1.Descriptor",
+      "cluster_name": "Descriptor",
+      "endpoint_id": 1,
+      "device_id": "utility_room_heat_pump_1"
+    },
+    "utility_room_heat_pump_1.PowerSource": {
+      "cluster_id": "utility_room_heat_pump_1.PowerSource",
+      "cluster_name": "PowerSource",
+      "endpoint_id": 1,
+      "device_id": "utility_room_heat_pump_1"
+    },
+    "utility_room_heat_pump_1.ElectricalEnergyMeasurement": {
+      "cluster_id": "utility_room_heat_pump_1.ElectricalEnergyMeasurement",
+      "cluster_name": "ElectricalEnergyMeasurement",
+      "endpoint_id": 2,
+      "device_id": "utility_room_heat_pump_1"
+    },
+    "utility_room_heat_pump_1.ElectricalPowerMeasurement": {
+      "cluster_id": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "cluster_name": "ElectricalPowerMeasurement",
+      "endpoint_id": 2,
+      "device_id": "utility_room_heat_pump_1"
+    },
+    "utility_room_heat_pump_1.PowerTopology": {
+      "cluster_id": "utility_room_heat_pump_1.PowerTopology",
+      "cluster_name": "PowerTopology",
+      "endpoint_id": 2,
+      "device_id": "utility_room_heat_pump_1"
+    },
+    "utility_room_heat_pump_1.DeviceEnergyManagement": {
+      "cluster_id": "utility_room_heat_pump_1.DeviceEnergyManagement",
+      "cluster_name": "DeviceEnergyManagement",
+      "endpoint_id": 3,
+      "device_id": "utility_room_heat_pump_1"
+    },
+    "utility_room_heat_pump_1.Thermostat": {
+      "cluster_id": "utility_room_heat_pump_1.Thermostat",
+      "cluster_name": "Thermostat",
+      "endpoint_id": 4,
+      "device_id": "utility_room_heat_pump_1"
+    },
+    "utility_room_laundry_dryer_1.BasicInformation": {
+      "cluster_id": "utility_room_laundry_dryer_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "utility_room_laundry_dryer_1"
+    },
+    "utility_room_laundry_dryer_1.LaundryDryerControls": {
+      "cluster_id": "utility_room_laundry_dryer_1.LaundryDryerControls",
+      "cluster_name": "LaundryDryerControls",
+      "endpoint_id": 1,
+      "device_id": "utility_room_laundry_dryer_1"
+    },
+    "utility_room_laundry_dryer_1.OnOff": {
+      "cluster_id": "utility_room_laundry_dryer_1.OnOff",
+      "cluster_name": "OnOff",
+      "endpoint_id": 1,
+      "device_id": "utility_room_laundry_dryer_1"
+    },
+    "utility_room_laundry_dryer_1.OperationalState": {
+      "cluster_id": "utility_room_laundry_dryer_1.OperationalState",
+      "cluster_name": "OperationalState",
+      "endpoint_id": 1,
+      "device_id": "utility_room_laundry_dryer_1"
+    },
+    "utility_room_laundry_washer_1.BasicInformation": {
+      "cluster_id": "utility_room_laundry_washer_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "utility_room_laundry_washer_1"
+    },
+    "utility_room_laundry_washer_1.LaundryWasherControls": {
+      "cluster_id": "utility_room_laundry_washer_1.LaundryWasherControls",
+      "cluster_name": "LaundryWasherControls",
+      "endpoint_id": 1,
+      "device_id": "utility_room_laundry_washer_1"
+    },
+    "utility_room_laundry_washer_1.LaundryWasherMode": {
+      "cluster_id": "utility_room_laundry_washer_1.LaundryWasherMode",
+      "cluster_name": "LaundryWasherMode",
+      "endpoint_id": 1,
+      "device_id": "utility_room_laundry_washer_1"
+    },
+    "utility_room_laundry_washer_1.OnOff": {
+      "cluster_id": "utility_room_laundry_washer_1.OnOff",
+      "cluster_name": "OnOff",
+      "endpoint_id": 1,
+      "device_id": "utility_room_laundry_washer_1"
+    },
+    "utility_room_laundry_washer_1.OperationalState": {
+      "cluster_id": "utility_room_laundry_washer_1.OperationalState",
+      "cluster_name": "OperationalState",
+      "endpoint_id": 1,
+      "device_id": "utility_room_laundry_washer_1"
+    },
+    "utility_room_laundry_washer_1.TemperatureControl": {
+      "cluster_id": "utility_room_laundry_washer_1.TemperatureControl",
+      "cluster_name": "TemperatureControl",
+      "endpoint_id": 1,
+      "device_id": "utility_room_laundry_washer_1"
+    },
+    "utility_room_laundry_washer_2.BasicInformation": {
+      "cluster_id": "utility_room_laundry_washer_2.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "utility_room_laundry_washer_2"
+    },
+    "utility_room_laundry_washer_2.LaundryWasherControls": {
+      "cluster_id": "utility_room_laundry_washer_2.LaundryWasherControls",
+      "cluster_name": "LaundryWasherControls",
+      "endpoint_id": 1,
+      "device_id": "utility_room_laundry_washer_2"
+    },
+    "utility_room_laundry_washer_2.LaundryWasherMode": {
+      "cluster_id": "utility_room_laundry_washer_2.LaundryWasherMode",
+      "cluster_name": "LaundryWasherMode",
+      "endpoint_id": 1,
+      "device_id": "utility_room_laundry_washer_2"
+    },
+    "utility_room_laundry_washer_2.OnOff": {
+      "cluster_id": "utility_room_laundry_washer_2.OnOff",
+      "cluster_name": "OnOff",
+      "endpoint_id": 1,
+      "device_id": "utility_room_laundry_washer_2"
+    },
+    "utility_room_laundry_washer_2.OperationalState": {
+      "cluster_id": "utility_room_laundry_washer_2.OperationalState",
+      "cluster_name": "OperationalState",
+      "endpoint_id": 1,
+      "device_id": "utility_room_laundry_washer_2"
+    },
+    "utility_room_laundry_washer_2.TemperatureControl": {
+      "cluster_id": "utility_room_laundry_washer_2.TemperatureControl",
+      "cluster_name": "TemperatureControl",
+      "endpoint_id": 1,
+      "device_id": "utility_room_laundry_washer_2"
+    },
+    "utility_room_on_off_light_1.BasicInformation": {
+      "cluster_id": "utility_room_on_off_light_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "utility_room_on_off_light_1"
+    },
+    "utility_room_on_off_light_1.OnOff": {
+      "cluster_id": "utility_room_on_off_light_1.OnOff",
+      "cluster_name": "OnOff",
+      "endpoint_id": 1,
+      "device_id": "utility_room_on_off_light_1"
+    }
+  },
+  "state_intervals": {
+    "si_1_FanControl_FanMode": {
+      "state_interval_id": "si_1_FanControl_FanMode",
+      "cluster_id": "utility_room_air_purifier_1.FanControl",
+      "attribute_name": "FanMode",
+      "value": 2,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_FanControl_FanModeSequence": {
+      "state_interval_id": "si_1_FanControl_FanModeSequence",
+      "cluster_id": "utility_room_air_purifier_1.FanControl",
+      "attribute_name": "FanModeSequence",
+      "value": 1,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_FanControl_PercentCurrent": {
+      "state_interval_id": "si_1_FanControl_PercentCurrent",
+      "cluster_id": "utility_room_air_purifier_1.FanControl",
+      "attribute_name": "PercentCurrent",
+      "value": 50,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_FanControl_PercentSetting": {
+      "state_interval_id": "si_1_FanControl_PercentSetting",
+      "cluster_id": "utility_room_air_purifier_1.FanControl",
+      "attribute_name": "PercentSetting",
+      "value": 50,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_OnOff_OnOff": {
+      "state_interval_id": "si_1_OnOff_OnOff",
+      "cluster_id": "utility_room_on_off_light_1.OnOff",
+      "attribute_name": "OnOff",
+      "value": false,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_Thermostat_ControlSequenceOfOperation": {
+      "state_interval_id": "si_1_Thermostat_ControlSequenceOfOperation",
+      "cluster_id": "utility_room_air_conditioner_1.Thermostat",
+      "attribute_name": "ControlSequenceOfOperation",
+      "value": 4,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_Thermostat_LocalTemperature": {
+      "state_interval_id": "si_1_Thermostat_LocalTemperature",
+      "cluster_id": "utility_room_air_conditioner_1.Thermostat",
+      "attribute_name": "LocalTemperature",
+      "value": 28.52,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_Thermostat_OccupiedCoolingSetpoint": {
+      "state_interval_id": "si_1_Thermostat_OccupiedCoolingSetpoint",
+      "cluster_id": "utility_room_air_conditioner_1.Thermostat",
+      "attribute_name": "OccupiedCoolingSetpoint",
+      "value": 20.0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_Thermostat_OccupiedHeatingSetpoint": {
+      "state_interval_id": "si_1_Thermostat_OccupiedHeatingSetpoint",
+      "cluster_id": "utility_room_air_conditioner_1.Thermostat",
+      "attribute_name": "OccupiedHeatingSetpoint",
+      "value": 28.0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_Thermostat_SystemMode": {
+      "state_interval_id": "si_1_Thermostat_SystemMode",
+      "cluster_id": "utility_room_air_conditioner_1.Thermostat",
+      "attribute_name": "SystemMode",
+      "value": 3,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_LaundryWasherControls_NumberOfRinses": {
+      "state_interval_id": "si_1_LaundryWasherControls_NumberOfRinses",
+      "cluster_id": "utility_room_laundry_washer_2.LaundryWasherControls",
+      "attribute_name": "NumberOfRinses",
+      "value": 1,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_LaundryWasherControls_SpinSpeedCurrent": {
+      "state_interval_id": "si_1_LaundryWasherControls_SpinSpeedCurrent",
+      "cluster_id": "utility_room_laundry_washer_2.LaundryWasherControls",
+      "attribute_name": "SpinSpeedCurrent",
+      "value": 1,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_LaundryWasherControls_SpinSpeeds": {
+      "state_interval_id": "si_1_LaundryWasherControls_SpinSpeeds",
+      "cluster_id": "utility_room_laundry_washer_2.LaundryWasherControls",
+      "attribute_name": "SpinSpeeds",
+      "value": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_LaundryWasherControls_SupportedRinses": {
+      "state_interval_id": "si_1_LaundryWasherControls_SupportedRinses",
+      "cluster_id": "utility_room_laundry_washer_2.LaundryWasherControls",
+      "attribute_name": "SupportedRinses",
+      "value": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_LaundryWasherMode_CurrentMode": {
+      "state_interval_id": "si_1_LaundryWasherMode_CurrentMode",
+      "cluster_id": "utility_room_laundry_washer_2.LaundryWasherMode",
+      "attribute_name": "CurrentMode",
+      "value": 0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_LaundryWasherMode_SupportedModes": {
+      "state_interval_id": "si_1_LaundryWasherMode_SupportedModes",
+      "cluster_id": "utility_room_laundry_washer_2.LaundryWasherMode",
+      "attribute_name": "SupportedModes",
+      "value": [
+        {
+          "label": "Normal",
+          "mode": 0,
+          "ModeTags": [
+            16384
+          ]
+        },
+        {
+          "label": "Delicate",
+          "mode": 1,
+          "ModeTags": [
+            16385
+          ]
+        },
+        {
+          "label": "Heavy",
+          "mode": 2,
+          "ModeTags": [
+            16386
+          ]
+        },
+        {
+          "label": "Whites",
+          "mode": 3,
+          "ModeTags": [
+            16387
+          ]
+        },
+        {
+          "label": "Quick Normal",
+          "mode": 4,
+          "ModeTags": [
+            1,
+            16384
+          ]
+        },
+        {
+          "label": "Heavy Whites",
+          "mode": 5,
+          "ModeTags": [
+            16386,
+            16387
+          ]
+        }
+      ],
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_OperationalState_CountdownTime": {
+      "state_interval_id": "si_1_OperationalState_CountdownTime",
+      "cluster_id": "utility_room_laundry_washer_2.OperationalState",
+      "attribute_name": "CountdownTime",
+      "value": null,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_OperationalState_CurrentPhase": {
+      "state_interval_id": "si_1_OperationalState_CurrentPhase",
+      "cluster_id": "utility_room_laundry_washer_2.OperationalState",
+      "attribute_name": "CurrentPhase",
+      "value": null,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_OperationalState_OperationalError": {
+      "state_interval_id": "si_1_OperationalState_OperationalError",
+      "cluster_id": "utility_room_laundry_washer_2.OperationalState",
+      "attribute_name": "OperationalError",
+      "value": {
+        "error_state_id": 0
+      },
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_OperationalState_OperationalState": {
+      "state_interval_id": "si_1_OperationalState_OperationalState",
+      "cluster_id": "utility_room_laundry_washer_2.OperationalState",
+      "attribute_name": "OperationalState",
+      "value": 0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_OperationalState_OperationalStateList": {
+      "state_interval_id": "si_1_OperationalState_OperationalStateList",
+      "cluster_id": "utility_room_laundry_washer_2.OperationalState",
+      "attribute_name": "OperationalStateList",
+      "value": [
+        {
+          "operational_state_id": 0
+        },
+        {
+          "operational_state_id": 1
+        },
+        {
+          "operational_state_id": 2
+        },
+        {
+          "operational_state_id": 3
+        }
+      ],
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_OperationalState_PhaseList": {
+      "state_interval_id": "si_1_OperationalState_PhaseList",
+      "cluster_id": "utility_room_laundry_washer_2.OperationalState",
+      "attribute_name": "PhaseList",
+      "value": [
+        "Pre-wash",
+        "Main wash",
+        "Rinse",
+        "Spin",
+        "Complete"
+      ],
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_TemperatureControl_MaxTemperature": {
+      "state_interval_id": "si_1_TemperatureControl_MaxTemperature",
+      "cluster_id": "utility_room_laundry_washer_2.TemperatureControl",
+      "attribute_name": "MaxTemperature",
+      "value": 95.0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_TemperatureControl_MinTemperature": {
+      "state_interval_id": "si_1_TemperatureControl_MinTemperature",
+      "cluster_id": "utility_room_laundry_washer_2.TemperatureControl",
+      "attribute_name": "MinTemperature",
+      "value": 5.0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_TemperatureControl_TemperatureSetpoint": {
+      "state_interval_id": "si_1_TemperatureControl_TemperatureSetpoint",
+      "cluster_id": "utility_room_laundry_washer_2.TemperatureControl",
+      "attribute_name": "TemperatureSetpoint",
+      "value": 20.0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_WindowCovering_ConfigStatus": {
+      "state_interval_id": "si_1_WindowCovering_ConfigStatus",
+      "cluster_id": "living_room_window_covering_controller_1.WindowCovering",
+      "attribute_name": "ConfigStatus",
+      "value": 1,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_WindowCovering_CurrentPositionLiftPercent100ths": {
+      "state_interval_id": "si_1_WindowCovering_CurrentPositionLiftPercent100ths",
+      "cluster_id": "living_room_window_covering_controller_1.WindowCovering",
+      "attribute_name": "CurrentPositionLiftPercent100ths",
+      "value": 0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_WindowCovering_EndProductType": {
+      "state_interval_id": "si_1_WindowCovering_EndProductType",
+      "cluster_id": "living_room_window_covering_controller_1.WindowCovering",
+      "attribute_name": "EndProductType",
+      "value": 0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_WindowCovering_Mode": {
+      "state_interval_id": "si_1_WindowCovering_Mode",
+      "cluster_id": "living_room_window_covering_controller_1.WindowCovering",
+      "attribute_name": "Mode",
+      "value": 1,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_WindowCovering_NumberOfActuationsLift": {
+      "state_interval_id": "si_1_WindowCovering_NumberOfActuationsLift",
+      "cluster_id": "living_room_window_covering_controller_1.WindowCovering",
+      "attribute_name": "NumberOfActuationsLift",
+      "value": 0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_WindowCovering_OperationalStatus": {
+      "state_interval_id": "si_1_WindowCovering_OperationalStatus",
+      "cluster_id": "living_room_window_covering_controller_1.WindowCovering",
+      "attribute_name": "OperationalStatus",
+      "value": 0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_WindowCovering_SafetyStatus": {
+      "state_interval_id": "si_1_WindowCovering_SafetyStatus",
+      "cluster_id": "living_room_window_covering_controller_1.WindowCovering",
+      "attribute_name": "SafetyStatus",
+      "value": 0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_WindowCovering_TargetPositionLiftPercent100ths": {
+      "state_interval_id": "si_1_WindowCovering_TargetPositionLiftPercent100ths",
+      "cluster_id": "living_room_window_covering_controller_1.WindowCovering",
+      "attribute_name": "TargetPositionLiftPercent100ths",
+      "value": 0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_WindowCovering_Type": {
+      "state_interval_id": "si_1_WindowCovering_Type",
+      "cluster_id": "living_room_window_covering_controller_1.WindowCovering",
+      "attribute_name": "Type",
+      "value": 0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_2_RelativeHumidityMeasurement_MaxMeasuredValue": {
+      "state_interval_id": "si_2_RelativeHumidityMeasurement_MaxMeasuredValue",
+      "cluster_id": "dining_room_humidifier_1.RelativeHumidityMeasurement",
+      "attribute_name": "MaxMeasuredValue",
+      "value": 95.0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_2_RelativeHumidityMeasurement_MeasuredValue": {
+      "state_interval_id": "si_2_RelativeHumidityMeasurement_MeasuredValue",
+      "cluster_id": "dining_room_humidifier_1.RelativeHumidityMeasurement",
+      "attribute_name": "MeasuredValue",
+      "value": 37.15,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_2_RelativeHumidityMeasurement_MinMeasuredValue": {
+      "state_interval_id": "si_2_RelativeHumidityMeasurement_MinMeasuredValue",
+      "cluster_id": "dining_room_humidifier_1.RelativeHumidityMeasurement",
+      "attribute_name": "MinMeasuredValue",
+      "value": 10.0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_2_RelativeHumidityMeasurement_Tolerance": {
+      "state_interval_id": "si_2_RelativeHumidityMeasurement_Tolerance",
+      "cluster_id": "dining_room_humidifier_1.RelativeHumidityMeasurement",
+      "attribute_name": "Tolerance",
+      "value": null,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_DishwasherAlarm_Latch": {
+      "state_interval_id": "si_1_DishwasherAlarm_Latch",
+      "cluster_id": "kitchen_dishwasher_1.DishwasherAlarm",
+      "attribute_name": "Latch",
+      "value": 0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_DishwasherAlarm_Mask": {
+      "state_interval_id": "si_1_DishwasherAlarm_Mask",
+      "cluster_id": "kitchen_dishwasher_1.DishwasherAlarm",
+      "attribute_name": "Mask",
+      "value": 0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_DishwasherAlarm_State": {
+      "state_interval_id": "si_1_DishwasherAlarm_State",
+      "cluster_id": "kitchen_dishwasher_1.DishwasherAlarm",
+      "attribute_name": "State",
+      "value": 0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_DishwasherAlarm_Supported": {
+      "state_interval_id": "si_1_DishwasherAlarm_Supported",
+      "cluster_id": "kitchen_dishwasher_1.DishwasherAlarm",
+      "attribute_name": "Supported",
+      "value": 63,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_DishwasherMode_CurrentMode": {
+      "state_interval_id": "si_1_DishwasherMode_CurrentMode",
+      "cluster_id": "kitchen_dishwasher_1.DishwasherMode",
+      "attribute_name": "CurrentMode",
+      "value": 0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_DishwasherMode_SupportedModes": {
+      "state_interval_id": "si_1_DishwasherMode_SupportedModes",
+      "cluster_id": "kitchen_dishwasher_1.DishwasherMode",
+      "attribute_name": "SupportedModes",
+      "value": [
+        {
+          "label": "Normal",
+          "mode": 0,
+          "ModeTags": [
+            16384
+          ]
+        },
+        {
+          "label": "Heavy Duty",
+          "mode": 1,
+          "ModeTags": [
+            16385
+          ]
+        },
+        {
+          "label": "Light Wash",
+          "mode": 2,
+          "ModeTags": [
+            16386
+          ]
+        },
+        {
+          "label": "Quick Wash",
+          "mode": 3,
+          "ModeTags": [
+            1
+          ]
+        },
+        {
+          "label": "Low Energy",
+          "mode": 4,
+          "ModeTags": [
+            4
+          ]
+        },
+        {
+          "label": "Silent",
+          "mode": 5,
+          "ModeTags": [
+            2,
+            3
+          ]
+        }
+      ],
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_RTCCMode_CurrentMode": {
+      "state_interval_id": "si_1_RTCCMode_CurrentMode",
+      "cluster_id": "kitchen_refrigerator_1.RTCCMode",
+      "attribute_name": "CurrentMode",
+      "value": 0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_RTCCMode_SupportedModes": {
+      "state_interval_id": "si_1_RTCCMode_SupportedModes",
+      "cluster_id": "kitchen_refrigerator_1.RTCCMode",
+      "attribute_name": "SupportedModes",
+      "value": [
+        {
+          "Label": "Normal",
+          "Mode": 0,
+          "ModeTags": [
+            0
+          ]
+        },
+        {
+          "Label": "Energy Save",
+          "Mode": 4,
+          "ModeTags": [
+            4
+          ]
+        },
+        {
+          "Label": "Rapid Cool",
+          "Mode": 16384,
+          "ModeTags": [
+            16384
+          ]
+        },
+        {
+          "Label": "Rapid Freeze",
+          "Mode": 16385,
+          "ModeTags": [
+            16385
+          ]
+        }
+      ],
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_TemperatureMeasurement_MaxMeasuredValue": {
+      "state_interval_id": "si_1_TemperatureMeasurement_MaxMeasuredValue",
+      "cluster_id": "kitchen_refrigerator_1.TemperatureMeasurement",
+      "attribute_name": "MaxMeasuredValue",
+      "value": 327.66,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_TemperatureMeasurement_MeasuredValue": {
+      "state_interval_id": "si_1_TemperatureMeasurement_MeasuredValue",
+      "cluster_id": "kitchen_refrigerator_1.TemperatureMeasurement",
+      "attribute_name": "MeasuredValue",
+      "value": 7.0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_TemperatureMeasurement_MinMeasuredValue": {
+      "state_interval_id": "si_1_TemperatureMeasurement_MinMeasuredValue",
+      "cluster_id": "kitchen_refrigerator_1.TemperatureMeasurement",
+      "attribute_name": "MinMeasuredValue",
+      "value": -273.15,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_LevelControl_CurrentFrequency": {
+      "state_interval_id": "si_1_LevelControl_CurrentFrequency",
+      "cluster_id": "living_room_tv_1.LevelControl",
+      "attribute_name": "CurrentFrequency",
+      "value": 0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_LevelControl_CurrentLevel": {
+      "state_interval_id": "si_1_LevelControl_CurrentLevel",
+      "cluster_id": "living_room_tv_1.LevelControl",
+      "attribute_name": "CurrentLevel",
+      "value": null,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_LevelControl_DefaultMoveRate": {
+      "state_interval_id": "si_1_LevelControl_DefaultMoveRate",
+      "cluster_id": "living_room_tv_1.LevelControl",
+      "attribute_name": "DefaultMoveRate",
+      "value": null,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_LevelControl_MaxFrequency": {
+      "state_interval_id": "si_1_LevelControl_MaxFrequency",
+      "cluster_id": "living_room_tv_1.LevelControl",
+      "attribute_name": "MaxFrequency",
+      "value": 0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_LevelControl_MaxLevel": {
+      "state_interval_id": "si_1_LevelControl_MaxLevel",
+      "cluster_id": "living_room_tv_1.LevelControl",
+      "attribute_name": "MaxLevel",
+      "value": 254,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_LevelControl_MinFrequency": {
+      "state_interval_id": "si_1_LevelControl_MinFrequency",
+      "cluster_id": "living_room_tv_1.LevelControl",
+      "attribute_name": "MinFrequency",
+      "value": 0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_LevelControl_MinLevel": {
+      "state_interval_id": "si_1_LevelControl_MinLevel",
+      "cluster_id": "living_room_tv_1.LevelControl",
+      "attribute_name": "MinLevel",
+      "value": 1,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_LevelControl_OffTransitionTime": {
+      "state_interval_id": "si_1_LevelControl_OffTransitionTime",
+      "cluster_id": "living_room_tv_1.LevelControl",
+      "attribute_name": "OffTransitionTime",
+      "value": null,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_LevelControl_OnLevel": {
+      "state_interval_id": "si_1_LevelControl_OnLevel",
+      "cluster_id": "living_room_tv_1.LevelControl",
+      "attribute_name": "OnLevel",
+      "value": null,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_LevelControl_OnOffTransitionTime": {
+      "state_interval_id": "si_1_LevelControl_OnOffTransitionTime",
+      "cluster_id": "living_room_tv_1.LevelControl",
+      "attribute_name": "OnOffTransitionTime",
+      "value": 0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_LevelControl_OnTransitionTime": {
+      "state_interval_id": "si_1_LevelControl_OnTransitionTime",
+      "cluster_id": "living_room_tv_1.LevelControl",
+      "attribute_name": "OnTransitionTime",
+      "value": null,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_LevelControl_Options": {
+      "state_interval_id": "si_1_LevelControl_Options",
+      "cluster_id": "living_room_tv_1.LevelControl",
+      "attribute_name": "Options",
+      "value": 0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_LevelControl_RemainingTime": {
+      "state_interval_id": "si_1_LevelControl_RemainingTime",
+      "cluster_id": "living_room_tv_1.LevelControl",
+      "attribute_name": "RemainingTime",
+      "value": 0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_LevelControl_StartUpCurrentLevel": {
+      "state_interval_id": "si_1_LevelControl_StartUpCurrentLevel",
+      "cluster_id": "living_room_tv_1.LevelControl",
+      "attribute_name": "StartUpCurrentLevel",
+      "value": null,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_OnOff_GlobalSceneControl": {
+      "state_interval_id": "si_1_OnOff_GlobalSceneControl",
+      "cluster_id": "living_room_dimmable_light_2.OnOff",
+      "attribute_name": "GlobalSceneControl",
+      "value": true,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_OnOff_OffWaitTime": {
+      "state_interval_id": "si_1_OnOff_OffWaitTime",
+      "cluster_id": "living_room_dimmable_light_2.OnOff",
+      "attribute_name": "OffWaitTime",
+      "value": 0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_OnOff_OnTime": {
+      "state_interval_id": "si_1_OnOff_OnTime",
+      "cluster_id": "living_room_dimmable_light_2.OnOff",
+      "attribute_name": "OnTime",
+      "value": 0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_OnOff_StartUpOnOff": {
+      "state_interval_id": "si_1_OnOff_StartUpOnOff",
+      "cluster_id": "living_room_dimmable_light_2.OnOff",
+      "attribute_name": "StartUpOnOff",
+      "value": null,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_Channel_ChannelList": {
+      "state_interval_id": "si_1_Channel_ChannelList",
+      "cluster_id": "living_room_tv_1.Channel",
+      "attribute_name": "ChannelList",
+      "value": [
+        {
+          "MajorNumber": 1,
+          "MinorNumber": 0,
+          "Name": "KBS1",
+          "CallSign": "KBS1",
+          "AffiliateCallSign": "KBS1",
+          "Identifier": "kbs1",
+          "Type": 2
+        },
+        {
+          "MajorNumber": 2,
+          "MinorNumber": 0,
+          "Name": "KBS2",
+          "CallSign": "KBS2",
+          "AffiliateCallSign": "KBS2",
+          "Identifier": "kbs2",
+          "Type": 2
+        },
+        {
+          "MajorNumber": 3,
+          "MinorNumber": 0,
+          "Name": "MBC",
+          "CallSign": "MBC",
+          "AffiliateCallSign": "MBC",
+          "Identifier": "mbc",
+          "Type": 2
+        },
+        {
+          "MajorNumber": 4,
+          "MinorNumber": 0,
+          "Name": "SBS",
+          "CallSign": "SBS",
+          "AffiliateCallSign": "SBS",
+          "Identifier": "sbs",
+          "Type": 2
+        },
+        {
+          "MajorNumber": 5,
+          "MinorNumber": 0,
+          "Name": "EBS",
+          "CallSign": "EBS",
+          "AffiliateCallSign": "EBS",
+          "Identifier": "ebs",
+          "Type": 2
+        }
+      ],
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_Channel_CurrentChannel": {
+      "state_interval_id": "si_1_Channel_CurrentChannel",
+      "cluster_id": "living_room_tv_1.Channel",
+      "attribute_name": "CurrentChannel",
+      "value": {
+        "MajorNumber": 5,
+        "MinorNumber": 0,
+        "Name": "EBS",
+        "CallSign": "EBS",
+        "AffiliateCallSign": "EBS",
+        "Identifier": "ebs",
+        "Type": 2
+      },
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_Channel_Lineup": {
+      "state_interval_id": "si_1_Channel_Lineup",
+      "cluster_id": "living_room_tv_1.Channel",
+      "attribute_name": "Lineup",
+      "value": {
+        "OperatorName": "Comcast",
+        "LineupName": "Comcast King County",
+        "PostalCode": "98052",
+        "LineupInfoType": 0
+      },
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_KeypadInput_ClusterRevision": {
+      "state_interval_id": "si_1_KeypadInput_ClusterRevision",
+      "cluster_id": "living_room_tv_1.KeypadInput",
+      "attribute_name": "ClusterRevision",
+      "value": 1,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_KeypadInput_FeatureMap": {
+      "state_interval_id": "si_1_KeypadInput_FeatureMap",
+      "cluster_id": "living_room_tv_1.KeypadInput",
+      "attribute_name": "FeatureMap",
+      "value": 7,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_MediaPlayback_CurrentState": {
+      "state_interval_id": "si_1_MediaPlayback_CurrentState",
+      "cluster_id": "living_room_tv_1.MediaPlayback",
+      "attribute_name": "CurrentState",
+      "value": 2,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_PowerSource_ActiveWiredFaults": {
+      "state_interval_id": "si_1_PowerSource_ActiveWiredFaults",
+      "cluster_id": "utility_room_heat_pump_1.PowerSource",
+      "attribute_name": "ActiveWiredFaults",
+      "value": [],
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_PowerSource_ClusterRevision": {
+      "state_interval_id": "si_1_PowerSource_ClusterRevision",
+      "cluster_id": "utility_room_heat_pump_1.PowerSource",
+      "attribute_name": "ClusterRevision",
+      "value": 3,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_PowerSource_Description": {
+      "state_interval_id": "si_1_PowerSource_Description",
+      "cluster_id": "utility_room_heat_pump_1.PowerSource",
+      "attribute_name": "Description",
+      "value": "AC Grid Connection",
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_PowerSource_EndpointList": {
+      "state_interval_id": "si_1_PowerSource_EndpointList",
+      "cluster_id": "utility_room_heat_pump_1.PowerSource",
+      "attribute_name": "EndpointList",
+      "value": [],
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_PowerSource_FeatureMap": {
+      "state_interval_id": "si_1_PowerSource_FeatureMap",
+      "cluster_id": "utility_room_heat_pump_1.PowerSource",
+      "attribute_name": "FeatureMap",
+      "value": 1,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_PowerSource_Order": {
+      "state_interval_id": "si_1_PowerSource_Order",
+      "cluster_id": "utility_room_heat_pump_1.PowerSource",
+      "attribute_name": "Order",
+      "value": 0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_PowerSource_Status": {
+      "state_interval_id": "si_1_PowerSource_Status",
+      "cluster_id": "utility_room_heat_pump_1.PowerSource",
+      "attribute_name": "Status",
+      "value": 2,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_PowerSource_WiredAssessedCurrent": {
+      "state_interval_id": "si_1_PowerSource_WiredAssessedCurrent",
+      "cluster_id": "utility_room_heat_pump_1.PowerSource",
+      "attribute_name": "WiredAssessedCurrent",
+      "value": null,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_PowerSource_WiredAssessedInputFrequency": {
+      "state_interval_id": "si_1_PowerSource_WiredAssessedInputFrequency",
+      "cluster_id": "utility_room_heat_pump_1.PowerSource",
+      "attribute_name": "WiredAssessedInputFrequency",
+      "value": null,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_PowerSource_WiredAssessedInputVoltage": {
+      "state_interval_id": "si_1_PowerSource_WiredAssessedInputVoltage",
+      "cluster_id": "utility_room_heat_pump_1.PowerSource",
+      "attribute_name": "WiredAssessedInputVoltage",
+      "value": 220000,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_PowerSource_WiredCurrentType": {
+      "state_interval_id": "si_1_PowerSource_WiredCurrentType",
+      "cluster_id": "utility_room_heat_pump_1.PowerSource",
+      "attribute_name": "WiredCurrentType",
+      "value": 0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_PowerSource_WiredMaximumCurrent": {
+      "state_interval_id": "si_1_PowerSource_WiredMaximumCurrent",
+      "cluster_id": "utility_room_heat_pump_1.PowerSource",
+      "attribute_name": "WiredMaximumCurrent",
+      "value": 0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_PowerSource_WiredNominalVoltage": {
+      "state_interval_id": "si_1_PowerSource_WiredNominalVoltage",
+      "cluster_id": "utility_room_heat_pump_1.PowerSource",
+      "attribute_name": "WiredNominalVoltage",
+      "value": 220000,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_PowerSource_WiredPresent": {
+      "state_interval_id": "si_1_PowerSource_WiredPresent",
+      "cluster_id": "utility_room_heat_pump_1.PowerSource",
+      "attribute_name": "WiredPresent",
+      "value": true,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_2_ElectricalEnergyMeasurement_Accuracy": {
+      "state_interval_id": "si_2_ElectricalEnergyMeasurement_Accuracy",
+      "cluster_id": "utility_room_heat_pump_1.ElectricalEnergyMeasurement",
+      "attribute_name": "Accuracy",
+      "value": {
+        "MeasurementType": 0,
+        "Measured": true,
+        "MinMeasuredValue": 0,
+        "MaxMeasuredValue": 4611686018427387904,
+        "AccuracyRanges": [
+          {
+            "RangeMin": 0,
+            "RangeMax": 4611686018427387904,
+            "PercentMax": 500,
+            "PercentMin": 100,
+            "PercentTypical": 200,
+            "FixedMax": null,
+            "FixedMin": null,
+            "FixedTypical": null
+          }
+        ]
+      },
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_2_ElectricalEnergyMeasurement_ClusterRevision": {
+      "state_interval_id": "si_2_ElectricalEnergyMeasurement_ClusterRevision",
+      "cluster_id": "utility_room_heat_pump_1.ElectricalEnergyMeasurement",
+      "attribute_name": "ClusterRevision",
+      "value": 1,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_2_ElectricalEnergyMeasurement_CumulativeEnergyImported": {
+      "state_interval_id": "si_2_ElectricalEnergyMeasurement_CumulativeEnergyImported",
+      "cluster_id": "utility_room_heat_pump_1.ElectricalEnergyMeasurement",
+      "attribute_name": "CumulativeEnergyImported",
+      "value": null,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_2_ElectricalEnergyMeasurement_FeatureMap": {
+      "state_interval_id": "si_2_ElectricalEnergyMeasurement_FeatureMap",
+      "cluster_id": "utility_room_heat_pump_1.ElectricalEnergyMeasurement",
+      "attribute_name": "FeatureMap",
+      "value": 13,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_2_ElectricalEnergyMeasurement_PeriodicEnergyImported": {
+      "state_interval_id": "si_2_ElectricalEnergyMeasurement_PeriodicEnergyImported",
+      "cluster_id": "utility_room_heat_pump_1.ElectricalEnergyMeasurement",
+      "attribute_name": "PeriodicEnergyImported",
+      "value": null,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_2_ElectricalPowerMeasurement_Accuracy": {
+      "state_interval_id": "si_2_ElectricalPowerMeasurement_Accuracy",
+      "cluster_id": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "attribute_name": "Accuracy",
+      "value": [
+        {
+          "MeasurementType": 1,
+          "Measured": true,
+          "MinMeasuredValue": -4611686018427387904,
+          "MaxMeasuredValue": 4611686018427387904,
+          "AccuracyRanges": [
+            {
+              "RangeMin": -4611686018427387904,
+              "RangeMax": 4611686018427387904,
+              "PercentMax": 500,
+              "PercentMin": 100,
+              "PercentTypical": 200,
+              "FixedMax": null,
+              "FixedMin": null,
+              "FixedTypical": null
+            }
+          ]
+        },
+        {
+          "MeasurementType": 2,
+          "Measured": true,
+          "MinMeasuredValue": -4611686018427387904,
+          "MaxMeasuredValue": 4611686018427387904,
+          "AccuracyRanges": [
+            {
+              "RangeMin": -4611686018427387904,
+              "RangeMax": 4611686018427387904,
+              "PercentMax": 500,
+              "PercentMin": 100,
+              "PercentTypical": 200,
+              "FixedMax": null,
+              "FixedMin": null,
+              "FixedTypical": null
+            }
+          ]
+        },
+        {
+          "MeasurementType": 5,
+          "Measured": true,
+          "MinMeasuredValue": -4611686018427387904,
+          "MaxMeasuredValue": 4611686018427387904,
+          "AccuracyRanges": [
+            {
+              "RangeMin": -4611686018427387904,
+              "RangeMax": 4611686018427387904,
+              "PercentMax": 500,
+              "PercentMin": 100,
+              "PercentTypical": 200,
+              "FixedMax": null,
+              "FixedMin": null,
+              "FixedTypical": null
+            }
+          ]
+        },
+        {
+          "MeasurementType": 7,
+          "Measured": true,
+          "MinMeasuredValue": -4611686018427387904,
+          "MaxMeasuredValue": 4611686018427387904,
+          "AccuracyRanges": [
+            {
+              "RangeMin": -4611686018427387904,
+              "RangeMax": 4611686018427387904,
+              "PercentMax": 500,
+              "PercentMin": 100,
+              "PercentTypical": 200,
+              "FixedMax": null,
+              "FixedMin": null,
+              "FixedTypical": null
+            }
+          ]
+        },
+        {
+          "MeasurementType": 8,
+          "Measured": true,
+          "MinMeasuredValue": -4611686018427387904,
+          "MaxMeasuredValue": 4611686018427387904,
+          "AccuracyRanges": [
+            {
+              "RangeMin": -4611686018427387904,
+              "RangeMax": 4611686018427387904,
+              "PercentMax": 500,
+              "PercentMin": 100,
+              "PercentTypical": 200,
+              "FixedMax": null,
+              "FixedMin": null,
+              "FixedTypical": null
+            }
+          ]
+        },
+        {
+          "MeasurementType": 9,
+          "Measured": true,
+          "MinMeasuredValue": -4611686018427387904,
+          "MaxMeasuredValue": 4611686018427387904,
+          "AccuracyRanges": [
+            {
+              "RangeMin": -4611686018427387904,
+              "RangeMax": 4611686018427387904,
+              "PercentMax": 500,
+              "PercentMin": 100,
+              "PercentTypical": 200,
+              "FixedMax": null,
+              "FixedMin": null,
+              "FixedTypical": null
+            }
+          ]
+        },
+        {
+          "MeasurementType": 10,
+          "Measured": true,
+          "MinMeasuredValue": -4611686018427387904,
+          "MaxMeasuredValue": 4611686018427387904,
+          "AccuracyRanges": [
+            {
+              "RangeMin": -4611686018427387904,
+              "RangeMax": 4611686018427387904,
+              "PercentMax": 500,
+              "PercentMin": 100,
+              "PercentTypical": 200,
+              "FixedMax": null,
+              "FixedMin": null,
+              "FixedTypical": null
+            }
+          ]
+        },
+        {
+          "MeasurementType": 11,
+          "Measured": true,
+          "MinMeasuredValue": 0,
+          "MaxMeasuredValue": 1000000,
+          "AccuracyRanges": [
+            {
+              "RangeMin": 0,
+              "RangeMax": 1000000,
+              "PercentMax": 500,
+              "PercentMin": 100,
+              "PercentTypical": 200,
+              "FixedMax": null,
+              "FixedMin": null,
+              "FixedTypical": null
+            }
+          ]
+        },
+        {
+          "MeasurementType": 12,
+          "Measured": true,
+          "MinMeasuredValue": -10000,
+          "MaxMeasuredValue": 10000,
+          "AccuracyRanges": [
+            {
+              "RangeMin": -10000,
+              "RangeMax": 10000,
+              "PercentMax": 500,
+              "PercentMin": 100,
+              "PercentTypical": 200,
+              "FixedMax": null,
+              "FixedMin": null,
+              "FixedTypical": null
+            }
+          ]
+        }
+      ],
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_2_ElectricalPowerMeasurement_ActiveCurrent": {
+      "state_interval_id": "si_2_ElectricalPowerMeasurement_ActiveCurrent",
+      "cluster_id": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "attribute_name": "ActiveCurrent",
+      "value": 15000,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_2_ElectricalPowerMeasurement_ActivePower": {
+      "state_interval_id": "si_2_ElectricalPowerMeasurement_ActivePower",
+      "cluster_id": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "attribute_name": "ActivePower",
+      "value": 3450000,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_2_ElectricalPowerMeasurement_ApparentPower": {
+      "state_interval_id": "si_2_ElectricalPowerMeasurement_ApparentPower",
+      "cluster_id": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "attribute_name": "ApparentPower",
+      "value": 3631580,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_2_ElectricalPowerMeasurement_ClusterRevision": {
+      "state_interval_id": "si_2_ElectricalPowerMeasurement_ClusterRevision",
+      "cluster_id": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "attribute_name": "ClusterRevision",
+      "value": 1,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_2_ElectricalPowerMeasurement_FeatureMap": {
+      "state_interval_id": "si_2_ElectricalPowerMeasurement_FeatureMap",
+      "cluster_id": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "attribute_name": "FeatureMap",
+      "value": 2,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_2_ElectricalPowerMeasurement_Frequency": {
+      "state_interval_id": "si_2_ElectricalPowerMeasurement_Frequency",
+      "cluster_id": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "attribute_name": "Frequency",
+      "value": 50000,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_2_ElectricalPowerMeasurement_NumberOfMeasurementTypes": {
+      "state_interval_id": "si_2_ElectricalPowerMeasurement_NumberOfMeasurementTypes",
+      "cluster_id": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "attribute_name": "NumberOfMeasurementTypes",
+      "value": 9,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_2_ElectricalPowerMeasurement_PowerFactor": {
+      "state_interval_id": "si_2_ElectricalPowerMeasurement_PowerFactor",
+      "cluster_id": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "attribute_name": "PowerFactor",
+      "value": 9500,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_2_ElectricalPowerMeasurement_PowerMode": {
+      "state_interval_id": "si_2_ElectricalPowerMeasurement_PowerMode",
+      "cluster_id": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "attribute_name": "PowerMode",
+      "value": 2,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_2_ElectricalPowerMeasurement_RMSCurrent": {
+      "state_interval_id": "si_2_ElectricalPowerMeasurement_RMSCurrent",
+      "cluster_id": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "attribute_name": "RMSCurrent",
+      "value": 15000,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_2_ElectricalPowerMeasurement_RMSPower": {
+      "state_interval_id": "si_2_ElectricalPowerMeasurement_RMSPower",
+      "cluster_id": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "attribute_name": "RMSPower",
+      "value": 3450000,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_2_ElectricalPowerMeasurement_RMSVoltage": {
+      "state_interval_id": "si_2_ElectricalPowerMeasurement_RMSVoltage",
+      "cluster_id": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "attribute_name": "RMSVoltage",
+      "value": 230000,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_2_ElectricalPowerMeasurement_Voltage": {
+      "state_interval_id": "si_2_ElectricalPowerMeasurement_Voltage",
+      "cluster_id": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "attribute_name": "Voltage",
+      "value": 230000,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_2_PowerTopology_ClusterRevision": {
+      "state_interval_id": "si_2_PowerTopology_ClusterRevision",
+      "cluster_id": "utility_room_heat_pump_1.PowerTopology",
+      "attribute_name": "ClusterRevision",
+      "value": 1,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_2_PowerTopology_FeatureMap": {
+      "state_interval_id": "si_2_PowerTopology_FeatureMap",
+      "cluster_id": "utility_room_heat_pump_1.PowerTopology",
+      "attribute_name": "FeatureMap",
+      "value": 1,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_3_DeviceEnergyManagement_AbsMaxPower": {
+      "state_interval_id": "si_3_DeviceEnergyManagement_AbsMaxPower",
+      "cluster_id": "utility_room_heat_pump_1.DeviceEnergyManagement",
+      "attribute_name": "AbsMaxPower",
+      "value": 8000000,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_3_DeviceEnergyManagement_AbsMinPower": {
+      "state_interval_id": "si_3_DeviceEnergyManagement_AbsMinPower",
+      "cluster_id": "utility_room_heat_pump_1.DeviceEnergyManagement",
+      "attribute_name": "AbsMinPower",
+      "value": 1000000,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_3_DeviceEnergyManagement_ESACanGenerate": {
+      "state_interval_id": "si_3_DeviceEnergyManagement_ESACanGenerate",
+      "cluster_id": "utility_room_heat_pump_1.DeviceEnergyManagement",
+      "attribute_name": "ESACanGenerate",
+      "value": false,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_3_DeviceEnergyManagement_ESAState": {
+      "state_interval_id": "si_3_DeviceEnergyManagement_ESAState",
+      "cluster_id": "utility_room_heat_pump_1.DeviceEnergyManagement",
+      "attribute_name": "ESAState",
+      "value": 0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_3_DeviceEnergyManagement_ESAType": {
+      "state_interval_id": "si_3_DeviceEnergyManagement_ESAType",
+      "cluster_id": "utility_room_heat_pump_1.DeviceEnergyManagement",
+      "attribute_name": "ESAType",
+      "value": 1,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_3_DeviceEnergyManagement_PowerAdjustmentCapability": {
+      "state_interval_id": "si_3_DeviceEnergyManagement_PowerAdjustmentCapability",
+      "cluster_id": "utility_room_heat_pump_1.DeviceEnergyManagement",
+      "attribute_name": "PowerAdjustmentCapability",
+      "value": {
+        "power_adjust_capability": [],
+        "cause": 0
+      },
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_4_Thermostat_ControlSequenceOfOperation": {
+      "state_interval_id": "si_4_Thermostat_ControlSequenceOfOperation",
+      "cluster_id": "utility_room_heat_pump_1.Thermostat",
+      "attribute_name": "ControlSequenceOfOperation",
+      "value": 4,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_4_Thermostat_LocalTemperature": {
+      "state_interval_id": "si_4_Thermostat_LocalTemperature",
+      "cluster_id": "utility_room_heat_pump_1.Thermostat",
+      "attribute_name": "LocalTemperature",
+      "value": 28.52,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_4_Thermostat_OccupiedCoolingSetpoint": {
+      "state_interval_id": "si_4_Thermostat_OccupiedCoolingSetpoint",
+      "cluster_id": "utility_room_heat_pump_1.Thermostat",
+      "attribute_name": "OccupiedCoolingSetpoint",
+      "value": 20.0,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_4_Thermostat_OccupiedHeatingSetpoint": {
+      "state_interval_id": "si_4_Thermostat_OccupiedHeatingSetpoint",
+      "cluster_id": "utility_room_heat_pump_1.Thermostat",
+      "attribute_name": "OccupiedHeatingSetpoint",
+      "value": 10.5,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_4_Thermostat_SystemMode": {
+      "state_interval_id": "si_4_Thermostat_SystemMode",
+      "cluster_id": "utility_room_heat_pump_1.Thermostat",
+      "attribute_name": "SystemMode",
+      "value": 4,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_LaundryDryerControls_SelectedDrynessLevel": {
+      "state_interval_id": "si_1_LaundryDryerControls_SelectedDrynessLevel",
+      "cluster_id": "utility_room_laundry_dryer_1.LaundryDryerControls",
+      "attribute_name": "SelectedDrynessLevel",
+      "value": 3,
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    },
+    "si_1_LaundryDryerControls_SupportedDrynessLevels": {
+      "state_interval_id": "si_1_LaundryDryerControls_SupportedDrynessLevels",
+      "cluster_id": "utility_room_laundry_dryer_1.LaundryDryerControls",
+      "attribute_name": "SupportedDrynessLevels",
+      "value": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "start_time": "2025-08-23 11:36:54",
+      "end_time": null
+    }
+  },
+  "all_edges": [
+    {
+      "source": "user_1",
+      "target": "kitchen",
+      "edge_type": "LOCATED_IN",
+      "start": "2025-08-23 11:36:54",
+      "end": null
+    },
+    {
+      "source": "bathroom_air_conditioner_1",
+      "target": "bathroom",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "bathroom_air_conditioner_1",
+      "target": "bathroom_air_conditioner_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_air_conditioner_1",
+      "target": "bathroom_air_conditioner_1.FanControl",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_air_conditioner_1",
+      "target": "bathroom_air_conditioner_1.OnOff",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_air_conditioner_1",
+      "target": "bathroom_air_conditioner_1.Thermostat",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_air_conditioner_1.FanControl",
+      "target": "si_1_FanControl_FanMode",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_air_conditioner_1.FanControl",
+      "target": "si_1_FanControl_FanModeSequence",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_air_conditioner_1.FanControl",
+      "target": "si_1_FanControl_PercentCurrent",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_air_conditioner_1.FanControl",
+      "target": "si_1_FanControl_PercentSetting",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_air_conditioner_1.OnOff",
+      "target": "si_1_OnOff_OnOff",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_air_conditioner_1.Thermostat",
+      "target": "si_1_Thermostat_ControlSequenceOfOperation",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_air_conditioner_1.Thermostat",
+      "target": "si_1_Thermostat_LocalTemperature",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_air_conditioner_1.Thermostat",
+      "target": "si_1_Thermostat_OccupiedCoolingSetpoint",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_air_conditioner_1.Thermostat",
+      "target": "si_1_Thermostat_OccupiedHeatingSetpoint",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_air_conditioner_1.Thermostat",
+      "target": "si_1_Thermostat_SystemMode",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_air_purifier_1",
+      "target": "bathroom",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "bathroom_air_purifier_1",
+      "target": "bathroom_air_purifier_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_air_purifier_1",
+      "target": "bathroom_air_purifier_1.Descriptor",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_air_purifier_1",
+      "target": "bathroom_air_purifier_1.FanControl",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_air_purifier_1",
+      "target": "bathroom_air_purifier_1.Identify",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_air_purifier_1",
+      "target": "bathroom_air_purifier_1.OnOff",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_air_purifier_1.FanControl",
+      "target": "si_1_FanControl_FanMode",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_air_purifier_1.FanControl",
+      "target": "si_1_FanControl_FanModeSequence",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_air_purifier_1.FanControl",
+      "target": "si_1_FanControl_PercentCurrent",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_air_purifier_1.FanControl",
+      "target": "si_1_FanControl_PercentSetting",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_air_purifier_1.OnOff",
+      "target": "si_1_OnOff_OnOff",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_fan_1",
+      "target": "bathroom",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "bathroom_fan_1",
+      "target": "bathroom_fan_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_fan_1",
+      "target": "bathroom_fan_1.FanControl",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_fan_1",
+      "target": "bathroom_fan_1.OnOff",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_fan_1.FanControl",
+      "target": "si_1_FanControl_FanMode",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_fan_1.FanControl",
+      "target": "si_1_FanControl_FanModeSequence",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_fan_1.FanControl",
+      "target": "si_1_FanControl_PercentCurrent",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_fan_1.FanControl",
+      "target": "si_1_FanControl_PercentSetting",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_fan_1.OnOff",
+      "target": "si_1_OnOff_OnOff",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_laundry_washer_1",
+      "target": "bathroom",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "bathroom_laundry_washer_1",
+      "target": "bathroom_laundry_washer_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_laundry_washer_1",
+      "target": "bathroom_laundry_washer_1.LaundryWasherControls",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_laundry_washer_1",
+      "target": "bathroom_laundry_washer_1.LaundryWasherMode",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_laundry_washer_1",
+      "target": "bathroom_laundry_washer_1.OnOff",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_laundry_washer_1",
+      "target": "bathroom_laundry_washer_1.OperationalState",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_laundry_washer_1",
+      "target": "bathroom_laundry_washer_1.TemperatureControl",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_laundry_washer_1.LaundryWasherControls",
+      "target": "si_1_LaundryWasherControls_NumberOfRinses",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_laundry_washer_1.LaundryWasherControls",
+      "target": "si_1_LaundryWasherControls_SpinSpeedCurrent",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_laundry_washer_1.LaundryWasherControls",
+      "target": "si_1_LaundryWasherControls_SpinSpeeds",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_laundry_washer_1.LaundryWasherControls",
+      "target": "si_1_LaundryWasherControls_SupportedRinses",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_laundry_washer_1.LaundryWasherMode",
+      "target": "si_1_LaundryWasherMode_CurrentMode",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_laundry_washer_1.LaundryWasherMode",
+      "target": "si_1_LaundryWasherMode_SupportedModes",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_laundry_washer_1.OnOff",
+      "target": "si_1_OnOff_OnOff",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_laundry_washer_1.OperationalState",
+      "target": "si_1_OperationalState_CountdownTime",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_laundry_washer_1.OperationalState",
+      "target": "si_1_OperationalState_CurrentPhase",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_laundry_washer_1.OperationalState",
+      "target": "si_1_OperationalState_OperationalError",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_laundry_washer_1.OperationalState",
+      "target": "si_1_OperationalState_OperationalState",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_laundry_washer_1.OperationalState",
+      "target": "si_1_OperationalState_OperationalStateList",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_laundry_washer_1.OperationalState",
+      "target": "si_1_OperationalState_PhaseList",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_laundry_washer_1.TemperatureControl",
+      "target": "si_1_TemperatureControl_MaxTemperature",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_laundry_washer_1.TemperatureControl",
+      "target": "si_1_TemperatureControl_MinTemperature",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_laundry_washer_1.TemperatureControl",
+      "target": "si_1_TemperatureControl_TemperatureSetpoint",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_on_off_light_1",
+      "target": "bathroom",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "bathroom_on_off_light_1",
+      "target": "bathroom_on_off_light_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_on_off_light_1",
+      "target": "bathroom_on_off_light_1.OnOff",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_on_off_light_1.OnOff",
+      "target": "si_1_OnOff_OnOff",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_window_covering_controller_1",
+      "target": "bathroom",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "bathroom_window_covering_controller_1",
+      "target": "bathroom_window_covering_controller_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_window_covering_controller_1",
+      "target": "bathroom_window_covering_controller_1.WindowCovering",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_window_covering_controller_1.WindowCovering",
+      "target": "si_1_WindowCovering_ConfigStatus",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_window_covering_controller_1.WindowCovering",
+      "target": "si_1_WindowCovering_CurrentPositionLiftPercent100ths",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_window_covering_controller_1.WindowCovering",
+      "target": "si_1_WindowCovering_EndProductType",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_window_covering_controller_1.WindowCovering",
+      "target": "si_1_WindowCovering_Mode",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_window_covering_controller_1.WindowCovering",
+      "target": "si_1_WindowCovering_NumberOfActuationsLift",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_window_covering_controller_1.WindowCovering",
+      "target": "si_1_WindowCovering_OperationalStatus",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_window_covering_controller_1.WindowCovering",
+      "target": "si_1_WindowCovering_SafetyStatus",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_window_covering_controller_1.WindowCovering",
+      "target": "si_1_WindowCovering_TargetPositionLiftPercent100ths",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_window_covering_controller_1.WindowCovering",
+      "target": "si_1_WindowCovering_Type",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_window_covering_controller_2",
+      "target": "bathroom",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "bathroom_window_covering_controller_2",
+      "target": "bathroom_window_covering_controller_2.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_window_covering_controller_2",
+      "target": "bathroom_window_covering_controller_2.WindowCovering",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_window_covering_controller_2.WindowCovering",
+      "target": "si_1_WindowCovering_ConfigStatus",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_window_covering_controller_2.WindowCovering",
+      "target": "si_1_WindowCovering_CurrentPositionLiftPercent100ths",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_window_covering_controller_2.WindowCovering",
+      "target": "si_1_WindowCovering_EndProductType",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_window_covering_controller_2.WindowCovering",
+      "target": "si_1_WindowCovering_Mode",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_window_covering_controller_2.WindowCovering",
+      "target": "si_1_WindowCovering_NumberOfActuationsLift",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_window_covering_controller_2.WindowCovering",
+      "target": "si_1_WindowCovering_OperationalStatus",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_window_covering_controller_2.WindowCovering",
+      "target": "si_1_WindowCovering_SafetyStatus",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_window_covering_controller_2.WindowCovering",
+      "target": "si_1_WindowCovering_TargetPositionLiftPercent100ths",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_window_covering_controller_2.WindowCovering",
+      "target": "si_1_WindowCovering_Type",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "dining_room_dehumidifier_1",
+      "target": "dining_room",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "dining_room_dehumidifier_1",
+      "target": "dining_room_dehumidifier_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "dining_room_dehumidifier_1",
+      "target": "dining_room_dehumidifier_1.FanControl",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "dining_room_dehumidifier_1",
+      "target": "dining_room_dehumidifier_1.OnOff",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "dining_room_dehumidifier_1",
+      "target": "dining_room_dehumidifier_1.RelativeHumidityMeasurement",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "dining_room_dehumidifier_1.FanControl",
+      "target": "si_1_FanControl_FanMode",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "dining_room_dehumidifier_1.FanControl",
+      "target": "si_1_FanControl_FanModeSequence",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "dining_room_dehumidifier_1.FanControl",
+      "target": "si_1_FanControl_PercentCurrent",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "dining_room_dehumidifier_1.FanControl",
+      "target": "si_1_FanControl_PercentSetting",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "dining_room_dehumidifier_1.OnOff",
+      "target": "si_1_OnOff_OnOff",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "dining_room_dehumidifier_1.RelativeHumidityMeasurement",
+      "target": "si_2_RelativeHumidityMeasurement_MaxMeasuredValue",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "dining_room_dehumidifier_1.RelativeHumidityMeasurement",
+      "target": "si_2_RelativeHumidityMeasurement_MeasuredValue",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "dining_room_dehumidifier_1.RelativeHumidityMeasurement",
+      "target": "si_2_RelativeHumidityMeasurement_MinMeasuredValue",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "dining_room_dehumidifier_1.RelativeHumidityMeasurement",
+      "target": "si_2_RelativeHumidityMeasurement_Tolerance",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "dining_room_humidifier_1",
+      "target": "dining_room",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "dining_room_humidifier_1",
+      "target": "dining_room_humidifier_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "dining_room_humidifier_1",
+      "target": "dining_room_humidifier_1.FanControl",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "dining_room_humidifier_1",
+      "target": "dining_room_humidifier_1.OnOff",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "dining_room_humidifier_1",
+      "target": "dining_room_humidifier_1.RelativeHumidityMeasurement",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "dining_room_humidifier_1.FanControl",
+      "target": "si_1_FanControl_FanMode",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "dining_room_humidifier_1.FanControl",
+      "target": "si_1_FanControl_FanModeSequence",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "dining_room_humidifier_1.FanControl",
+      "target": "si_1_FanControl_PercentCurrent",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "dining_room_humidifier_1.FanControl",
+      "target": "si_1_FanControl_PercentSetting",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "dining_room_humidifier_1.OnOff",
+      "target": "si_1_OnOff_OnOff",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "dining_room_humidifier_1.RelativeHumidityMeasurement",
+      "target": "si_2_RelativeHumidityMeasurement_MaxMeasuredValue",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "dining_room_humidifier_1.RelativeHumidityMeasurement",
+      "target": "si_2_RelativeHumidityMeasurement_MeasuredValue",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "dining_room_humidifier_1.RelativeHumidityMeasurement",
+      "target": "si_2_RelativeHumidityMeasurement_MinMeasuredValue",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "dining_room_humidifier_1.RelativeHumidityMeasurement",
+      "target": "si_2_RelativeHumidityMeasurement_Tolerance",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "dining_room_on_off_light_1",
+      "target": "dining_room",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "dining_room_on_off_light_1",
+      "target": "dining_room_on_off_light_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "dining_room_on_off_light_1",
+      "target": "dining_room_on_off_light_1.OnOff",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "dining_room_on_off_light_1.OnOff",
+      "target": "si_1_OnOff_OnOff",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "dining_room_window_covering_controller_1",
+      "target": "dining_room",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "dining_room_window_covering_controller_1",
+      "target": "dining_room_window_covering_controller_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "dining_room_window_covering_controller_1",
+      "target": "dining_room_window_covering_controller_1.WindowCovering",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "dining_room_window_covering_controller_1.WindowCovering",
+      "target": "si_1_WindowCovering_ConfigStatus",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "dining_room_window_covering_controller_1.WindowCovering",
+      "target": "si_1_WindowCovering_CurrentPositionLiftPercent100ths",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "dining_room_window_covering_controller_1.WindowCovering",
+      "target": "si_1_WindowCovering_EndProductType",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "dining_room_window_covering_controller_1.WindowCovering",
+      "target": "si_1_WindowCovering_Mode",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "dining_room_window_covering_controller_1.WindowCovering",
+      "target": "si_1_WindowCovering_NumberOfActuationsLift",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "dining_room_window_covering_controller_1.WindowCovering",
+      "target": "si_1_WindowCovering_OperationalStatus",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "dining_room_window_covering_controller_1.WindowCovering",
+      "target": "si_1_WindowCovering_SafetyStatus",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "dining_room_window_covering_controller_1.WindowCovering",
+      "target": "si_1_WindowCovering_TargetPositionLiftPercent100ths",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "dining_room_window_covering_controller_1.WindowCovering",
+      "target": "si_1_WindowCovering_Type",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_air_purifier_1",
+      "target": "kitchen",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "kitchen_air_purifier_1",
+      "target": "kitchen_air_purifier_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "kitchen_air_purifier_1",
+      "target": "kitchen_air_purifier_1.Descriptor",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "kitchen_air_purifier_1",
+      "target": "kitchen_air_purifier_1.FanControl",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "kitchen_air_purifier_1",
+      "target": "kitchen_air_purifier_1.Identify",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "kitchen_air_purifier_1",
+      "target": "kitchen_air_purifier_1.OnOff",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "kitchen_air_purifier_1.FanControl",
+      "target": "si_1_FanControl_FanMode",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_air_purifier_1.FanControl",
+      "target": "si_1_FanControl_FanModeSequence",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_air_purifier_1.FanControl",
+      "target": "si_1_FanControl_PercentCurrent",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_air_purifier_1.FanControl",
+      "target": "si_1_FanControl_PercentSetting",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_air_purifier_1.OnOff",
+      "target": "si_1_OnOff_OnOff",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_dishwasher_1",
+      "target": "kitchen",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "kitchen_dishwasher_1",
+      "target": "kitchen_dishwasher_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "kitchen_dishwasher_1",
+      "target": "kitchen_dishwasher_1.DishwasherAlarm",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "kitchen_dishwasher_1",
+      "target": "kitchen_dishwasher_1.DishwasherMode",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "kitchen_dishwasher_1",
+      "target": "kitchen_dishwasher_1.OnOff",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "kitchen_dishwasher_1",
+      "target": "kitchen_dishwasher_1.OperationalState",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "kitchen_dishwasher_1.DishwasherAlarm",
+      "target": "si_1_DishwasherAlarm_Latch",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_dishwasher_1.DishwasherAlarm",
+      "target": "si_1_DishwasherAlarm_Mask",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_dishwasher_1.DishwasherAlarm",
+      "target": "si_1_DishwasherAlarm_State",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_dishwasher_1.DishwasherAlarm",
+      "target": "si_1_DishwasherAlarm_Supported",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_dishwasher_1.DishwasherMode",
+      "target": "si_1_DishwasherMode_CurrentMode",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_dishwasher_1.DishwasherMode",
+      "target": "si_1_DishwasherMode_SupportedModes",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_dishwasher_1.OnOff",
+      "target": "si_1_OnOff_OnOff",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_dishwasher_1.OperationalState",
+      "target": "si_1_OperationalState_CountdownTime",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_dishwasher_1.OperationalState",
+      "target": "si_1_OperationalState_CurrentPhase",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_dishwasher_1.OperationalState",
+      "target": "si_1_OperationalState_OperationalError",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_dishwasher_1.OperationalState",
+      "target": "si_1_OperationalState_OperationalState",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_dishwasher_1.OperationalState",
+      "target": "si_1_OperationalState_OperationalStateList",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_dishwasher_1.OperationalState",
+      "target": "si_1_OperationalState_PhaseList",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_fan_1",
+      "target": "kitchen",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "kitchen_fan_1",
+      "target": "kitchen_fan_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "kitchen_fan_1",
+      "target": "kitchen_fan_1.FanControl",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "kitchen_fan_1",
+      "target": "kitchen_fan_1.OnOff",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "kitchen_fan_1.FanControl",
+      "target": "si_1_FanControl_FanMode",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_fan_1.FanControl",
+      "target": "si_1_FanControl_FanModeSequence",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_fan_1.FanControl",
+      "target": "si_1_FanControl_PercentCurrent",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_fan_1.FanControl",
+      "target": "si_1_FanControl_PercentSetting",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_fan_1.OnOff",
+      "target": "si_1_OnOff_OnOff",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_freezer_1",
+      "target": "kitchen",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "kitchen_freezer_1",
+      "target": "kitchen_freezer_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "kitchen_freezer_1",
+      "target": "kitchen_freezer_1.Descriptor",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "kitchen_freezer_1",
+      "target": "kitchen_freezer_1.RTCCMode",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "kitchen_freezer_1",
+      "target": "kitchen_freezer_1.TemperatureControl",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "kitchen_freezer_1",
+      "target": "kitchen_freezer_1.TemperatureMeasurement",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "kitchen_freezer_1.RTCCMode",
+      "target": "si_1_RTCCMode_CurrentMode",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_freezer_1.RTCCMode",
+      "target": "si_1_RTCCMode_SupportedModes",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_freezer_1.TemperatureControl",
+      "target": "si_1_TemperatureControl_MaxTemperature",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_freezer_1.TemperatureControl",
+      "target": "si_1_TemperatureControl_MinTemperature",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_freezer_1.TemperatureControl",
+      "target": "si_1_TemperatureControl_TemperatureSetpoint",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_freezer_1.TemperatureMeasurement",
+      "target": "si_1_TemperatureMeasurement_MaxMeasuredValue",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_freezer_1.TemperatureMeasurement",
+      "target": "si_1_TemperatureMeasurement_MeasuredValue",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_freezer_1.TemperatureMeasurement",
+      "target": "si_1_TemperatureMeasurement_MinMeasuredValue",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_on_off_light_1",
+      "target": "kitchen",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "kitchen_on_off_light_1",
+      "target": "kitchen_on_off_light_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "kitchen_on_off_light_1",
+      "target": "kitchen_on_off_light_1.OnOff",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "kitchen_on_off_light_1.OnOff",
+      "target": "si_1_OnOff_OnOff",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_refrigerator_1",
+      "target": "kitchen",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "kitchen_refrigerator_1",
+      "target": "kitchen_refrigerator_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "kitchen_refrigerator_1",
+      "target": "kitchen_refrigerator_1.Descriptor",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "kitchen_refrigerator_1",
+      "target": "kitchen_refrigerator_1.RTCCMode",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "kitchen_refrigerator_1",
+      "target": "kitchen_refrigerator_1.TemperatureControl",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "kitchen_refrigerator_1",
+      "target": "kitchen_refrigerator_1.TemperatureMeasurement",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "kitchen_refrigerator_1.RTCCMode",
+      "target": "si_1_RTCCMode_CurrentMode",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_refrigerator_1.RTCCMode",
+      "target": "si_1_RTCCMode_SupportedModes",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_refrigerator_1.TemperatureControl",
+      "target": "si_1_TemperatureControl_MaxTemperature",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_refrigerator_1.TemperatureControl",
+      "target": "si_1_TemperatureControl_MinTemperature",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_refrigerator_1.TemperatureControl",
+      "target": "si_1_TemperatureControl_TemperatureSetpoint",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_refrigerator_1.TemperatureMeasurement",
+      "target": "si_1_TemperatureMeasurement_MaxMeasuredValue",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_refrigerator_1.TemperatureMeasurement",
+      "target": "si_1_TemperatureMeasurement_MeasuredValue",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "kitchen_refrigerator_1.TemperatureMeasurement",
+      "target": "si_1_TemperatureMeasurement_MinMeasuredValue",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_air_conditioner_1",
+      "target": "living_room",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "living_room_air_conditioner_1",
+      "target": "living_room_air_conditioner_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "living_room_air_conditioner_1",
+      "target": "living_room_air_conditioner_1.FanControl",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "living_room_air_conditioner_1",
+      "target": "living_room_air_conditioner_1.OnOff",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "living_room_air_conditioner_1",
+      "target": "living_room_air_conditioner_1.Thermostat",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "living_room_air_conditioner_1.FanControl",
+      "target": "si_1_FanControl_FanMode",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_air_conditioner_1.FanControl",
+      "target": "si_1_FanControl_FanModeSequence",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_air_conditioner_1.FanControl",
+      "target": "si_1_FanControl_PercentCurrent",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_air_conditioner_1.FanControl",
+      "target": "si_1_FanControl_PercentSetting",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_air_conditioner_1.OnOff",
+      "target": "si_1_OnOff_OnOff",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_air_conditioner_1.Thermostat",
+      "target": "si_1_Thermostat_ControlSequenceOfOperation",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_air_conditioner_1.Thermostat",
+      "target": "si_1_Thermostat_LocalTemperature",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_air_conditioner_1.Thermostat",
+      "target": "si_1_Thermostat_OccupiedCoolingSetpoint",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_air_conditioner_1.Thermostat",
+      "target": "si_1_Thermostat_OccupiedHeatingSetpoint",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_air_conditioner_1.Thermostat",
+      "target": "si_1_Thermostat_SystemMode",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_1",
+      "target": "living_room",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "living_room_dimmable_light_1",
+      "target": "living_room_dimmable_light_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "living_room_dimmable_light_1",
+      "target": "living_room_dimmable_light_1.LevelControl",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "living_room_dimmable_light_1",
+      "target": "living_room_dimmable_light_1.OnOff",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "living_room_dimmable_light_1.LevelControl",
+      "target": "si_1_LevelControl_CurrentFrequency",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_1.LevelControl",
+      "target": "si_1_LevelControl_CurrentLevel",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_1.LevelControl",
+      "target": "si_1_LevelControl_DefaultMoveRate",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_1.LevelControl",
+      "target": "si_1_LevelControl_MaxFrequency",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_1.LevelControl",
+      "target": "si_1_LevelControl_MaxLevel",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_1.LevelControl",
+      "target": "si_1_LevelControl_MinFrequency",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_1.LevelControl",
+      "target": "si_1_LevelControl_MinLevel",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_1.LevelControl",
+      "target": "si_1_LevelControl_OffTransitionTime",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_1.LevelControl",
+      "target": "si_1_LevelControl_OnLevel",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_1.LevelControl",
+      "target": "si_1_LevelControl_OnOffTransitionTime",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_1.LevelControl",
+      "target": "si_1_LevelControl_OnTransitionTime",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_1.LevelControl",
+      "target": "si_1_LevelControl_Options",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_1.LevelControl",
+      "target": "si_1_LevelControl_RemainingTime",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_1.LevelControl",
+      "target": "si_1_LevelControl_StartUpCurrentLevel",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_1.OnOff",
+      "target": "si_1_OnOff_GlobalSceneControl",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_1.OnOff",
+      "target": "si_1_OnOff_OffWaitTime",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_1.OnOff",
+      "target": "si_1_OnOff_OnOff",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_1.OnOff",
+      "target": "si_1_OnOff_OnTime",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_1.OnOff",
+      "target": "si_1_OnOff_StartUpOnOff",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_2",
+      "target": "living_room",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "living_room_dimmable_light_2",
+      "target": "living_room_dimmable_light_2.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "living_room_dimmable_light_2",
+      "target": "living_room_dimmable_light_2.LevelControl",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "living_room_dimmable_light_2",
+      "target": "living_room_dimmable_light_2.OnOff",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "living_room_dimmable_light_2.LevelControl",
+      "target": "si_1_LevelControl_CurrentFrequency",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_2.LevelControl",
+      "target": "si_1_LevelControl_CurrentLevel",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_2.LevelControl",
+      "target": "si_1_LevelControl_DefaultMoveRate",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_2.LevelControl",
+      "target": "si_1_LevelControl_MaxFrequency",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_2.LevelControl",
+      "target": "si_1_LevelControl_MaxLevel",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_2.LevelControl",
+      "target": "si_1_LevelControl_MinFrequency",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_2.LevelControl",
+      "target": "si_1_LevelControl_MinLevel",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_2.LevelControl",
+      "target": "si_1_LevelControl_OffTransitionTime",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_2.LevelControl",
+      "target": "si_1_LevelControl_OnLevel",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_2.LevelControl",
+      "target": "si_1_LevelControl_OnOffTransitionTime",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_2.LevelControl",
+      "target": "si_1_LevelControl_OnTransitionTime",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_2.LevelControl",
+      "target": "si_1_LevelControl_Options",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_2.LevelControl",
+      "target": "si_1_LevelControl_RemainingTime",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_2.LevelControl",
+      "target": "si_1_LevelControl_StartUpCurrentLevel",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_2.OnOff",
+      "target": "si_1_OnOff_GlobalSceneControl",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_2.OnOff",
+      "target": "si_1_OnOff_OffWaitTime",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_2.OnOff",
+      "target": "si_1_OnOff_OnOff",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_2.OnOff",
+      "target": "si_1_OnOff_OnTime",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_dimmable_light_2.OnOff",
+      "target": "si_1_OnOff_StartUpOnOff",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_on_off_light_1",
+      "target": "living_room",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "living_room_on_off_light_1",
+      "target": "living_room_on_off_light_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "living_room_on_off_light_1",
+      "target": "living_room_on_off_light_1.OnOff",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "living_room_on_off_light_1.OnOff",
+      "target": "si_1_OnOff_OnOff",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_on_off_light_2",
+      "target": "living_room",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "living_room_on_off_light_2",
+      "target": "living_room_on_off_light_2.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "living_room_on_off_light_2",
+      "target": "living_room_on_off_light_2.OnOff",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "living_room_on_off_light_2.OnOff",
+      "target": "si_1_OnOff_OnOff",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_tv_1",
+      "target": "living_room",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "living_room_tv_1",
+      "target": "living_room_tv_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "living_room_tv_1",
+      "target": "living_room_tv_1.Channel",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "living_room_tv_1",
+      "target": "living_room_tv_1.KeypadInput",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "living_room_tv_1",
+      "target": "living_room_tv_1.LevelControl",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "living_room_tv_1",
+      "target": "living_room_tv_1.MediaPlayback",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "living_room_tv_1",
+      "target": "living_room_tv_1.OnOff",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "living_room_tv_1.Channel",
+      "target": "si_1_Channel_ChannelList",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_tv_1.Channel",
+      "target": "si_1_Channel_CurrentChannel",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_tv_1.Channel",
+      "target": "si_1_Channel_Lineup",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_tv_1.KeypadInput",
+      "target": "si_1_KeypadInput_ClusterRevision",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_tv_1.KeypadInput",
+      "target": "si_1_KeypadInput_FeatureMap",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_tv_1.LevelControl",
+      "target": "si_1_LevelControl_CurrentFrequency",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_tv_1.LevelControl",
+      "target": "si_1_LevelControl_CurrentLevel",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_tv_1.LevelControl",
+      "target": "si_1_LevelControl_DefaultMoveRate",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_tv_1.LevelControl",
+      "target": "si_1_LevelControl_MaxFrequency",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_tv_1.LevelControl",
+      "target": "si_1_LevelControl_MaxLevel",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_tv_1.LevelControl",
+      "target": "si_1_LevelControl_MinFrequency",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_tv_1.LevelControl",
+      "target": "si_1_LevelControl_MinLevel",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_tv_1.LevelControl",
+      "target": "si_1_LevelControl_OffTransitionTime",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_tv_1.LevelControl",
+      "target": "si_1_LevelControl_OnLevel",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_tv_1.LevelControl",
+      "target": "si_1_LevelControl_OnOffTransitionTime",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_tv_1.LevelControl",
+      "target": "si_1_LevelControl_OnTransitionTime",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_tv_1.LevelControl",
+      "target": "si_1_LevelControl_Options",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_tv_1.LevelControl",
+      "target": "si_1_LevelControl_RemainingTime",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_tv_1.LevelControl",
+      "target": "si_1_LevelControl_StartUpCurrentLevel",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_tv_1.MediaPlayback",
+      "target": "si_1_MediaPlayback_CurrentState",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_tv_1.OnOff",
+      "target": "si_1_OnOff_OnOff",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_window_covering_controller_1",
+      "target": "living_room",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "living_room_window_covering_controller_1",
+      "target": "living_room_window_covering_controller_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "living_room_window_covering_controller_1",
+      "target": "living_room_window_covering_controller_1.WindowCovering",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "living_room_window_covering_controller_1.WindowCovering",
+      "target": "si_1_WindowCovering_ConfigStatus",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_window_covering_controller_1.WindowCovering",
+      "target": "si_1_WindowCovering_CurrentPositionLiftPercent100ths",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_window_covering_controller_1.WindowCovering",
+      "target": "si_1_WindowCovering_EndProductType",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_window_covering_controller_1.WindowCovering",
+      "target": "si_1_WindowCovering_Mode",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_window_covering_controller_1.WindowCovering",
+      "target": "si_1_WindowCovering_NumberOfActuationsLift",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_window_covering_controller_1.WindowCovering",
+      "target": "si_1_WindowCovering_OperationalStatus",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_window_covering_controller_1.WindowCovering",
+      "target": "si_1_WindowCovering_SafetyStatus",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_window_covering_controller_1.WindowCovering",
+      "target": "si_1_WindowCovering_TargetPositionLiftPercent100ths",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "living_room_window_covering_controller_1.WindowCovering",
+      "target": "si_1_WindowCovering_Type",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_air_conditioner_1",
+      "target": "utility_room",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "utility_room_air_conditioner_1",
+      "target": "utility_room_air_conditioner_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_air_conditioner_1",
+      "target": "utility_room_air_conditioner_1.FanControl",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_air_conditioner_1",
+      "target": "utility_room_air_conditioner_1.OnOff",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_air_conditioner_1",
+      "target": "utility_room_air_conditioner_1.Thermostat",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_air_conditioner_1.FanControl",
+      "target": "si_1_FanControl_FanMode",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_air_conditioner_1.FanControl",
+      "target": "si_1_FanControl_FanModeSequence",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_air_conditioner_1.FanControl",
+      "target": "si_1_FanControl_PercentCurrent",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_air_conditioner_1.FanControl",
+      "target": "si_1_FanControl_PercentSetting",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_air_conditioner_1.OnOff",
+      "target": "si_1_OnOff_OnOff",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_air_conditioner_1.Thermostat",
+      "target": "si_1_Thermostat_ControlSequenceOfOperation",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_air_conditioner_1.Thermostat",
+      "target": "si_1_Thermostat_LocalTemperature",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_air_conditioner_1.Thermostat",
+      "target": "si_1_Thermostat_OccupiedCoolingSetpoint",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_air_conditioner_1.Thermostat",
+      "target": "si_1_Thermostat_OccupiedHeatingSetpoint",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_air_conditioner_1.Thermostat",
+      "target": "si_1_Thermostat_SystemMode",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_air_purifier_1",
+      "target": "utility_room",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "utility_room_air_purifier_1",
+      "target": "utility_room_air_purifier_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_air_purifier_1",
+      "target": "utility_room_air_purifier_1.Descriptor",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_air_purifier_1",
+      "target": "utility_room_air_purifier_1.FanControl",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_air_purifier_1",
+      "target": "utility_room_air_purifier_1.Identify",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_air_purifier_1",
+      "target": "utility_room_air_purifier_1.OnOff",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_air_purifier_1.FanControl",
+      "target": "si_1_FanControl_FanMode",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_air_purifier_1.FanControl",
+      "target": "si_1_FanControl_FanModeSequence",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_air_purifier_1.FanControl",
+      "target": "si_1_FanControl_PercentCurrent",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_air_purifier_1.FanControl",
+      "target": "si_1_FanControl_PercentSetting",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_air_purifier_1.OnOff",
+      "target": "si_1_OnOff_OnOff",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1",
+      "target": "utility_room",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "utility_room_heat_pump_1",
+      "target": "utility_room_heat_pump_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_heat_pump_1",
+      "target": "utility_room_heat_pump_1.Descriptor",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_heat_pump_1",
+      "target": "utility_room_heat_pump_1.PowerSource",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_heat_pump_1",
+      "target": "utility_room_heat_pump_1.ElectricalEnergyMeasurement",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_heat_pump_1",
+      "target": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_heat_pump_1",
+      "target": "utility_room_heat_pump_1.PowerTopology",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_heat_pump_1",
+      "target": "utility_room_heat_pump_1.DeviceEnergyManagement",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_heat_pump_1",
+      "target": "utility_room_heat_pump_1.Thermostat",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_heat_pump_1.PowerSource",
+      "target": "si_1_PowerSource_ActiveWiredFaults",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.PowerSource",
+      "target": "si_1_PowerSource_ClusterRevision",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.PowerSource",
+      "target": "si_1_PowerSource_Description",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.PowerSource",
+      "target": "si_1_PowerSource_EndpointList",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.PowerSource",
+      "target": "si_1_PowerSource_FeatureMap",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.PowerSource",
+      "target": "si_1_PowerSource_Order",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.PowerSource",
+      "target": "si_1_PowerSource_Status",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.PowerSource",
+      "target": "si_1_PowerSource_WiredAssessedCurrent",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.PowerSource",
+      "target": "si_1_PowerSource_WiredAssessedInputFrequency",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.PowerSource",
+      "target": "si_1_PowerSource_WiredAssessedInputVoltage",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.PowerSource",
+      "target": "si_1_PowerSource_WiredCurrentType",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.PowerSource",
+      "target": "si_1_PowerSource_WiredMaximumCurrent",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.PowerSource",
+      "target": "si_1_PowerSource_WiredNominalVoltage",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.PowerSource",
+      "target": "si_1_PowerSource_WiredPresent",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.ElectricalEnergyMeasurement",
+      "target": "si_2_ElectricalEnergyMeasurement_Accuracy",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.ElectricalEnergyMeasurement",
+      "target": "si_2_ElectricalEnergyMeasurement_ClusterRevision",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.ElectricalEnergyMeasurement",
+      "target": "si_2_ElectricalEnergyMeasurement_CumulativeEnergyImported",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.ElectricalEnergyMeasurement",
+      "target": "si_2_ElectricalEnergyMeasurement_FeatureMap",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.ElectricalEnergyMeasurement",
+      "target": "si_2_ElectricalEnergyMeasurement_PeriodicEnergyImported",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "target": "si_2_ElectricalPowerMeasurement_Accuracy",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "target": "si_2_ElectricalPowerMeasurement_ActiveCurrent",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "target": "si_2_ElectricalPowerMeasurement_ActivePower",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "target": "si_2_ElectricalPowerMeasurement_ApparentPower",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "target": "si_2_ElectricalPowerMeasurement_ClusterRevision",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "target": "si_2_ElectricalPowerMeasurement_FeatureMap",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "target": "si_2_ElectricalPowerMeasurement_Frequency",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "target": "si_2_ElectricalPowerMeasurement_NumberOfMeasurementTypes",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "target": "si_2_ElectricalPowerMeasurement_PowerFactor",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "target": "si_2_ElectricalPowerMeasurement_PowerMode",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "target": "si_2_ElectricalPowerMeasurement_RMSCurrent",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "target": "si_2_ElectricalPowerMeasurement_RMSPower",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "target": "si_2_ElectricalPowerMeasurement_RMSVoltage",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.ElectricalPowerMeasurement",
+      "target": "si_2_ElectricalPowerMeasurement_Voltage",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.PowerTopology",
+      "target": "si_2_PowerTopology_ClusterRevision",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.PowerTopology",
+      "target": "si_2_PowerTopology_FeatureMap",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.DeviceEnergyManagement",
+      "target": "si_3_DeviceEnergyManagement_AbsMaxPower",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.DeviceEnergyManagement",
+      "target": "si_3_DeviceEnergyManagement_AbsMinPower",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.DeviceEnergyManagement",
+      "target": "si_3_DeviceEnergyManagement_ESACanGenerate",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.DeviceEnergyManagement",
+      "target": "si_3_DeviceEnergyManagement_ESAState",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.DeviceEnergyManagement",
+      "target": "si_3_DeviceEnergyManagement_ESAType",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.DeviceEnergyManagement",
+      "target": "si_3_DeviceEnergyManagement_PowerAdjustmentCapability",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.Thermostat",
+      "target": "si_4_Thermostat_ControlSequenceOfOperation",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.Thermostat",
+      "target": "si_4_Thermostat_LocalTemperature",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.Thermostat",
+      "target": "si_4_Thermostat_OccupiedCoolingSetpoint",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.Thermostat",
+      "target": "si_4_Thermostat_OccupiedHeatingSetpoint",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_heat_pump_1.Thermostat",
+      "target": "si_4_Thermostat_SystemMode",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_dryer_1",
+      "target": "utility_room",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "utility_room_laundry_dryer_1",
+      "target": "utility_room_laundry_dryer_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_laundry_dryer_1",
+      "target": "utility_room_laundry_dryer_1.LaundryDryerControls",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_laundry_dryer_1",
+      "target": "utility_room_laundry_dryer_1.OnOff",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_laundry_dryer_1",
+      "target": "utility_room_laundry_dryer_1.OperationalState",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_laundry_dryer_1.LaundryDryerControls",
+      "target": "si_1_LaundryDryerControls_SelectedDrynessLevel",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_dryer_1.LaundryDryerControls",
+      "target": "si_1_LaundryDryerControls_SupportedDrynessLevels",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_dryer_1.OnOff",
+      "target": "si_1_OnOff_OnOff",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_dryer_1.OperationalState",
+      "target": "si_1_OperationalState_CountdownTime",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_dryer_1.OperationalState",
+      "target": "si_1_OperationalState_CurrentPhase",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_dryer_1.OperationalState",
+      "target": "si_1_OperationalState_OperationalError",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_dryer_1.OperationalState",
+      "target": "si_1_OperationalState_OperationalState",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_dryer_1.OperationalState",
+      "target": "si_1_OperationalState_OperationalStateList",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_dryer_1.OperationalState",
+      "target": "si_1_OperationalState_PhaseList",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_1",
+      "target": "utility_room",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "utility_room_laundry_washer_1",
+      "target": "utility_room_laundry_washer_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_laundry_washer_1",
+      "target": "utility_room_laundry_washer_1.LaundryWasherControls",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_laundry_washer_1",
+      "target": "utility_room_laundry_washer_1.LaundryWasherMode",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_laundry_washer_1",
+      "target": "utility_room_laundry_washer_1.OnOff",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_laundry_washer_1",
+      "target": "utility_room_laundry_washer_1.OperationalState",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_laundry_washer_1",
+      "target": "utility_room_laundry_washer_1.TemperatureControl",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_laundry_washer_1.LaundryWasherControls",
+      "target": "si_1_LaundryWasherControls_NumberOfRinses",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_1.LaundryWasherControls",
+      "target": "si_1_LaundryWasherControls_SpinSpeedCurrent",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_1.LaundryWasherControls",
+      "target": "si_1_LaundryWasherControls_SpinSpeeds",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_1.LaundryWasherControls",
+      "target": "si_1_LaundryWasherControls_SupportedRinses",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_1.LaundryWasherMode",
+      "target": "si_1_LaundryWasherMode_CurrentMode",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_1.LaundryWasherMode",
+      "target": "si_1_LaundryWasherMode_SupportedModes",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_1.OnOff",
+      "target": "si_1_OnOff_OnOff",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_1.OperationalState",
+      "target": "si_1_OperationalState_CountdownTime",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_1.OperationalState",
+      "target": "si_1_OperationalState_CurrentPhase",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_1.OperationalState",
+      "target": "si_1_OperationalState_OperationalError",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_1.OperationalState",
+      "target": "si_1_OperationalState_OperationalState",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_1.OperationalState",
+      "target": "si_1_OperationalState_OperationalStateList",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_1.OperationalState",
+      "target": "si_1_OperationalState_PhaseList",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_1.TemperatureControl",
+      "target": "si_1_TemperatureControl_MaxTemperature",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_1.TemperatureControl",
+      "target": "si_1_TemperatureControl_MinTemperature",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_1.TemperatureControl",
+      "target": "si_1_TemperatureControl_TemperatureSetpoint",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_2",
+      "target": "utility_room",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "utility_room_laundry_washer_2",
+      "target": "utility_room_laundry_washer_2.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_laundry_washer_2",
+      "target": "utility_room_laundry_washer_2.LaundryWasherControls",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_laundry_washer_2",
+      "target": "utility_room_laundry_washer_2.LaundryWasherMode",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_laundry_washer_2",
+      "target": "utility_room_laundry_washer_2.OnOff",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_laundry_washer_2",
+      "target": "utility_room_laundry_washer_2.OperationalState",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_laundry_washer_2",
+      "target": "utility_room_laundry_washer_2.TemperatureControl",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_laundry_washer_2.LaundryWasherControls",
+      "target": "si_1_LaundryWasherControls_NumberOfRinses",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_2.LaundryWasherControls",
+      "target": "si_1_LaundryWasherControls_SpinSpeedCurrent",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_2.LaundryWasherControls",
+      "target": "si_1_LaundryWasherControls_SpinSpeeds",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_2.LaundryWasherControls",
+      "target": "si_1_LaundryWasherControls_SupportedRinses",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_2.LaundryWasherMode",
+      "target": "si_1_LaundryWasherMode_CurrentMode",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_2.LaundryWasherMode",
+      "target": "si_1_LaundryWasherMode_SupportedModes",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_2.OnOff",
+      "target": "si_1_OnOff_OnOff",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_2.OperationalState",
+      "target": "si_1_OperationalState_CountdownTime",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_2.OperationalState",
+      "target": "si_1_OperationalState_CurrentPhase",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_2.OperationalState",
+      "target": "si_1_OperationalState_OperationalError",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_2.OperationalState",
+      "target": "si_1_OperationalState_OperationalState",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_2.OperationalState",
+      "target": "si_1_OperationalState_OperationalStateList",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_2.OperationalState",
+      "target": "si_1_OperationalState_PhaseList",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_2.TemperatureControl",
+      "target": "si_1_TemperatureControl_MaxTemperature",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_2.TemperatureControl",
+      "target": "si_1_TemperatureControl_MinTemperature",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_laundry_washer_2.TemperatureControl",
+      "target": "si_1_TemperatureControl_TemperatureSetpoint",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "utility_room_on_off_light_1",
+      "target": "utility_room",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "utility_room_on_off_light_1",
+      "target": "utility_room_on_off_light_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_on_off_light_1",
+      "target": "utility_room_on_off_light_1.OnOff",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "utility_room_on_off_light_1.OnOff",
+      "target": "si_1_OnOff_OnOff",
+      "edge_type": "HAS_STATE"
+    }
+  ],
+  "intervals_by_cluster": {
+    "utility_room_air_purifier_1.FanControl": [
+      "si_1_FanControl_FanMode",
+      "si_1_FanControl_FanModeSequence",
+      "si_1_FanControl_PercentCurrent",
+      "si_1_FanControl_PercentSetting"
+    ],
+    "utility_room_on_off_light_1.OnOff": [
+      "si_1_OnOff_OnOff"
+    ],
+    "utility_room_air_conditioner_1.Thermostat": [
+      "si_1_Thermostat_ControlSequenceOfOperation",
+      "si_1_Thermostat_LocalTemperature",
+      "si_1_Thermostat_OccupiedCoolingSetpoint",
+      "si_1_Thermostat_OccupiedHeatingSetpoint",
+      "si_1_Thermostat_SystemMode"
+    ],
+    "utility_room_laundry_washer_2.LaundryWasherControls": [
+      "si_1_LaundryWasherControls_NumberOfRinses",
+      "si_1_LaundryWasherControls_SpinSpeedCurrent",
+      "si_1_LaundryWasherControls_SpinSpeeds",
+      "si_1_LaundryWasherControls_SupportedRinses"
+    ],
+    "utility_room_laundry_washer_2.LaundryWasherMode": [
+      "si_1_LaundryWasherMode_CurrentMode",
+      "si_1_LaundryWasherMode_SupportedModes"
+    ],
+    "utility_room_laundry_washer_2.OperationalState": [
+      "si_1_OperationalState_CountdownTime",
+      "si_1_OperationalState_CurrentPhase",
+      "si_1_OperationalState_OperationalError",
+      "si_1_OperationalState_OperationalState",
+      "si_1_OperationalState_OperationalStateList",
+      "si_1_OperationalState_PhaseList"
+    ],
+    "utility_room_laundry_washer_2.TemperatureControl": [
+      "si_1_TemperatureControl_MaxTemperature",
+      "si_1_TemperatureControl_MinTemperature",
+      "si_1_TemperatureControl_TemperatureSetpoint"
+    ],
+    "living_room_window_covering_controller_1.WindowCovering": [
+      "si_1_WindowCovering_ConfigStatus",
+      "si_1_WindowCovering_CurrentPositionLiftPercent100ths",
+      "si_1_WindowCovering_EndProductType",
+      "si_1_WindowCovering_Mode",
+      "si_1_WindowCovering_NumberOfActuationsLift",
+      "si_1_WindowCovering_OperationalStatus",
+      "si_1_WindowCovering_SafetyStatus",
+      "si_1_WindowCovering_TargetPositionLiftPercent100ths",
+      "si_1_WindowCovering_Type"
+    ],
+    "dining_room_humidifier_1.RelativeHumidityMeasurement": [
+      "si_2_RelativeHumidityMeasurement_MaxMeasuredValue",
+      "si_2_RelativeHumidityMeasurement_MeasuredValue",
+      "si_2_RelativeHumidityMeasurement_MinMeasuredValue",
+      "si_2_RelativeHumidityMeasurement_Tolerance"
+    ],
+    "kitchen_dishwasher_1.DishwasherAlarm": [
+      "si_1_DishwasherAlarm_Latch",
+      "si_1_DishwasherAlarm_Mask",
+      "si_1_DishwasherAlarm_State",
+      "si_1_DishwasherAlarm_Supported"
+    ],
+    "kitchen_dishwasher_1.DishwasherMode": [
+      "si_1_DishwasherMode_CurrentMode",
+      "si_1_DishwasherMode_SupportedModes"
+    ],
+    "kitchen_refrigerator_1.RTCCMode": [
+      "si_1_RTCCMode_CurrentMode",
+      "si_1_RTCCMode_SupportedModes"
+    ],
+    "kitchen_refrigerator_1.TemperatureMeasurement": [
+      "si_1_TemperatureMeasurement_MaxMeasuredValue",
+      "si_1_TemperatureMeasurement_MeasuredValue",
+      "si_1_TemperatureMeasurement_MinMeasuredValue"
+    ],
+    "living_room_tv_1.LevelControl": [
+      "si_1_LevelControl_CurrentFrequency",
+      "si_1_LevelControl_CurrentLevel",
+      "si_1_LevelControl_DefaultMoveRate",
+      "si_1_LevelControl_MaxFrequency",
+      "si_1_LevelControl_MaxLevel",
+      "si_1_LevelControl_MinFrequency",
+      "si_1_LevelControl_MinLevel",
+      "si_1_LevelControl_OffTransitionTime",
+      "si_1_LevelControl_OnLevel",
+      "si_1_LevelControl_OnOffTransitionTime",
+      "si_1_LevelControl_OnTransitionTime",
+      "si_1_LevelControl_Options",
+      "si_1_LevelControl_RemainingTime",
+      "si_1_LevelControl_StartUpCurrentLevel"
+    ],
+    "living_room_dimmable_light_2.OnOff": [
+      "si_1_OnOff_GlobalSceneControl",
+      "si_1_OnOff_OffWaitTime",
+      "si_1_OnOff_OnTime",
+      "si_1_OnOff_StartUpOnOff"
+    ],
+    "living_room_tv_1.Channel": [
+      "si_1_Channel_ChannelList",
+      "si_1_Channel_CurrentChannel",
+      "si_1_Channel_Lineup"
+    ],
+    "living_room_tv_1.KeypadInput": [
+      "si_1_KeypadInput_ClusterRevision",
+      "si_1_KeypadInput_FeatureMap"
+    ],
+    "living_room_tv_1.MediaPlayback": [
+      "si_1_MediaPlayback_CurrentState"
+    ],
+    "utility_room_heat_pump_1.PowerSource": [
+      "si_1_PowerSource_ActiveWiredFaults",
+      "si_1_PowerSource_ClusterRevision",
+      "si_1_PowerSource_Description",
+      "si_1_PowerSource_EndpointList",
+      "si_1_PowerSource_FeatureMap",
+      "si_1_PowerSource_Order",
+      "si_1_PowerSource_Status",
+      "si_1_PowerSource_WiredAssessedCurrent",
+      "si_1_PowerSource_WiredAssessedInputFrequency",
+      "si_1_PowerSource_WiredAssessedInputVoltage",
+      "si_1_PowerSource_WiredCurrentType",
+      "si_1_PowerSource_WiredMaximumCurrent",
+      "si_1_PowerSource_WiredNominalVoltage",
+      "si_1_PowerSource_WiredPresent"
+    ],
+    "utility_room_heat_pump_1.ElectricalEnergyMeasurement": [
+      "si_2_ElectricalEnergyMeasurement_Accuracy",
+      "si_2_ElectricalEnergyMeasurement_ClusterRevision",
+      "si_2_ElectricalEnergyMeasurement_CumulativeEnergyImported",
+      "si_2_ElectricalEnergyMeasurement_FeatureMap",
+      "si_2_ElectricalEnergyMeasurement_PeriodicEnergyImported"
+    ],
+    "utility_room_heat_pump_1.ElectricalPowerMeasurement": [
+      "si_2_ElectricalPowerMeasurement_Accuracy",
+      "si_2_ElectricalPowerMeasurement_ActiveCurrent",
+      "si_2_ElectricalPowerMeasurement_ActivePower",
+      "si_2_ElectricalPowerMeasurement_ApparentPower",
+      "si_2_ElectricalPowerMeasurement_ClusterRevision",
+      "si_2_ElectricalPowerMeasurement_FeatureMap",
+      "si_2_ElectricalPowerMeasurement_Frequency",
+      "si_2_ElectricalPowerMeasurement_NumberOfMeasurementTypes",
+      "si_2_ElectricalPowerMeasurement_PowerFactor",
+      "si_2_ElectricalPowerMeasurement_PowerMode",
+      "si_2_ElectricalPowerMeasurement_RMSCurrent",
+      "si_2_ElectricalPowerMeasurement_RMSPower",
+      "si_2_ElectricalPowerMeasurement_RMSVoltage",
+      "si_2_ElectricalPowerMeasurement_Voltage"
+    ],
+    "utility_room_heat_pump_1.PowerTopology": [
+      "si_2_PowerTopology_ClusterRevision",
+      "si_2_PowerTopology_FeatureMap"
+    ],
+    "utility_room_heat_pump_1.DeviceEnergyManagement": [
+      "si_3_DeviceEnergyManagement_AbsMaxPower",
+      "si_3_DeviceEnergyManagement_AbsMinPower",
+      "si_3_DeviceEnergyManagement_ESACanGenerate",
+      "si_3_DeviceEnergyManagement_ESAState",
+      "si_3_DeviceEnergyManagement_ESAType",
+      "si_3_DeviceEnergyManagement_PowerAdjustmentCapability"
+    ],
+    "utility_room_heat_pump_1.Thermostat": [
+      "si_4_Thermostat_ControlSequenceOfOperation",
+      "si_4_Thermostat_LocalTemperature",
+      "si_4_Thermostat_OccupiedCoolingSetpoint",
+      "si_4_Thermostat_OccupiedHeatingSetpoint",
+      "si_4_Thermostat_SystemMode"
+    ],
+    "utility_room_laundry_dryer_1.LaundryDryerControls": [
+      "si_1_LaundryDryerControls_SelectedDrynessLevel",
+      "si_1_LaundryDryerControls_SupportedDrynessLevels"
+    ]
+  }
+}
