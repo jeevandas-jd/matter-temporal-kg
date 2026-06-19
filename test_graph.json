@@ -1,0 +1,217 @@
+{
+  "user_node": {
+    "user_id": "user_1",
+    "user_name": "user_1",
+    "location": "bathroom"
+  },
+  "location_nodes": {
+    "bathroom": {
+      "location_id": "bathroom",
+      "location_name": "bathroom",
+      "temperature": 22.65,
+      "humidity": 45.15,
+      "illuminance": 1012.58,
+      "pm10": 35.95,
+      "devices": [
+        "bathroom_air_conditioner_1",
+        "bathroom_fan_1"
+      ]
+    }
+  },
+  "device_nodes": {
+    "bathroom_air_conditioner_1": {
+      "device_id": "bathroom_air_conditioner_1",
+      "device_name": "Air Conditioner",
+      "room_id": "bathroom",
+      "vendor_name": "LG Electronics",
+      "clusters": [
+        "OnOff",
+        "Thermostat",
+        "BasicInformation"
+      ]
+    },
+    "bathroom_fan_1": {
+      "device_id": "bathroom_fan_1",
+      "device_name": "Fan",
+      "room_id": "bathroom",
+      "vendor_name": "LG Electronics",
+      "clusters": [
+        "OnOff",
+        "BasicInformation",
+        "FanControl"
+      ]
+    }
+  },
+  "cluster_nodes": {
+    "bathroom_air_conditioner_1.BasicInformation": {
+      "cluster_id": "bathroom_air_conditioner_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "bathroom_air_conditioner_1"
+    },
+    "bathroom_air_conditioner_1.OnOff": {
+      "cluster_id": "bathroom_air_conditioner_1.OnOff",
+      "cluster_name": "OnOff",
+      "endpoint_id": 1,
+      "device_id": "bathroom_air_conditioner_1"
+    },
+    "bathroom_air_conditioner_1.Thermostat": {
+      "cluster_id": "bathroom_air_conditioner_1.Thermostat",
+      "cluster_name": "Thermostat",
+      "endpoint_id": 1,
+      "device_id": "bathroom_air_conditioner_1"
+    },
+    "bathroom_fan_1.BasicInformation": {
+      "cluster_id": "bathroom_fan_1.BasicInformation",
+      "cluster_name": "BasicInformation",
+      "endpoint_id": 0,
+      "device_id": "bathroom_fan_1"
+    },
+    "bathroom_fan_1.OnOff": {
+      "cluster_id": "bathroom_fan_1.OnOff",
+      "cluster_name": "OnOff",
+      "endpoint_id": 1,
+      "device_id": "bathroom_fan_1"
+    },
+    "bathroom_fan_1.FanControl": {
+      "cluster_id": "bathroom_fan_1.FanControl",
+      "cluster_name": "FanControl",
+      "endpoint_id": 1,
+      "device_id": "bathroom_fan_1"
+    }
+  },
+  "state_intervals": {
+    "si_1_OnOff_OnOff": {
+      "state_interval_id": "si_1_OnOff_OnOff",
+      "cluster_id": "bathroom_fan_1.OnOff",
+      "attribute_name": "OnOff",
+      "value": true,
+      "start_time": "2025-08-23 10:00:00",
+      "end_time": null
+    },
+    "si_1_Thermostat_LocalTemperature": {
+      "state_interval_id": "si_1_Thermostat_LocalTemperature",
+      "cluster_id": "bathroom_air_conditioner_1.Thermostat",
+      "attribute_name": "LocalTemperature",
+      "value": 22.65,
+      "start_time": "2025-08-23 10:00:00",
+      "end_time": null
+    },
+    "si_1_Thermostat_SystemMode": {
+      "state_interval_id": "si_1_Thermostat_SystemMode",
+      "cluster_id": "bathroom_air_conditioner_1.Thermostat",
+      "attribute_name": "SystemMode",
+      "value": 3,
+      "start_time": "2025-08-23 10:00:00",
+      "end_time": null
+    },
+    "si_1_FanControl_FanMode": {
+      "state_interval_id": "si_1_FanControl_FanMode",
+      "cluster_id": "bathroom_fan_1.FanControl",
+      "attribute_name": "FanMode",
+      "value": 2,
+      "start_time": "2025-08-23 10:00:00",
+      "end_time": null
+    },
+    "si_1_FanControl_PercentCurrent": {
+      "state_interval_id": "si_1_FanControl_PercentCurrent",
+      "cluster_id": "bathroom_fan_1.FanControl",
+      "attribute_name": "PercentCurrent",
+      "value": 57,
+      "start_time": "2025-08-23 10:00:00",
+      "end_time": null
+    }
+  },
+  "all_edges": [
+    {
+      "source": "user_1",
+      "target": "bathroom",
+      "edge_type": "LOCATED_IN",
+      "start": "2025-08-23 10:00:00",
+      "end": null
+    },
+    {
+      "source": "bathroom_air_conditioner_1",
+      "target": "bathroom",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "bathroom_air_conditioner_1",
+      "target": "bathroom_air_conditioner_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_air_conditioner_1",
+      "target": "bathroom_air_conditioner_1.OnOff",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_air_conditioner_1",
+      "target": "bathroom_air_conditioner_1.Thermostat",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_air_conditioner_1.OnOff",
+      "target": "si_1_OnOff_OnOff",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_air_conditioner_1.Thermostat",
+      "target": "si_1_Thermostat_LocalTemperature",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_air_conditioner_1.Thermostat",
+      "target": "si_1_Thermostat_SystemMode",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_fan_1",
+      "target": "bathroom",
+      "edge_type": "INSTALLED_IN"
+    },
+    {
+      "source": "bathroom_fan_1",
+      "target": "bathroom_fan_1.BasicInformation",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_fan_1",
+      "target": "bathroom_fan_1.OnOff",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_fan_1",
+      "target": "bathroom_fan_1.FanControl",
+      "edge_type": "HAS_CLUSTER"
+    },
+    {
+      "source": "bathroom_fan_1.OnOff",
+      "target": "si_1_OnOff_OnOff",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_fan_1.FanControl",
+      "target": "si_1_FanControl_FanMode",
+      "edge_type": "HAS_STATE"
+    },
+    {
+      "source": "bathroom_fan_1.FanControl",
+      "target": "si_1_FanControl_PercentCurrent",
+      "edge_type": "HAS_STATE"
+    }
+  ],
+  "intervals_by_cluster": {
+    "bathroom_fan_1.OnOff": [
+      "si_1_OnOff_OnOff"
+    ],
+    "bathroom_air_conditioner_1.Thermostat": [
+      "si_1_Thermostat_LocalTemperature",
+      "si_1_Thermostat_SystemMode"
+    ],
+    "bathroom_fan_1.FanControl": [
+      "si_1_FanControl_FanMode",
+      "si_1_FanControl_PercentCurrent"
+    ]
+  }
+}

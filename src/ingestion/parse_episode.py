@@ -130,7 +130,7 @@ def parse_device(device: dict, room_id: str, base_time: str) -> dict:
             value = round(value / 100, 2)
 
         cluster_id = f"{device_id}.{cluster_name}"
-        si_id      = f"si_{parts[0]}_{cluster_name}_{attr_name}"
+        si_id = f"si_{device_id}_{parts[0]}_{cluster_name}_{attr_name}"
         state_intervals.append(StateIntervalNode(
             state_interval_id = si_id,
             cluster_id        = cluster_id,

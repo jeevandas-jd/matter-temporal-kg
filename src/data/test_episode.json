@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "seed": 1,
+    "query_type": "qt_test",
+    "case": "feasible",
+    "num_rooms": 1,
+    "num_devices": 2
+  },
+  "query": "Is the bathroom warm enough and is the fan running with the AC?",
+  "user_location": "bathroom",
+  "initial_home_config": {
+    "tick_interval": 0.1,
+    "base_time": "2025-08-23 10:00:00",
+    "rooms": {
+      "bathroom": {
+        "devices": [
+          {
+            "device_id": "bathroom_air_conditioner_1",
+            "device_type": "air_conditioner",
+            "attributes": {
+              "0.BasicInformation.ProductID": 1,
+              "0.BasicInformation.ProductName": "Air Conditioner",
+              "0.BasicInformation.VendorID": 1,
+              "0.BasicInformation.VendorName": "LG Electronics",
+              "1.OnOff.OnOff": true,
+              "1.Thermostat.LocalTemperature": 2265,
+              "1.Thermostat.SystemMode": 3
+            }
+          },
+          {
+            "device_id": "bathroom_fan_1",
+            "device_type": "fan",
+            "attributes": {
+              "0.BasicInformation.ProductID": 2,
+              "0.BasicInformation.ProductName": "Fan",
+              "0.BasicInformation.VendorID": 1,
+              "0.BasicInformation.VendorName": "LG Electronics",
+              "1.OnOff.OnOff": true,
+              "1.FanControl.FanMode": 2,
+              "1.FanControl.PercentCurrent": 57
+            }
+          }
+        ],
+        "state": {
+          "humidity": 4515.0,
+          "illuminance": 1012.58,
+          "pm10": 35.95,
+          "temperature": 2265.0
+        }
+      }
+    }
+  }
+}

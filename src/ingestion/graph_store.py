@@ -46,9 +46,9 @@ class GraphStore:
         print(f"State Interval nodes: {len(self.graph.get('state_intervals', []))}")
         print(f"Event nodes: {len(self.graph.get('event_nodes', []))}")
         print(f"Total edges: {len(self.graph["all_edges"])}")
-    def save_graph(self):
+    def save_graph(self,path):
         try:
-            with open("graph_store.json","w") as f:
+            with open(path,"w") as f:
 
                 json.dump(self.graph,f,indent=2)
             print("graph saved successfully !")
