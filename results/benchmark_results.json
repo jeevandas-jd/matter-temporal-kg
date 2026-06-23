@@ -1,0 +1,4805 @@
+{
+  "results": [
+    {
+      "file": "qt1_feasible_seed_1.json",
+      "ingest_time_ms": 8.7796,
+      "peak_memory_kb": 318.05,
+      "query_time_ms": 0.0602,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_10.json",
+      "ingest_time_ms": 8.051,
+      "peak_memory_kb": 309.41,
+      "query_time_ms": 0.0571,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_11.json",
+      "ingest_time_ms": 9.838,
+      "peak_memory_kb": 373.15,
+      "query_time_ms": 0.0644,
+      "num_devices": 32,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_12.json",
+      "ingest_time_ms": 7.8977,
+      "peak_memory_kb": 306.98,
+      "query_time_ms": 0.0305,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_13.json",
+      "ingest_time_ms": 8.1412,
+      "peak_memory_kb": 303.04,
+      "query_time_ms": 0.0308,
+      "num_devices": 32,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_14.json",
+      "ingest_time_ms": 6.3556,
+      "peak_memory_kb": 248.26,
+      "query_time_ms": 0.033,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_15.json",
+      "ingest_time_ms": 6.9083,
+      "peak_memory_kb": 268.25,
+      "query_time_ms": 0.0283,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_16.json",
+      "ingest_time_ms": 6.2389,
+      "peak_memory_kb": 242.61,
+      "query_time_ms": 0.0195,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_17.json",
+      "ingest_time_ms": 9.5566,
+      "peak_memory_kb": 370.02,
+      "query_time_ms": 0.0366,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_18.json",
+      "ingest_time_ms": 9.2716,
+      "peak_memory_kb": 354.41,
+      "query_time_ms": 0.0524,
+      "num_devices": 32,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_19.json",
+      "ingest_time_ms": 5.9151,
+      "peak_memory_kb": 239.23,
+      "query_time_ms": 0.0274,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_2.json",
+      "ingest_time_ms": 9.8978,
+      "peak_memory_kb": 381.45,
+      "query_time_ms": 0.0433,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_20.json",
+      "ingest_time_ms": 6.336,
+      "peak_memory_kb": 242.22,
+      "query_time_ms": 0.0293,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_21.json",
+      "ingest_time_ms": 5.6965,
+      "peak_memory_kb": 222.97,
+      "query_time_ms": 0.0223,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_22.json",
+      "ingest_time_ms": 8.8193,
+      "peak_memory_kb": 333.54,
+      "query_time_ms": 0.0553,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_23.json",
+      "ingest_time_ms": 6.7898,
+      "peak_memory_kb": 256.32,
+      "query_time_ms": 0.0195,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_24.json",
+      "ingest_time_ms": 8.9335,
+      "peak_memory_kb": 340.36,
+      "query_time_ms": 0.0578,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_25.json",
+      "ingest_time_ms": 6.0023,
+      "peak_memory_kb": 234.94,
+      "query_time_ms": 0.0322,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_26.json",
+      "ingest_time_ms": 7.2334,
+      "peak_memory_kb": 280.74,
+      "query_time_ms": 0.0395,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_27.json",
+      "ingest_time_ms": 7.4327,
+      "peak_memory_kb": 281.74,
+      "query_time_ms": 0.0152,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_28.json",
+      "ingest_time_ms": 6.9973,
+      "peak_memory_kb": 271.17,
+      "query_time_ms": 0.0335,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_29.json",
+      "ingest_time_ms": 8.9983,
+      "peak_memory_kb": 343.13,
+      "query_time_ms": 0.027,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_3.json",
+      "ingest_time_ms": 9.3149,
+      "peak_memory_kb": 357.83,
+      "query_time_ms": 0.022,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_30.json",
+      "ingest_time_ms": 5.8713,
+      "peak_memory_kb": 237.98,
+      "query_time_ms": 0.0201,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_31.json",
+      "ingest_time_ms": 7.1445,
+      "peak_memory_kb": 270.81,
+      "query_time_ms": 0.0613,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_32.json",
+      "ingest_time_ms": 11.1662,
+      "peak_memory_kb": 417.06,
+      "query_time_ms": 0.1638,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_33.json",
+      "ingest_time_ms": 10.5733,
+      "peak_memory_kb": 405.64,
+      "query_time_ms": 0.0514,
+      "num_devices": 33,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_34.json",
+      "ingest_time_ms": 7.8754,
+      "peak_memory_kb": 300.28,
+      "query_time_ms": 0.033,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_35.json",
+      "ingest_time_ms": 8.7904,
+      "peak_memory_kb": 328.91,
+      "query_time_ms": 0.0568,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_36.json",
+      "ingest_time_ms": 7.7716,
+      "peak_memory_kb": 296.43,
+      "query_time_ms": 0.0364,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_37.json",
+      "ingest_time_ms": 5.9294,
+      "peak_memory_kb": 224.01,
+      "query_time_ms": 0.0129,
+      "num_devices": 22,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_38.json",
+      "ingest_time_ms": 7.4803,
+      "peak_memory_kb": 292.04,
+      "query_time_ms": 0.0415,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_39.json",
+      "ingest_time_ms": 6.6541,
+      "peak_memory_kb": 250.33,
+      "query_time_ms": 0.0214,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_4.json",
+      "ingest_time_ms": 5.9321,
+      "peak_memory_kb": 224.57,
+      "query_time_ms": 0.0207,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_40.json",
+      "ingest_time_ms": 6.9966,
+      "peak_memory_kb": 271.86,
+      "query_time_ms": 0.0349,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_41.json",
+      "ingest_time_ms": 8.0994,
+      "peak_memory_kb": 309.97,
+      "query_time_ms": 0.0231,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_42.json",
+      "ingest_time_ms": 5.9033,
+      "peak_memory_kb": 226.31,
+      "query_time_ms": 0.0345,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_43.json",
+      "ingest_time_ms": 8.8441,
+      "peak_memory_kb": 347.4,
+      "query_time_ms": 0.0196,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_44.json",
+      "ingest_time_ms": 9.5792,
+      "peak_memory_kb": 367.32,
+      "query_time_ms": 0.0722,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_45.json",
+      "ingest_time_ms": 8.1813,
+      "peak_memory_kb": 312.11,
+      "query_time_ms": 0.0611,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_46.json",
+      "ingest_time_ms": 6.1064,
+      "peak_memory_kb": 241.96,
+      "query_time_ms": 0.0341,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_47.json",
+      "ingest_time_ms": 8.0636,
+      "peak_memory_kb": 308.67,
+      "query_time_ms": 0.0299,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_48.json",
+      "ingest_time_ms": 6.3444,
+      "peak_memory_kb": 243.6,
+      "query_time_ms": 0.0192,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_49.json",
+      "ingest_time_ms": 7.3009,
+      "peak_memory_kb": 282.86,
+      "query_time_ms": 0.0207,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_5.json",
+      "ingest_time_ms": 8.1668,
+      "peak_memory_kb": 307.52,
+      "query_time_ms": 0.0249,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_50.json",
+      "ingest_time_ms": 9.0931,
+      "peak_memory_kb": 349.73,
+      "query_time_ms": 0.0434,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_6.json",
+      "ingest_time_ms": 6.5942,
+      "peak_memory_kb": 251.67,
+      "query_time_ms": 0.0332,
+      "num_devices": 22,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_7.json",
+      "ingest_time_ms": 8.2901,
+      "peak_memory_kb": 315.07,
+      "query_time_ms": 0.0255,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_8.json",
+      "ingest_time_ms": 5.7912,
+      "peak_memory_kb": 230.76,
+      "query_time_ms": 0.0293,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_feasible_seed_9.json",
+      "ingest_time_ms": 7.553,
+      "peak_memory_kb": 290.17,
+      "query_time_ms": 0.0413,
+      "num_devices": 22,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_1.json",
+      "ingest_time_ms": 8.1283,
+      "peak_memory_kb": 314.59,
+      "query_time_ms": 0.0413,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_10.json",
+      "ingest_time_ms": 7.9333,
+      "peak_memory_kb": 306.76,
+      "query_time_ms": 0.0528,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_11.json",
+      "ingest_time_ms": 7.4048,
+      "peak_memory_kb": 286.83,
+      "query_time_ms": 0.029,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_12.json",
+      "ingest_time_ms": 7.6595,
+      "peak_memory_kb": 297.65,
+      "query_time_ms": 0.029,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_13.json",
+      "ingest_time_ms": 7.4754,
+      "peak_memory_kb": 287.31,
+      "query_time_ms": 0.0231,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_14.json",
+      "ingest_time_ms": 5.9952,
+      "peak_memory_kb": 231.85,
+      "query_time_ms": 0.0319,
+      "num_devices": 23,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_15.json",
+      "ingest_time_ms": 6.9461,
+      "peak_memory_kb": 265.48,
+      "query_time_ms": 0.0269,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_16.json",
+      "ingest_time_ms": 6.0176,
+      "peak_memory_kb": 233.02,
+      "query_time_ms": 0.0193,
+      "num_devices": 23,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_17.json",
+      "ingest_time_ms": 9.1652,
+      "peak_memory_kb": 354.25,
+      "query_time_ms": 0.0321,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_18.json",
+      "ingest_time_ms": 9.0391,
+      "peak_memory_kb": 352.01,
+      "query_time_ms": 0.0487,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_19.json",
+      "ingest_time_ms": 5.7079,
+      "peak_memory_kb": 229.41,
+      "query_time_ms": 0.0309,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_2.json",
+      "ingest_time_ms": 9.5818,
+      "peak_memory_kb": 375.0,
+      "query_time_ms": 0.0306,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_20.json",
+      "ingest_time_ms": 5.8282,
+      "peak_memory_kb": 226.55,
+      "query_time_ms": 0.0288,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_21.json",
+      "ingest_time_ms": 5.1518,
+      "peak_memory_kb": 204.2,
+      "query_time_ms": 0.0205,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_22.json",
+      "ingest_time_ms": 8.5687,
+      "peak_memory_kb": 324.27,
+      "query_time_ms": 0.0557,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_23.json",
+      "ingest_time_ms": 6.5103,
+      "peak_memory_kb": 249.43,
+      "query_time_ms": 0.0154,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_24.json",
+      "ingest_time_ms": 8.74,
+      "peak_memory_kb": 331.1,
+      "query_time_ms": 0.0585,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_25.json",
+      "ingest_time_ms": 5.7937,
+      "peak_memory_kb": 225.46,
+      "query_time_ms": 0.0268,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_26.json",
+      "ingest_time_ms": 7.7032,
+      "peak_memory_kb": 278.17,
+      "query_time_ms": 0.038,
+      "num_devices": 23,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_27.json",
+      "ingest_time_ms": 7.1955,
+      "peak_memory_kb": 272.54,
+      "query_time_ms": 0.0149,
+      "num_devices": 23,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_28.json",
+      "ingest_time_ms": 6.9321,
+      "peak_memory_kb": 268.72,
+      "query_time_ms": 0.0329,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_29.json",
+      "ingest_time_ms": 8.3844,
+      "peak_memory_kb": 318.34,
+      "query_time_ms": 0.0268,
+      "num_devices": 23,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_3.json",
+      "ingest_time_ms": 8.8816,
+      "peak_memory_kb": 335.43,
+      "query_time_ms": 0.0222,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_30.json",
+      "ingest_time_ms": 5.6501,
+      "peak_memory_kb": 228.89,
+      "query_time_ms": 0.0198,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_31.json",
+      "ingest_time_ms": 6.8758,
+      "peak_memory_kb": 263.71,
+      "query_time_ms": 0.0601,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_32.json",
+      "ingest_time_ms": 10.7194,
+      "peak_memory_kb": 408.13,
+      "query_time_ms": 0.0655,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_33.json",
+      "ingest_time_ms": 10.4803,
+      "peak_memory_kb": 396.62,
+      "query_time_ms": 0.0483,
+      "num_devices": 32,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_34.json",
+      "ingest_time_ms": 7.5739,
+      "peak_memory_kb": 291.2,
+      "query_time_ms": 0.0322,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_35.json",
+      "ingest_time_ms": 8.434,
+      "peak_memory_kb": 320.62,
+      "query_time_ms": 0.0533,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_36.json",
+      "ingest_time_ms": 7.5775,
+      "peak_memory_kb": 289.58,
+      "query_time_ms": 0.0327,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_37.json",
+      "ingest_time_ms": 5.7521,
+      "peak_memory_kb": 221.33,
+      "query_time_ms": 0.0127,
+      "num_devices": 21,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_38.json",
+      "ingest_time_ms": 7.2624,
+      "peak_memory_kb": 283.87,
+      "query_time_ms": 0.0379,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_39.json",
+      "ingest_time_ms": 5.5986,
+      "peak_memory_kb": 210.88,
+      "query_time_ms": 0.0208,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_4.json",
+      "ingest_time_ms": 5.635,
+      "peak_memory_kb": 212.05,
+      "query_time_ms": 0.0208,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_40.json",
+      "ingest_time_ms": 6.9476,
+      "peak_memory_kb": 269.54,
+      "query_time_ms": 0.0344,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_41.json",
+      "ingest_time_ms": 7.8097,
+      "peak_memory_kb": 297.54,
+      "query_time_ms": 0.0238,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_42.json",
+      "ingest_time_ms": 5.9263,
+      "peak_memory_kb": 224.01,
+      "query_time_ms": 0.0335,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_43.json",
+      "ingest_time_ms": 8.5368,
+      "peak_memory_kb": 328.93,
+      "query_time_ms": 0.0196,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_44.json",
+      "ingest_time_ms": 9.5638,
+      "peak_memory_kb": 365.03,
+      "query_time_ms": 0.0776,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_45.json",
+      "ingest_time_ms": 7.1858,
+      "peak_memory_kb": 273.95,
+      "query_time_ms": 0.0609,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_46.json",
+      "ingest_time_ms": 5.9323,
+      "peak_memory_kb": 232.16,
+      "query_time_ms": 0.0347,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_47.json",
+      "ingest_time_ms": 7.6177,
+      "peak_memory_kb": 293.11,
+      "query_time_ms": 0.0195,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_48.json",
+      "ingest_time_ms": 6.2723,
+      "peak_memory_kb": 241.24,
+      "query_time_ms": 0.0191,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_49.json",
+      "ingest_time_ms": 7.0749,
+      "peak_memory_kb": 273.48,
+      "query_time_ms": 0.0208,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_5.json",
+      "ingest_time_ms": 7.5981,
+      "peak_memory_kb": 292.17,
+      "query_time_ms": 0.0227,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_50.json",
+      "ingest_time_ms": 8.7079,
+      "peak_memory_kb": 330.82,
+      "query_time_ms": 0.0475,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_6.json",
+      "ingest_time_ms": 8.7124,
+      "peak_memory_kb": 328.91,
+      "query_time_ms": 0.0437,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_7.json",
+      "ingest_time_ms": 8.2167,
+      "peak_memory_kb": 312.71,
+      "query_time_ms": 0.0254,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_8.json",
+      "ingest_time_ms": 5.4766,
+      "peak_memory_kb": 221.39,
+      "query_time_ms": 0.0288,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt1_infeasible_seed_9.json",
+      "ingest_time_ms": 7.3581,
+      "peak_memory_kb": 280.73,
+      "query_time_ms": 0.0425,
+      "num_devices": 21,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_1.json",
+      "ingest_time_ms": 8.1788,
+      "peak_memory_kb": 317.03,
+      "query_time_ms": 0.0371,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_12.json",
+      "ingest_time_ms": 7.9496,
+      "peak_memory_kb": 306.76,
+      "query_time_ms": 0.0298,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_13.json",
+      "ingest_time_ms": 7.9871,
+      "peak_memory_kb": 302.85,
+      "query_time_ms": 0.0232,
+      "num_devices": 32,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_16.json",
+      "ingest_time_ms": 6.2953,
+      "peak_memory_kb": 242.43,
+      "query_time_ms": 0.0194,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_18.json",
+      "ingest_time_ms": 9.0695,
+      "peak_memory_kb": 354.24,
+      "query_time_ms": 0.0533,
+      "num_devices": 32,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_19.json",
+      "ingest_time_ms": 6.838,
+      "peak_memory_kb": 265.22,
+      "query_time_ms": 0.0224,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_2.json",
+      "ingest_time_ms": 9.8271,
+      "peak_memory_kb": 381.37,
+      "query_time_ms": 0.0374,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_21.json",
+      "ingest_time_ms": 5.7154,
+      "peak_memory_kb": 222.84,
+      "query_time_ms": 0.0208,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_23.json",
+      "ingest_time_ms": 10.0873,
+      "peak_memory_kb": 387.56,
+      "query_time_ms": 0.0741,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_25.json",
+      "ingest_time_ms": 6.1454,
+      "peak_memory_kb": 234.85,
+      "query_time_ms": 0.0327,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_28.json",
+      "ingest_time_ms": 7.0826,
+      "peak_memory_kb": 271.1,
+      "query_time_ms": 0.0368,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_3.json",
+      "ingest_time_ms": 9.3845,
+      "peak_memory_kb": 357.78,
+      "query_time_ms": 0.0228,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_32.json",
+      "ingest_time_ms": 8.5146,
+      "peak_memory_kb": 321.67,
+      "query_time_ms": 0.0526,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_33.json",
+      "ingest_time_ms": 10.53,
+      "peak_memory_kb": 405.63,
+      "query_time_ms": 0.0656,
+      "num_devices": 33,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_36.json",
+      "ingest_time_ms": 7.8578,
+      "peak_memory_kb": 296.43,
+      "query_time_ms": 0.0366,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_38.json",
+      "ingest_time_ms": 7.5678,
+      "peak_memory_kb": 291.88,
+      "query_time_ms": 0.0378,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_40.json",
+      "ingest_time_ms": 7.0348,
+      "peak_memory_kb": 271.86,
+      "query_time_ms": 0.0337,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_45.json",
+      "ingest_time_ms": 8.1644,
+      "peak_memory_kb": 312.11,
+      "query_time_ms": 0.0629,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_46.json",
+      "ingest_time_ms": 6.1289,
+      "peak_memory_kb": 241.96,
+      "query_time_ms": 0.0344,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_47.json",
+      "ingest_time_ms": 8.0276,
+      "peak_memory_kb": 308.67,
+      "query_time_ms": 0.0301,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_48.json",
+      "ingest_time_ms": 6.3563,
+      "peak_memory_kb": 243.6,
+      "query_time_ms": 0.0189,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_5.json",
+      "ingest_time_ms": 8.0312,
+      "peak_memory_kb": 307.52,
+      "query_time_ms": 0.0225,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_52.json",
+      "ingest_time_ms": 7.0409,
+      "peak_memory_kb": 272.3,
+      "query_time_ms": 0.0195,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_53.json",
+      "ingest_time_ms": 7.7629,
+      "peak_memory_kb": 298.75,
+      "query_time_ms": 0.0558,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_54.json",
+      "ingest_time_ms": 7.3438,
+      "peak_memory_kb": 284.29,
+      "query_time_ms": 0.0226,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_58.json",
+      "ingest_time_ms": 5.5714,
+      "peak_memory_kb": 220.04,
+      "query_time_ms": 0.0227,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_60.json",
+      "ingest_time_ms": 7.6315,
+      "peak_memory_kb": 293.88,
+      "query_time_ms": 0.0199,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_61.json",
+      "ingest_time_ms": 9.8344,
+      "peak_memory_kb": 385.99,
+      "query_time_ms": 0.034,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_63.json",
+      "ingest_time_ms": 5.6598,
+      "peak_memory_kb": 225.76,
+      "query_time_ms": 0.035,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_65.json",
+      "ingest_time_ms": 8.0558,
+      "peak_memory_kb": 312.95,
+      "query_time_ms": 0.0293,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_67.json",
+      "ingest_time_ms": 6.841,
+      "peak_memory_kb": 262.6,
+      "query_time_ms": 0.0244,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_69.json",
+      "ingest_time_ms": 8.7905,
+      "peak_memory_kb": 337.02,
+      "query_time_ms": 0.0408,
+      "num_devices": 33,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_7.json",
+      "ingest_time_ms": 8.3479,
+      "peak_memory_kb": 315.02,
+      "query_time_ms": 0.0257,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_70.json",
+      "ingest_time_ms": 6.994,
+      "peak_memory_kb": 264.84,
+      "query_time_ms": 0.0365,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_73.json",
+      "ingest_time_ms": 7.26,
+      "peak_memory_kb": 276.42,
+      "query_time_ms": 0.0425,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_74.json",
+      "ingest_time_ms": 9.0855,
+      "peak_memory_kb": 348.64,
+      "query_time_ms": 0.03,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_76.json",
+      "ingest_time_ms": 8.8874,
+      "peak_memory_kb": 347.99,
+      "query_time_ms": 0.0581,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_77.json",
+      "ingest_time_ms": 5.8724,
+      "peak_memory_kb": 227.75,
+      "query_time_ms": 0.0221,
+      "num_devices": 22,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_78.json",
+      "ingest_time_ms": 6.8138,
+      "peak_memory_kb": 262.4,
+      "query_time_ms": 0.0394,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_79.json",
+      "ingest_time_ms": 6.9831,
+      "peak_memory_kb": 267.46,
+      "query_time_ms": 0.0285,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_8.json",
+      "ingest_time_ms": 5.8722,
+      "peak_memory_kb": 230.76,
+      "query_time_ms": 0.0285,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_82.json",
+      "ingest_time_ms": 7.3652,
+      "peak_memory_kb": 282.33,
+      "query_time_ms": 0.0359,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_83.json",
+      "ingest_time_ms": 7.8692,
+      "peak_memory_kb": 303.98,
+      "query_time_ms": 0.052,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_85.json",
+      "ingest_time_ms": 7.7465,
+      "peak_memory_kb": 295.95,
+      "query_time_ms": 0.0335,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_87.json",
+      "ingest_time_ms": 6.1285,
+      "peak_memory_kb": 235.56,
+      "query_time_ms": 0.0308,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_88.json",
+      "ingest_time_ms": 10.1736,
+      "peak_memory_kb": 390.74,
+      "query_time_ms": 0.0295,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_91.json",
+      "ingest_time_ms": 8.2071,
+      "peak_memory_kb": 320.34,
+      "query_time_ms": 0.0345,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_93.json",
+      "ingest_time_ms": 6.4815,
+      "peak_memory_kb": 246.82,
+      "query_time_ms": 0.0212,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_94.json",
+      "ingest_time_ms": 10.5283,
+      "peak_memory_kb": 404.62,
+      "query_time_ms": 0.0599,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_feasible_seed_95.json",
+      "ingest_time_ms": 7.273,
+      "peak_memory_kb": 281.62,
+      "query_time_ms": 0.0505,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_10.json",
+      "ingest_time_ms": 8.0563,
+      "peak_memory_kb": 309.17,
+      "query_time_ms": 0.0548,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_101.json",
+      "ingest_time_ms": 9.0771,
+      "peak_memory_kb": 355.62,
+      "query_time_ms": 0.0255,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_102.json",
+      "ingest_time_ms": 8.2078,
+      "peak_memory_kb": 312.97,
+      "query_time_ms": 0.0268,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_103.json",
+      "ingest_time_ms": 5.0813,
+      "peak_memory_kb": 198.97,
+      "query_time_ms": 0.0314,
+      "num_devices": 23,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_104.json",
+      "ingest_time_ms": 6.098,
+      "peak_memory_kb": 237.02,
+      "query_time_ms": 0.0244,
+      "num_devices": 21,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_105.json",
+      "ingest_time_ms": 8.828,
+      "peak_memory_kb": 331.06,
+      "query_time_ms": 0.0412,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_106.json",
+      "ingest_time_ms": 6.4293,
+      "peak_memory_kb": 248.87,
+      "query_time_ms": 0.0315,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_107.json",
+      "ingest_time_ms": 7.6736,
+      "peak_memory_kb": 298.75,
+      "query_time_ms": 0.0293,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_108.json",
+      "ingest_time_ms": 5.6052,
+      "peak_memory_kb": 214.54,
+      "query_time_ms": 0.0185,
+      "num_devices": 22,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_109.json",
+      "ingest_time_ms": 7.0458,
+      "peak_memory_kb": 271.52,
+      "query_time_ms": 0.0371,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_11.json",
+      "ingest_time_ms": 7.619,
+      "peak_memory_kb": 295.23,
+      "query_time_ms": 0.0337,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_110.json",
+      "ingest_time_ms": 5.059,
+      "peak_memory_kb": 197.62,
+      "query_time_ms": 0.0265,
+      "num_devices": 22,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_111.json",
+      "ingest_time_ms": 6.7284,
+      "peak_memory_kb": 261.9,
+      "query_time_ms": 0.047,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_112.json",
+      "ingest_time_ms": 7.9638,
+      "peak_memory_kb": 311.06,
+      "query_time_ms": 0.0244,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_113.json",
+      "ingest_time_ms": 6.8384,
+      "peak_memory_kb": 265.1,
+      "query_time_ms": 0.022,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_114.json",
+      "ingest_time_ms": 6.6966,
+      "peak_memory_kb": 262.04,
+      "query_time_ms": 0.0373,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_115.json",
+      "ingest_time_ms": 6.5721,
+      "peak_memory_kb": 257.79,
+      "query_time_ms": 0.0543,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_116.json",
+      "ingest_time_ms": 8.0377,
+      "peak_memory_kb": 313.2,
+      "query_time_ms": 0.0463,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_117.json",
+      "ingest_time_ms": 8.892,
+      "peak_memory_kb": 341.76,
+      "query_time_ms": 0.0423,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_118.json",
+      "ingest_time_ms": 4.965,
+      "peak_memory_kb": 192.01,
+      "query_time_ms": 0.0126,
+      "num_devices": 20,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_119.json",
+      "ingest_time_ms": 8.5988,
+      "peak_memory_kb": 328.62,
+      "query_time_ms": 0.0306,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_120.json",
+      "ingest_time_ms": 7.7055,
+      "peak_memory_kb": 293.43,
+      "query_time_ms": 0.0149,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_121.json",
+      "ingest_time_ms": 7.3309,
+      "peak_memory_kb": 286.2,
+      "query_time_ms": 0.0277,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_122.json",
+      "ingest_time_ms": 6.6221,
+      "peak_memory_kb": 249.67,
+      "query_time_ms": 0.0403,
+      "num_devices": 21,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_123.json",
+      "ingest_time_ms": 7.6481,
+      "peak_memory_kb": 292.06,
+      "query_time_ms": 0.0377,
+      "num_devices": 23,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_124.json",
+      "ingest_time_ms": 6.084,
+      "peak_memory_kb": 236.09,
+      "query_time_ms": 0.0281,
+      "num_devices": 22,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_125.json",
+      "ingest_time_ms": 5.2322,
+      "peak_memory_kb": 211.8,
+      "query_time_ms": 0.0187,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_14.json",
+      "ingest_time_ms": 6.3381,
+      "peak_memory_kb": 248.05,
+      "query_time_ms": 0.0334,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_15.json",
+      "ingest_time_ms": 6.9268,
+      "peak_memory_kb": 268.06,
+      "query_time_ms": 0.0304,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_17.json",
+      "ingest_time_ms": 9.499,
+      "peak_memory_kb": 369.81,
+      "query_time_ms": 0.0362,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_20.json",
+      "ingest_time_ms": 6.2265,
+      "peak_memory_kb": 242.08,
+      "query_time_ms": 0.0289,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_22.json",
+      "ingest_time_ms": 8.7891,
+      "peak_memory_kb": 333.42,
+      "query_time_ms": 0.0527,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_24.json",
+      "ingest_time_ms": 7.8335,
+      "peak_memory_kb": 298.58,
+      "query_time_ms": 0.0294,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_26.json",
+      "ingest_time_ms": 5.4966,
+      "peak_memory_kb": 211.81,
+      "query_time_ms": 0.0079,
+      "num_devices": 20,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_27.json",
+      "ingest_time_ms": 7.4714,
+      "peak_memory_kb": 281.67,
+      "query_time_ms": 0.0165,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_29.json",
+      "ingest_time_ms": 8.8708,
+      "peak_memory_kb": 343.07,
+      "query_time_ms": 0.028,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_30.json",
+      "ingest_time_ms": 5.8535,
+      "peak_memory_kb": 237.94,
+      "query_time_ms": 0.0197,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_31.json",
+      "ingest_time_ms": 7.248,
+      "peak_memory_kb": 270.78,
+      "query_time_ms": 0.061,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_34.json",
+      "ingest_time_ms": 7.8198,
+      "peak_memory_kb": 300.49,
+      "query_time_ms": 0.0321,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_35.json",
+      "ingest_time_ms": 8.6707,
+      "peak_memory_kb": 328.91,
+      "query_time_ms": 0.0573,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_37.json",
+      "ingest_time_ms": 5.9341,
+      "peak_memory_kb": 224.01,
+      "query_time_ms": 0.0127,
+      "num_devices": 22,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_39.json",
+      "ingest_time_ms": 6.6705,
+      "peak_memory_kb": 250.33,
+      "query_time_ms": 0.0213,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_4.json",
+      "ingest_time_ms": 5.9532,
+      "peak_memory_kb": 224.57,
+      "query_time_ms": 0.0204,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_41.json",
+      "ingest_time_ms": 8.0987,
+      "peak_memory_kb": 309.97,
+      "query_time_ms": 0.026,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_42.json",
+      "ingest_time_ms": 6.0373,
+      "peak_memory_kb": 226.31,
+      "query_time_ms": 0.035,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_43.json",
+      "ingest_time_ms": 8.8364,
+      "peak_memory_kb": 347.54,
+      "query_time_ms": 0.0198,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_44.json",
+      "ingest_time_ms": 9.5508,
+      "peak_memory_kb": 367.32,
+      "query_time_ms": 0.0897,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_49.json",
+      "ingest_time_ms": 7.3873,
+      "peak_memory_kb": 282.84,
+      "query_time_ms": 0.0207,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_6.json",
+      "ingest_time_ms": 8.8923,
+      "peak_memory_kb": 340.88,
+      "query_time_ms": 0.044,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt2_infeasible_seed_9.json",
+      "ingest_time_ms": 7.5466,
+      "peak_memory_kb": 290.14,
+      "query_time_ms": 0.0411,
+      "num_devices": 22,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_1.json",
+      "ingest_time_ms": 8.3155,
+      "peak_memory_kb": 317.03,
+      "query_time_ms": 0.0379,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_10.json",
+      "ingest_time_ms": 7.9994,
+      "peak_memory_kb": 309.17,
+      "query_time_ms": 0.0556,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_11.json",
+      "ingest_time_ms": 9.5959,
+      "peak_memory_kb": 372.93,
+      "query_time_ms": 0.0468,
+      "num_devices": 32,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_12.json",
+      "ingest_time_ms": 8.0421,
+      "peak_memory_kb": 306.76,
+      "query_time_ms": 0.0292,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_13.json",
+      "ingest_time_ms": 7.8662,
+      "peak_memory_kb": 302.85,
+      "query_time_ms": 0.0232,
+      "num_devices": 32,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_14.json",
+      "ingest_time_ms": 6.3547,
+      "peak_memory_kb": 248.05,
+      "query_time_ms": 0.0322,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_15.json",
+      "ingest_time_ms": 6.9655,
+      "peak_memory_kb": 268.06,
+      "query_time_ms": 0.0277,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_16.json",
+      "ingest_time_ms": 6.2024,
+      "peak_memory_kb": 242.43,
+      "query_time_ms": 0.0196,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_17.json",
+      "ingest_time_ms": 9.5861,
+      "peak_memory_kb": 369.88,
+      "query_time_ms": 0.0343,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_18.json",
+      "ingest_time_ms": 9.3557,
+      "peak_memory_kb": 354.24,
+      "query_time_ms": 0.0497,
+      "num_devices": 32,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_19.json",
+      "ingest_time_ms": 5.9322,
+      "peak_memory_kb": 239.24,
+      "query_time_ms": 0.0266,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_2.json",
+      "ingest_time_ms": 9.7874,
+      "peak_memory_kb": 381.3,
+      "query_time_ms": 0.0356,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_20.json",
+      "ingest_time_ms": 6.1948,
+      "peak_memory_kb": 242.19,
+      "query_time_ms": 0.0288,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_21.json",
+      "ingest_time_ms": 5.6592,
+      "peak_memory_kb": 222.95,
+      "query_time_ms": 0.0207,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_22.json",
+      "ingest_time_ms": 8.7643,
+      "peak_memory_kb": 333.42,
+      "query_time_ms": 0.0549,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_23.json",
+      "ingest_time_ms": 6.7695,
+      "peak_memory_kb": 256.21,
+      "query_time_ms": 0.0227,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_24.json",
+      "ingest_time_ms": 8.9542,
+      "peak_memory_kb": 340.26,
+      "query_time_ms": 0.0579,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_25.json",
+      "ingest_time_ms": 5.9963,
+      "peak_memory_kb": 234.85,
+      "query_time_ms": 0.0329,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_26.json",
+      "ingest_time_ms": 7.3,
+      "peak_memory_kb": 280.63,
+      "query_time_ms": 0.0387,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_27.json",
+      "ingest_time_ms": 7.4636,
+      "peak_memory_kb": 281.67,
+      "query_time_ms": 0.0152,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_28.json",
+      "ingest_time_ms": 6.9914,
+      "peak_memory_kb": 271.1,
+      "query_time_ms": 0.0368,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_29.json",
+      "ingest_time_ms": 8.9645,
+      "peak_memory_kb": 343.07,
+      "query_time_ms": 0.0281,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_3.json",
+      "ingest_time_ms": 9.294,
+      "peak_memory_kb": 357.78,
+      "query_time_ms": 0.0236,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_30.json",
+      "ingest_time_ms": 5.8793,
+      "peak_memory_kb": 238.05,
+      "query_time_ms": 0.0196,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_31.json",
+      "ingest_time_ms": 7.0769,
+      "peak_memory_kb": 270.78,
+      "query_time_ms": 0.0604,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_32.json",
+      "ingest_time_ms": 10.7697,
+      "peak_memory_kb": 417.06,
+      "query_time_ms": 0.0804,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_33.json",
+      "ingest_time_ms": 10.5666,
+      "peak_memory_kb": 405.63,
+      "query_time_ms": 0.0491,
+      "num_devices": 33,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_34.json",
+      "ingest_time_ms": 7.8138,
+      "peak_memory_kb": 300.28,
+      "query_time_ms": 0.0332,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_35.json",
+      "ingest_time_ms": 8.6452,
+      "peak_memory_kb": 328.91,
+      "query_time_ms": 0.0544,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_36.json",
+      "ingest_time_ms": 7.7927,
+      "peak_memory_kb": 296.43,
+      "query_time_ms": 0.037,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_37.json",
+      "ingest_time_ms": 5.8217,
+      "peak_memory_kb": 224.01,
+      "query_time_ms": 0.0192,
+      "num_devices": 22,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_38.json",
+      "ingest_time_ms": 7.4723,
+      "peak_memory_kb": 292.02,
+      "query_time_ms": 0.0377,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_39.json",
+      "ingest_time_ms": 6.6259,
+      "peak_memory_kb": 250.33,
+      "query_time_ms": 0.0213,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_4.json",
+      "ingest_time_ms": 5.9448,
+      "peak_memory_kb": 224.57,
+      "query_time_ms": 0.0212,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_40.json",
+      "ingest_time_ms": 7.022,
+      "peak_memory_kb": 271.86,
+      "query_time_ms": 0.0347,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_41.json",
+      "ingest_time_ms": 8.0868,
+      "peak_memory_kb": 309.97,
+      "query_time_ms": 0.0234,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_42.json",
+      "ingest_time_ms": 5.9263,
+      "peak_memory_kb": 226.31,
+      "query_time_ms": 0.0352,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_43.json",
+      "ingest_time_ms": 9.1166,
+      "peak_memory_kb": 347.4,
+      "query_time_ms": 0.0483,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_44.json",
+      "ingest_time_ms": 9.7136,
+      "peak_memory_kb": 367.32,
+      "query_time_ms": 0.0821,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_45.json",
+      "ingest_time_ms": 8.1574,
+      "peak_memory_kb": 312.11,
+      "query_time_ms": 0.0634,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_46.json",
+      "ingest_time_ms": 6.1526,
+      "peak_memory_kb": 242.07,
+      "query_time_ms": 0.0338,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_47.json",
+      "ingest_time_ms": 8.0735,
+      "peak_memory_kb": 308.67,
+      "query_time_ms": 0.0296,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_48.json",
+      "ingest_time_ms": 6.3175,
+      "peak_memory_kb": 243.6,
+      "query_time_ms": 0.0192,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_49.json",
+      "ingest_time_ms": 7.317,
+      "peak_memory_kb": 282.84,
+      "query_time_ms": 0.0255,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_5.json",
+      "ingest_time_ms": 8.0086,
+      "peak_memory_kb": 307.52,
+      "query_time_ms": 0.0231,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_50.json",
+      "ingest_time_ms": 9.0299,
+      "peak_memory_kb": 349.73,
+      "query_time_ms": 0.041,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_6.json",
+      "ingest_time_ms": 6.5551,
+      "peak_memory_kb": 251.67,
+      "query_time_ms": 0.033,
+      "num_devices": 22,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_7.json",
+      "ingest_time_ms": 8.3359,
+      "peak_memory_kb": 315.09,
+      "query_time_ms": 0.0254,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_8.json",
+      "ingest_time_ms": 5.7914,
+      "peak_memory_kb": 230.87,
+      "query_time_ms": 0.0288,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_feasible_seed_9.json",
+      "ingest_time_ms": 7.549,
+      "peak_memory_kb": 290.14,
+      "query_time_ms": 0.0422,
+      "num_devices": 22,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_1.json",
+      "ingest_time_ms": 7.5271,
+      "peak_memory_kb": 292.39,
+      "query_time_ms": 0.0365,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_10.json",
+      "ingest_time_ms": 7.9714,
+      "peak_memory_kb": 306.78,
+      "query_time_ms": 0.0569,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_11.json",
+      "ingest_time_ms": 8.3828,
+      "peak_memory_kb": 319.75,
+      "query_time_ms": 0.0328,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_12.json",
+      "ingest_time_ms": 7.6114,
+      "peak_memory_kb": 294.63,
+      "query_time_ms": 0.029,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_13.json",
+      "ingest_time_ms": 7.5148,
+      "peak_memory_kb": 291.13,
+      "query_time_ms": 0.0232,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_14.json",
+      "ingest_time_ms": 5.7357,
+      "peak_memory_kb": 223.21,
+      "query_time_ms": 0.0328,
+      "num_devices": 21,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_15.json",
+      "ingest_time_ms": 6.973,
+      "peak_memory_kb": 265.78,
+      "query_time_ms": 0.0335,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_16.json",
+      "ingest_time_ms": 5.7046,
+      "peak_memory_kb": 218.81,
+      "query_time_ms": 0.0198,
+      "num_devices": 22,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_17.json",
+      "ingest_time_ms": 8.1583,
+      "peak_memory_kb": 310.04,
+      "query_time_ms": 0.0225,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_18.json",
+      "ingest_time_ms": 8.805,
+      "peak_memory_kb": 338.15,
+      "query_time_ms": 0.0551,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_19.json",
+      "ingest_time_ms": 5.5644,
+      "peak_memory_kb": 223.71,
+      "query_time_ms": 0.0259,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_2.json",
+      "ingest_time_ms": 9.6983,
+      "peak_memory_kb": 375.74,
+      "query_time_ms": 0.0359,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_20.json",
+      "ingest_time_ms": 5.9353,
+      "peak_memory_kb": 231.24,
+      "query_time_ms": 0.0297,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_21.json",
+      "ingest_time_ms": 5.0311,
+      "peak_memory_kb": 204.04,
+      "query_time_ms": 0.022,
+      "num_devices": 23,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_22.json",
+      "ingest_time_ms": 8.7125,
+      "peak_memory_kb": 331.3,
+      "query_time_ms": 0.0566,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_23.json",
+      "ingest_time_ms": 6.6453,
+      "peak_memory_kb": 254.18,
+      "query_time_ms": 0.0193,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_24.json",
+      "ingest_time_ms": 8.5186,
+      "peak_memory_kb": 325.49,
+      "query_time_ms": 0.0531,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_25.json",
+      "ingest_time_ms": 5.8266,
+      "peak_memory_kb": 229.21,
+      "query_time_ms": 0.0322,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_26.json",
+      "ingest_time_ms": 5.716,
+      "peak_memory_kb": 224.11,
+      "query_time_ms": 0.0342,
+      "num_devices": 21,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_27.json",
+      "ingest_time_ms": 6.7913,
+      "peak_memory_kb": 255.47,
+      "query_time_ms": 0.0092,
+      "num_devices": 21,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_28.json",
+      "ingest_time_ms": 6.1905,
+      "peak_memory_kb": 239.71,
+      "query_time_ms": 0.0322,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_29.json",
+      "ingest_time_ms": 8.7057,
+      "peak_memory_kb": 333.94,
+      "query_time_ms": 0.0269,
+      "num_devices": 23,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_3.json",
+      "ingest_time_ms": 8.5339,
+      "peak_memory_kb": 324.08,
+      "query_time_ms": 0.022,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_30.json",
+      "ingest_time_ms": 5.5641,
+      "peak_memory_kb": 226.53,
+      "query_time_ms": 0.0196,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_31.json",
+      "ingest_time_ms": 6.4038,
+      "peak_memory_kb": 246.0,
+      "query_time_ms": 0.0624,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_32.json",
+      "ingest_time_ms": 10.5399,
+      "peak_memory_kb": 407.23,
+      "query_time_ms": 0.1093,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_33.json",
+      "ingest_time_ms": 10.4245,
+      "peak_memory_kb": 403.82,
+      "query_time_ms": 0.0573,
+      "num_devices": 32,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_34.json",
+      "ingest_time_ms": 7.4008,
+      "peak_memory_kb": 282.67,
+      "query_time_ms": 0.033,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_35.json",
+      "ingest_time_ms": 8.1993,
+      "peak_memory_kb": 310.59,
+      "query_time_ms": 0.0539,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_36.json",
+      "ingest_time_ms": 7.7197,
+      "peak_memory_kb": 294.02,
+      "query_time_ms": 0.0451,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_37.json",
+      "ingest_time_ms": 5.5778,
+      "peak_memory_kb": 214.58,
+      "query_time_ms": 0.0126,
+      "num_devices": 21,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_38.json",
+      "ingest_time_ms": 7.0414,
+      "peak_memory_kb": 273.88,
+      "query_time_ms": 0.0379,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_39.json",
+      "ingest_time_ms": 6.3253,
+      "peak_memory_kb": 238.74,
+      "query_time_ms": 0.0211,
+      "num_devices": 23,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_4.json",
+      "ingest_time_ms": 5.7224,
+      "peak_memory_kb": 212.34,
+      "query_time_ms": 0.0211,
+      "num_devices": 23,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_40.json",
+      "ingest_time_ms": 6.3287,
+      "peak_memory_kb": 244.81,
+      "query_time_ms": 0.0326,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_41.json",
+      "ingest_time_ms": 7.6851,
+      "peak_memory_kb": 294.39,
+      "query_time_ms": 0.0223,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_42.json",
+      "ingest_time_ms": 5.7325,
+      "peak_memory_kb": 217.12,
+      "query_time_ms": 0.0348,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_43.json",
+      "ingest_time_ms": 8.3261,
+      "peak_memory_kb": 321.05,
+      "query_time_ms": 0.0208,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_44.json",
+      "ingest_time_ms": 8.7675,
+      "peak_memory_kb": 329.83,
+      "query_time_ms": 0.0759,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_45.json",
+      "ingest_time_ms": 7.7059,
+      "peak_memory_kb": 294.73,
+      "query_time_ms": 0.0546,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_46.json",
+      "ingest_time_ms": 5.4431,
+      "peak_memory_kb": 217.64,
+      "query_time_ms": 0.0348,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_47.json",
+      "ingest_time_ms": 7.9253,
+      "peak_memory_kb": 299.61,
+      "query_time_ms": 0.0294,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_48.json",
+      "ingest_time_ms": 6.0241,
+      "peak_memory_kb": 224.96,
+      "query_time_ms": 0.0187,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_49.json",
+      "ingest_time_ms": 7.0753,
+      "peak_memory_kb": 274.95,
+      "query_time_ms": 0.0206,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_5.json",
+      "ingest_time_ms": 7.5497,
+      "peak_memory_kb": 288.77,
+      "query_time_ms": 0.0234,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_50.json",
+      "ingest_time_ms": 8.6828,
+      "peak_memory_kb": 331.64,
+      "query_time_ms": 0.0435,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_6.json",
+      "ingest_time_ms": 5.5353,
+      "peak_memory_kb": 211.96,
+      "query_time_ms": 0.0335,
+      "num_devices": 21,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_7.json",
+      "ingest_time_ms": 8.0527,
+      "peak_memory_kb": 305.86,
+      "query_time_ms": 0.0273,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_8.json",
+      "ingest_time_ms": 5.373,
+      "peak_memory_kb": 215.59,
+      "query_time_ms": 0.0278,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt3_infeasible_seed_9.json",
+      "ingest_time_ms": 7.1528,
+      "peak_memory_kb": 274.2,
+      "query_time_ms": 0.0406,
+      "num_devices": 19,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_1.json",
+      "ingest_time_ms": 8.3515,
+      "peak_memory_kb": 317.17,
+      "query_time_ms": 0.0368,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_10.json",
+      "ingest_time_ms": 7.9785,
+      "peak_memory_kb": 309.17,
+      "query_time_ms": 0.057,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_11.json",
+      "ingest_time_ms": 9.6108,
+      "peak_memory_kb": 372.93,
+      "query_time_ms": 0.0575,
+      "num_devices": 32,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_12.json",
+      "ingest_time_ms": 7.9393,
+      "peak_memory_kb": 306.76,
+      "query_time_ms": 0.0302,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_13.json",
+      "ingest_time_ms": 8.0327,
+      "peak_memory_kb": 302.85,
+      "query_time_ms": 0.0237,
+      "num_devices": 32,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_14.json",
+      "ingest_time_ms": 6.2955,
+      "peak_memory_kb": 248.05,
+      "query_time_ms": 0.0323,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_15.json",
+      "ingest_time_ms": 6.9143,
+      "peak_memory_kb": 268.06,
+      "query_time_ms": 0.028,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_16.json",
+      "ingest_time_ms": 6.2455,
+      "peak_memory_kb": 242.43,
+      "query_time_ms": 0.0196,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_17.json",
+      "ingest_time_ms": 9.5057,
+      "peak_memory_kb": 369.88,
+      "query_time_ms": 0.0319,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_18.json",
+      "ingest_time_ms": 9.1177,
+      "peak_memory_kb": 354.24,
+      "query_time_ms": 0.0554,
+      "num_devices": 32,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_19.json",
+      "ingest_time_ms": 6.148,
+      "peak_memory_kb": 239.51,
+      "query_time_ms": 0.0271,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_2.json",
+      "ingest_time_ms": 9.7962,
+      "peak_memory_kb": 381.3,
+      "query_time_ms": 0.037,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_20.json",
+      "ingest_time_ms": 6.2086,
+      "peak_memory_kb": 242.35,
+      "query_time_ms": 0.0288,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_21.json",
+      "ingest_time_ms": 5.7177,
+      "peak_memory_kb": 223.17,
+      "query_time_ms": 0.0208,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_22.json",
+      "ingest_time_ms": 8.7768,
+      "peak_memory_kb": 333.42,
+      "query_time_ms": 0.0557,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_23.json",
+      "ingest_time_ms": 10.1414,
+      "peak_memory_kb": 387.56,
+      "query_time_ms": 0.0896,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_24.json",
+      "ingest_time_ms": 9.0019,
+      "peak_memory_kb": 340.19,
+      "query_time_ms": 0.0572,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_25.json",
+      "ingest_time_ms": 6.0288,
+      "peak_memory_kb": 234.85,
+      "query_time_ms": 0.0325,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_26.json",
+      "ingest_time_ms": 7.2504,
+      "peak_memory_kb": 280.63,
+      "query_time_ms": 0.039,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_27.json",
+      "ingest_time_ms": 7.4226,
+      "peak_memory_kb": 281.67,
+      "query_time_ms": 0.0151,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_28.json",
+      "ingest_time_ms": 7.003,
+      "peak_memory_kb": 271.1,
+      "query_time_ms": 0.0327,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_29.json",
+      "ingest_time_ms": 8.9391,
+      "peak_memory_kb": 343.07,
+      "query_time_ms": 0.0288,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_3.json",
+      "ingest_time_ms": 9.405,
+      "peak_memory_kb": 357.78,
+      "query_time_ms": 0.0223,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_30.json",
+      "ingest_time_ms": 5.8674,
+      "peak_memory_kb": 238.27,
+      "query_time_ms": 0.0194,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_31.json",
+      "ingest_time_ms": 7.1799,
+      "peak_memory_kb": 270.78,
+      "query_time_ms": 0.0619,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_32.json",
+      "ingest_time_ms": 8.4472,
+      "peak_memory_kb": 321.67,
+      "query_time_ms": 0.0507,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_33.json",
+      "ingest_time_ms": 10.6307,
+      "peak_memory_kb": 405.63,
+      "query_time_ms": 0.0603,
+      "num_devices": 33,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_34.json",
+      "ingest_time_ms": 7.8696,
+      "peak_memory_kb": 300.28,
+      "query_time_ms": 0.0329,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_35.json",
+      "ingest_time_ms": 8.8076,
+      "peak_memory_kb": 328.91,
+      "query_time_ms": 0.0561,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_36.json",
+      "ingest_time_ms": 7.8968,
+      "peak_memory_kb": 296.43,
+      "query_time_ms": 0.0367,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_37.json",
+      "ingest_time_ms": 5.8418,
+      "peak_memory_kb": 224.01,
+      "query_time_ms": 0.0131,
+      "num_devices": 22,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_38.json",
+      "ingest_time_ms": 7.5915,
+      "peak_memory_kb": 292.02,
+      "query_time_ms": 0.0385,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_39.json",
+      "ingest_time_ms": 6.6151,
+      "peak_memory_kb": 250.33,
+      "query_time_ms": 0.021,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_4.json",
+      "ingest_time_ms": 5.9781,
+      "peak_memory_kb": 224.57,
+      "query_time_ms": 0.0215,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_40.json",
+      "ingest_time_ms": 6.9969,
+      "peak_memory_kb": 271.86,
+      "query_time_ms": 0.0359,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_41.json",
+      "ingest_time_ms": 8.0803,
+      "peak_memory_kb": 309.97,
+      "query_time_ms": 0.0232,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_42.json",
+      "ingest_time_ms": 5.9391,
+      "peak_memory_kb": 226.31,
+      "query_time_ms": 0.035,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_43.json",
+      "ingest_time_ms": 8.8747,
+      "peak_memory_kb": 347.4,
+      "query_time_ms": 0.0205,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_44.json",
+      "ingest_time_ms": 9.5509,
+      "peak_memory_kb": 367.32,
+      "query_time_ms": 0.0757,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_45.json",
+      "ingest_time_ms": 8.1437,
+      "peak_memory_kb": 312.11,
+      "query_time_ms": 0.0623,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_46.json",
+      "ingest_time_ms": 6.2833,
+      "peak_memory_kb": 242.29,
+      "query_time_ms": 0.0344,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_47.json",
+      "ingest_time_ms": 7.9953,
+      "peak_memory_kb": 308.67,
+      "query_time_ms": 0.0311,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_48.json",
+      "ingest_time_ms": 6.3231,
+      "peak_memory_kb": 243.6,
+      "query_time_ms": 0.0189,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_49.json",
+      "ingest_time_ms": 7.3226,
+      "peak_memory_kb": 282.84,
+      "query_time_ms": 0.0209,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_5.json",
+      "ingest_time_ms": 8.042,
+      "peak_memory_kb": 307.52,
+      "query_time_ms": 0.0238,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_50.json",
+      "ingest_time_ms": 8.9873,
+      "peak_memory_kb": 349.73,
+      "query_time_ms": 0.0443,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_6.json",
+      "ingest_time_ms": 6.6036,
+      "peak_memory_kb": 251.67,
+      "query_time_ms": 0.0344,
+      "num_devices": 22,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_7.json",
+      "ingest_time_ms": 8.2708,
+      "peak_memory_kb": 315.09,
+      "query_time_ms": 0.0278,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_8.json",
+      "ingest_time_ms": 5.8954,
+      "peak_memory_kb": 231.09,
+      "query_time_ms": 0.0291,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_feasible_seed_9.json",
+      "ingest_time_ms": 7.6902,
+      "peak_memory_kb": 290.14,
+      "query_time_ms": 0.0428,
+      "num_devices": 22,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_1.json",
+      "ingest_time_ms": 8.1796,
+      "peak_memory_kb": 316.91,
+      "query_time_ms": 0.0384,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_10.json",
+      "ingest_time_ms": 8.0617,
+      "peak_memory_kb": 309.06,
+      "query_time_ms": 0.0551,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_11.json",
+      "ingest_time_ms": 9.5922,
+      "peak_memory_kb": 372.81,
+      "query_time_ms": 0.0478,
+      "num_devices": 32,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_12.json",
+      "ingest_time_ms": 7.9206,
+      "peak_memory_kb": 306.64,
+      "query_time_ms": 0.0295,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_13.json",
+      "ingest_time_ms": 7.8753,
+      "peak_memory_kb": 302.74,
+      "query_time_ms": 0.0271,
+      "num_devices": 32,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_14.json",
+      "ingest_time_ms": 6.3117,
+      "peak_memory_kb": 247.94,
+      "query_time_ms": 0.0324,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_15.json",
+      "ingest_time_ms": 6.9173,
+      "peak_memory_kb": 267.94,
+      "query_time_ms": 0.0282,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_16.json",
+      "ingest_time_ms": 6.2267,
+      "peak_memory_kb": 242.31,
+      "query_time_ms": 0.0195,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_17.json",
+      "ingest_time_ms": 9.5393,
+      "peak_memory_kb": 369.76,
+      "query_time_ms": 0.0331,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_18.json",
+      "ingest_time_ms": 9.0662,
+      "peak_memory_kb": 354.13,
+      "query_time_ms": 0.0491,
+      "num_devices": 32,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_19.json",
+      "ingest_time_ms": 5.9366,
+      "peak_memory_kb": 239.06,
+      "query_time_ms": 0.0268,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_2.json",
+      "ingest_time_ms": 9.8056,
+      "peak_memory_kb": 381.19,
+      "query_time_ms": 0.0356,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_20.json",
+      "ingest_time_ms": 6.3227,
+      "peak_memory_kb": 242.07,
+      "query_time_ms": 0.0345,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_21.json",
+      "ingest_time_ms": 5.6553,
+      "peak_memory_kb": 222.83,
+      "query_time_ms": 0.021,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_22.json",
+      "ingest_time_ms": 8.8272,
+      "peak_memory_kb": 333.3,
+      "query_time_ms": 0.0622,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_23.json",
+      "ingest_time_ms": 6.7365,
+      "peak_memory_kb": 256.1,
+      "query_time_ms": 0.0194,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_24.json",
+      "ingest_time_ms": 9.0863,
+      "peak_memory_kb": 340.14,
+      "query_time_ms": 0.0607,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_25.json",
+      "ingest_time_ms": 6.0054,
+      "peak_memory_kb": 234.73,
+      "query_time_ms": 0.0323,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_26.json",
+      "ingest_time_ms": 7.2588,
+      "peak_memory_kb": 280.51,
+      "query_time_ms": 0.0381,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_27.json",
+      "ingest_time_ms": 7.4394,
+      "peak_memory_kb": 281.55,
+      "query_time_ms": 0.0152,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_28.json",
+      "ingest_time_ms": 6.9996,
+      "peak_memory_kb": 270.99,
+      "query_time_ms": 0.033,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_29.json",
+      "ingest_time_ms": 8.8703,
+      "peak_memory_kb": 342.95,
+      "query_time_ms": 0.0291,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_3.json",
+      "ingest_time_ms": 9.2619,
+      "peak_memory_kb": 357.67,
+      "query_time_ms": 0.0218,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_30.json",
+      "ingest_time_ms": 5.8462,
+      "peak_memory_kb": 237.93,
+      "query_time_ms": 0.0197,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_31.json",
+      "ingest_time_ms": 7.1373,
+      "peak_memory_kb": 270.66,
+      "query_time_ms": 0.0602,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_32.json",
+      "ingest_time_ms": 11.0658,
+      "peak_memory_kb": 416.94,
+      "query_time_ms": 0.0703,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_33.json",
+      "ingest_time_ms": 10.5701,
+      "peak_memory_kb": 405.51,
+      "query_time_ms": 0.0499,
+      "num_devices": 33,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_34.json",
+      "ingest_time_ms": 7.8348,
+      "peak_memory_kb": 300.16,
+      "query_time_ms": 0.0324,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_35.json",
+      "ingest_time_ms": 8.6645,
+      "peak_memory_kb": 328.79,
+      "query_time_ms": 0.0545,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_36.json",
+      "ingest_time_ms": 7.791,
+      "peak_memory_kb": 296.31,
+      "query_time_ms": 0.0376,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_37.json",
+      "ingest_time_ms": 5.9753,
+      "peak_memory_kb": 223.89,
+      "query_time_ms": 0.0133,
+      "num_devices": 22,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_38.json",
+      "ingest_time_ms": 7.4671,
+      "peak_memory_kb": 291.9,
+      "query_time_ms": 0.039,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_39.json",
+      "ingest_time_ms": 6.6607,
+      "peak_memory_kb": 250.21,
+      "query_time_ms": 0.026,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_4.json",
+      "ingest_time_ms": 5.9582,
+      "peak_memory_kb": 224.46,
+      "query_time_ms": 0.0213,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_40.json",
+      "ingest_time_ms": 7.0112,
+      "peak_memory_kb": 271.74,
+      "query_time_ms": 0.0359,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_41.json",
+      "ingest_time_ms": 8.1072,
+      "peak_memory_kb": 309.85,
+      "query_time_ms": 0.0247,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_42.json",
+      "ingest_time_ms": 5.9113,
+      "peak_memory_kb": 226.2,
+      "query_time_ms": 0.0344,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_43.json",
+      "ingest_time_ms": 8.8523,
+      "peak_memory_kb": 347.29,
+      "query_time_ms": 0.0201,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_44.json",
+      "ingest_time_ms": 9.6056,
+      "peak_memory_kb": 367.2,
+      "query_time_ms": 0.0794,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_45.json",
+      "ingest_time_ms": 8.1599,
+      "peak_memory_kb": 312.0,
+      "query_time_ms": 0.0612,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_46.json",
+      "ingest_time_ms": 6.1654,
+      "peak_memory_kb": 241.95,
+      "query_time_ms": 0.0346,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_47.json",
+      "ingest_time_ms": 8.0215,
+      "peak_memory_kb": 308.55,
+      "query_time_ms": 0.0299,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_48.json",
+      "ingest_time_ms": 6.4126,
+      "peak_memory_kb": 243.48,
+      "query_time_ms": 0.0187,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_49.json",
+      "ingest_time_ms": 7.2851,
+      "peak_memory_kb": 282.72,
+      "query_time_ms": 0.0208,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_5.json",
+      "ingest_time_ms": 7.9848,
+      "peak_memory_kb": 307.4,
+      "query_time_ms": 0.0223,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_50.json",
+      "ingest_time_ms": 9.0686,
+      "peak_memory_kb": 349.61,
+      "query_time_ms": 0.042,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_6.json",
+      "ingest_time_ms": 6.5562,
+      "peak_memory_kb": 251.55,
+      "query_time_ms": 0.0336,
+      "num_devices": 22,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_7.json",
+      "ingest_time_ms": 8.3076,
+      "peak_memory_kb": 314.98,
+      "query_time_ms": 0.0257,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_8.json",
+      "ingest_time_ms": 5.8697,
+      "peak_memory_kb": 230.75,
+      "query_time_ms": 0.0286,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-1_infeasible_seed_9.json",
+      "ingest_time_ms": 7.5626,
+      "peak_memory_kb": 290.03,
+      "query_time_ms": 0.0455,
+      "num_devices": 22,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_1.json",
+      "ingest_time_ms": 8.2386,
+      "peak_memory_kb": 317.03,
+      "query_time_ms": 0.0409,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_11.json",
+      "ingest_time_ms": 9.6044,
+      "peak_memory_kb": 372.93,
+      "query_time_ms": 0.0469,
+      "num_devices": 32,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_12.json",
+      "ingest_time_ms": 7.9405,
+      "peak_memory_kb": 306.76,
+      "query_time_ms": 0.0291,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_13.json",
+      "ingest_time_ms": 8.0663,
+      "peak_memory_kb": 302.85,
+      "query_time_ms": 0.0232,
+      "num_devices": 32,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_14.json",
+      "ingest_time_ms": 6.3677,
+      "peak_memory_kb": 248.05,
+      "query_time_ms": 0.0323,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_15.json",
+      "ingest_time_ms": 6.9394,
+      "peak_memory_kb": 268.06,
+      "query_time_ms": 0.0282,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_16.json",
+      "ingest_time_ms": 6.2474,
+      "peak_memory_kb": 242.43,
+      "query_time_ms": 0.0197,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_17.json",
+      "ingest_time_ms": 9.5753,
+      "peak_memory_kb": 369.88,
+      "query_time_ms": 0.0351,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_18.json",
+      "ingest_time_ms": 9.0557,
+      "peak_memory_kb": 354.24,
+      "query_time_ms": 0.0509,
+      "num_devices": 32,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_19.json",
+      "ingest_time_ms": 5.9331,
+      "peak_memory_kb": 239.24,
+      "query_time_ms": 0.0269,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_2.json",
+      "ingest_time_ms": 9.8548,
+      "peak_memory_kb": 381.3,
+      "query_time_ms": 0.0361,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_20.json",
+      "ingest_time_ms": 6.2507,
+      "peak_memory_kb": 242.24,
+      "query_time_ms": 0.0296,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_21.json",
+      "ingest_time_ms": 5.7045,
+      "peak_memory_kb": 223.0,
+      "query_time_ms": 0.021,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_22.json",
+      "ingest_time_ms": 8.7821,
+      "peak_memory_kb": 333.42,
+      "query_time_ms": 0.0555,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_23.json",
+      "ingest_time_ms": 6.7264,
+      "peak_memory_kb": 256.21,
+      "query_time_ms": 0.0208,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_24.json",
+      "ingest_time_ms": 8.9562,
+      "peak_memory_kb": 340.26,
+      "query_time_ms": 0.0625,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_26.json",
+      "ingest_time_ms": 7.2506,
+      "peak_memory_kb": 280.56,
+      "query_time_ms": 0.0378,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_27.json",
+      "ingest_time_ms": 7.4146,
+      "peak_memory_kb": 281.67,
+      "query_time_ms": 0.0153,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_28.json",
+      "ingest_time_ms": 6.9723,
+      "peak_memory_kb": 271.1,
+      "query_time_ms": 0.0327,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_29.json",
+      "ingest_time_ms": 8.9016,
+      "peak_memory_kb": 343.07,
+      "query_time_ms": 0.027,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_3.json",
+      "ingest_time_ms": 9.3236,
+      "peak_memory_kb": 357.78,
+      "query_time_ms": 0.0218,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_30.json",
+      "ingest_time_ms": 5.8978,
+      "peak_memory_kb": 238.1,
+      "query_time_ms": 0.0203,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_31.json",
+      "ingest_time_ms": 7.1041,
+      "peak_memory_kb": 270.78,
+      "query_time_ms": 0.0617,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_34.json",
+      "ingest_time_ms": 7.8168,
+      "peak_memory_kb": 300.28,
+      "query_time_ms": 0.0325,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_35.json",
+      "ingest_time_ms": 8.6714,
+      "peak_memory_kb": 328.91,
+      "query_time_ms": 0.0557,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_36.json",
+      "ingest_time_ms": 7.918,
+      "peak_memory_kb": 296.43,
+      "query_time_ms": 0.0373,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_38.json",
+      "ingest_time_ms": 7.5594,
+      "peak_memory_kb": 291.95,
+      "query_time_ms": 0.0389,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_4.json",
+      "ingest_time_ms": 5.9519,
+      "peak_memory_kb": 224.57,
+      "query_time_ms": 0.0209,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_41.json",
+      "ingest_time_ms": 8.0809,
+      "peak_memory_kb": 309.97,
+      "query_time_ms": 0.0228,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_43.json",
+      "ingest_time_ms": 8.8212,
+      "peak_memory_kb": 347.4,
+      "query_time_ms": 0.0199,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_44.json",
+      "ingest_time_ms": 9.5678,
+      "peak_memory_kb": 367.32,
+      "query_time_ms": 0.0755,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_45.json",
+      "ingest_time_ms": 8.2037,
+      "peak_memory_kb": 312.11,
+      "query_time_ms": 0.064,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_46.json",
+      "ingest_time_ms": 6.171,
+      "peak_memory_kb": 242.12,
+      "query_time_ms": 0.0345,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_47.json",
+      "ingest_time_ms": 7.9913,
+      "peak_memory_kb": 308.67,
+      "query_time_ms": 0.0293,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_48.json",
+      "ingest_time_ms": 6.3094,
+      "peak_memory_kb": 243.6,
+      "query_time_ms": 0.0188,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_49.json",
+      "ingest_time_ms": 7.3454,
+      "peak_memory_kb": 282.84,
+      "query_time_ms": 0.0207,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_50.json",
+      "ingest_time_ms": 8.9905,
+      "peak_memory_kb": 349.73,
+      "query_time_ms": 0.0399,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_51.json",
+      "ingest_time_ms": 4.2669,
+      "peak_memory_kb": 170.62,
+      "query_time_ms": 0.0195,
+      "num_devices": 21,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_52.json",
+      "ingest_time_ms": 7.1747,
+      "peak_memory_kb": 272.3,
+      "query_time_ms": 0.0198,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_54.json",
+      "ingest_time_ms": 7.3801,
+      "peak_memory_kb": 284.29,
+      "query_time_ms": 0.0232,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_55.json",
+      "ingest_time_ms": 5.6456,
+      "peak_memory_kb": 219.26,
+      "query_time_ms": 0.0353,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_57.json",
+      "ingest_time_ms": 10.0131,
+      "peak_memory_kb": 392.41,
+      "query_time_ms": 0.0437,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_58.json",
+      "ingest_time_ms": 5.6095,
+      "peak_memory_kb": 220.2,
+      "query_time_ms": 0.0228,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_59.json",
+      "ingest_time_ms": 7.1779,
+      "peak_memory_kb": 267.64,
+      "query_time_ms": 0.0549,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_6.json",
+      "ingest_time_ms": 6.6072,
+      "peak_memory_kb": 251.67,
+      "query_time_ms": 0.0392,
+      "num_devices": 22,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_60.json",
+      "ingest_time_ms": 7.64,
+      "peak_memory_kb": 293.88,
+      "query_time_ms": 0.0207,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_61.json",
+      "ingest_time_ms": 9.8404,
+      "peak_memory_kb": 386.13,
+      "query_time_ms": 0.0326,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_7.json",
+      "ingest_time_ms": 8.2765,
+      "peak_memory_kb": 315.02,
+      "query_time_ms": 0.0258,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_8.json",
+      "ingest_time_ms": 5.8432,
+      "peak_memory_kb": 230.93,
+      "query_time_ms": 0.0288,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_feasible_seed_9.json",
+      "ingest_time_ms": 7.5963,
+      "peak_memory_kb": 290.14,
+      "query_time_ms": 0.046,
+      "num_devices": 22,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_1.json",
+      "ingest_time_ms": 8.2628,
+      "peak_memory_kb": 316.91,
+      "query_time_ms": 0.0431,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_11.json",
+      "ingest_time_ms": 9.6018,
+      "peak_memory_kb": 372.81,
+      "query_time_ms": 0.0487,
+      "num_devices": 32,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_12.json",
+      "ingest_time_ms": 8.0483,
+      "peak_memory_kb": 306.64,
+      "query_time_ms": 0.0317,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_13.json",
+      "ingest_time_ms": 7.8885,
+      "peak_memory_kb": 302.74,
+      "query_time_ms": 0.0234,
+      "num_devices": 32,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_14.json",
+      "ingest_time_ms": 6.3065,
+      "peak_memory_kb": 247.94,
+      "query_time_ms": 0.0319,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_15.json",
+      "ingest_time_ms": 6.9261,
+      "peak_memory_kb": 267.94,
+      "query_time_ms": 0.0284,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_16.json",
+      "ingest_time_ms": 6.3636,
+      "peak_memory_kb": 242.31,
+      "query_time_ms": 0.0198,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_17.json",
+      "ingest_time_ms": 9.5575,
+      "peak_memory_kb": 369.76,
+      "query_time_ms": 0.0317,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_18.json",
+      "ingest_time_ms": 9.159,
+      "peak_memory_kb": 354.13,
+      "query_time_ms": 0.0496,
+      "num_devices": 32,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_19.json",
+      "ingest_time_ms": 5.9366,
+      "peak_memory_kb": 239.12,
+      "query_time_ms": 0.0275,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_2.json",
+      "ingest_time_ms": 9.829,
+      "peak_memory_kb": 381.19,
+      "query_time_ms": 0.0359,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_20.json",
+      "ingest_time_ms": 6.2666,
+      "peak_memory_kb": 242.13,
+      "query_time_ms": 0.0298,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_21.json",
+      "ingest_time_ms": 5.6988,
+      "peak_memory_kb": 222.89,
+      "query_time_ms": 0.0212,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_22.json",
+      "ingest_time_ms": 8.7685,
+      "peak_memory_kb": 333.3,
+      "query_time_ms": 0.0569,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_23.json",
+      "ingest_time_ms": 6.7271,
+      "peak_memory_kb": 256.1,
+      "query_time_ms": 0.0194,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_24.json",
+      "ingest_time_ms": 9.0336,
+      "peak_memory_kb": 340.14,
+      "query_time_ms": 0.0568,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_26.json",
+      "ingest_time_ms": 7.248,
+      "peak_memory_kb": 280.44,
+      "query_time_ms": 0.0382,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_27.json",
+      "ingest_time_ms": 7.4359,
+      "peak_memory_kb": 281.55,
+      "query_time_ms": 0.0153,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_28.json",
+      "ingest_time_ms": 7.0205,
+      "peak_memory_kb": 270.99,
+      "query_time_ms": 0.0324,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_29.json",
+      "ingest_time_ms": 8.9116,
+      "peak_memory_kb": 342.95,
+      "query_time_ms": 0.0273,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_3.json",
+      "ingest_time_ms": 9.4031,
+      "peak_memory_kb": 357.67,
+      "query_time_ms": 0.0219,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_30.json",
+      "ingest_time_ms": 5.9014,
+      "peak_memory_kb": 237.98,
+      "query_time_ms": 0.0231,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_31.json",
+      "ingest_time_ms": 7.2169,
+      "peak_memory_kb": 270.66,
+      "query_time_ms": 0.0668,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_34.json",
+      "ingest_time_ms": 7.8032,
+      "peak_memory_kb": 300.16,
+      "query_time_ms": 0.0332,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_35.json",
+      "ingest_time_ms": 8.8911,
+      "peak_memory_kb": 328.79,
+      "query_time_ms": 0.0593,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_36.json",
+      "ingest_time_ms": 7.8116,
+      "peak_memory_kb": 296.31,
+      "query_time_ms": 0.0394,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_38.json",
+      "ingest_time_ms": 7.6368,
+      "peak_memory_kb": 291.83,
+      "query_time_ms": 0.0388,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_4.json",
+      "ingest_time_ms": 5.9628,
+      "peak_memory_kb": 224.46,
+      "query_time_ms": 0.0208,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_41.json",
+      "ingest_time_ms": 8.1772,
+      "peak_memory_kb": 309.85,
+      "query_time_ms": 0.0228,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_43.json",
+      "ingest_time_ms": 8.9992,
+      "peak_memory_kb": 347.29,
+      "query_time_ms": 0.0205,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_44.json",
+      "ingest_time_ms": 9.6794,
+      "peak_memory_kb": 367.2,
+      "query_time_ms": 0.0922,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_45.json",
+      "ingest_time_ms": 8.2233,
+      "peak_memory_kb": 312.0,
+      "query_time_ms": 0.064,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_46.json",
+      "ingest_time_ms": 6.1614,
+      "peak_memory_kb": 242.01,
+      "query_time_ms": 0.0343,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_47.json",
+      "ingest_time_ms": 7.9973,
+      "peak_memory_kb": 308.55,
+      "query_time_ms": 0.0298,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_48.json",
+      "ingest_time_ms": 6.3037,
+      "peak_memory_kb": 243.48,
+      "query_time_ms": 0.0186,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_49.json",
+      "ingest_time_ms": 7.3935,
+      "peak_memory_kb": 282.72,
+      "query_time_ms": 0.0217,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_50.json",
+      "ingest_time_ms": 9.1502,
+      "peak_memory_kb": 349.61,
+      "query_time_ms": 0.0414,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_51.json",
+      "ingest_time_ms": 4.3295,
+      "peak_memory_kb": 170.5,
+      "query_time_ms": 0.0196,
+      "num_devices": 21,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_52.json",
+      "ingest_time_ms": 7.2051,
+      "peak_memory_kb": 272.19,
+      "query_time_ms": 0.0209,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_54.json",
+      "ingest_time_ms": 7.3105,
+      "peak_memory_kb": 284.17,
+      "query_time_ms": 0.0232,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_55.json",
+      "ingest_time_ms": 5.6819,
+      "peak_memory_kb": 219.14,
+      "query_time_ms": 0.0363,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_57.json",
+      "ingest_time_ms": 10.0199,
+      "peak_memory_kb": 392.29,
+      "query_time_ms": 0.0607,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_58.json",
+      "ingest_time_ms": 5.6223,
+      "peak_memory_kb": 220.08,
+      "query_time_ms": 0.0225,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_59.json",
+      "ingest_time_ms": 6.9245,
+      "peak_memory_kb": 267.53,
+      "query_time_ms": 0.0543,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_6.json",
+      "ingest_time_ms": 6.6104,
+      "peak_memory_kb": 251.55,
+      "query_time_ms": 0.034,
+      "num_devices": 22,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_60.json",
+      "ingest_time_ms": 7.5949,
+      "peak_memory_kb": 293.76,
+      "query_time_ms": 0.023,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_61.json",
+      "ingest_time_ms": 9.9613,
+      "peak_memory_kb": 386.02,
+      "query_time_ms": 0.0329,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_7.json",
+      "ingest_time_ms": 8.3142,
+      "peak_memory_kb": 314.91,
+      "query_time_ms": 0.0251,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_8.json",
+      "ingest_time_ms": 5.8742,
+      "peak_memory_kb": 230.81,
+      "query_time_ms": 0.0292,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-2_infeasible_seed_9.json",
+      "ingest_time_ms": 7.5635,
+      "peak_memory_kb": 290.03,
+      "query_time_ms": 0.0423,
+      "num_devices": 22,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_11.json",
+      "ingest_time_ms": 9.6077,
+      "peak_memory_kb": 372.93,
+      "query_time_ms": 0.0458,
+      "num_devices": 32,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_12.json",
+      "ingest_time_ms": 7.9402,
+      "peak_memory_kb": 306.76,
+      "query_time_ms": 0.0301,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_13.json",
+      "ingest_time_ms": 7.8866,
+      "peak_memory_kb": 302.85,
+      "query_time_ms": 0.0237,
+      "num_devices": 32,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_16.json",
+      "ingest_time_ms": 6.2846,
+      "peak_memory_kb": 242.43,
+      "query_time_ms": 0.0197,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_17.json",
+      "ingest_time_ms": 9.6675,
+      "peak_memory_kb": 369.74,
+      "query_time_ms": 0.0312,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_18.json",
+      "ingest_time_ms": 9.0538,
+      "peak_memory_kb": 354.24,
+      "query_time_ms": 0.0527,
+      "num_devices": 32,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_19.json",
+      "ingest_time_ms": 5.9811,
+      "peak_memory_kb": 239.29,
+      "query_time_ms": 0.0283,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_2.json",
+      "ingest_time_ms": 9.8391,
+      "peak_memory_kb": 381.3,
+      "query_time_ms": 0.0378,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_20.json",
+      "ingest_time_ms": 6.2803,
+      "peak_memory_kb": 242.3,
+      "query_time_ms": 0.0295,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_21.json",
+      "ingest_time_ms": 5.6869,
+      "peak_memory_kb": 223.06,
+      "query_time_ms": 0.021,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_22.json",
+      "ingest_time_ms": 8.8115,
+      "peak_memory_kb": 333.42,
+      "query_time_ms": 0.0577,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_23.json",
+      "ingest_time_ms": 6.7389,
+      "peak_memory_kb": 256.21,
+      "query_time_ms": 0.0192,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_27.json",
+      "ingest_time_ms": 7.4218,
+      "peak_memory_kb": 281.67,
+      "query_time_ms": 0.0155,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_28.json",
+      "ingest_time_ms": 7.0457,
+      "peak_memory_kb": 271.1,
+      "query_time_ms": 0.0332,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_29.json",
+      "ingest_time_ms": 8.8864,
+      "peak_memory_kb": 343.07,
+      "query_time_ms": 0.0287,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_3.json",
+      "ingest_time_ms": 9.2831,
+      "peak_memory_kb": 357.78,
+      "query_time_ms": 0.0217,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_30.json",
+      "ingest_time_ms": 5.8787,
+      "peak_memory_kb": 238.16,
+      "query_time_ms": 0.0196,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_31.json",
+      "ingest_time_ms": 7.0642,
+      "peak_memory_kb": 270.78,
+      "query_time_ms": 0.0616,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_34.json",
+      "ingest_time_ms": 7.8251,
+      "peak_memory_kb": 300.28,
+      "query_time_ms": 0.0356,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_35.json",
+      "ingest_time_ms": 8.641,
+      "peak_memory_kb": 328.91,
+      "query_time_ms": 0.0573,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_36.json",
+      "ingest_time_ms": 7.8113,
+      "peak_memory_kb": 296.43,
+      "query_time_ms": 0.0409,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_38.json",
+      "ingest_time_ms": 7.6061,
+      "peak_memory_kb": 291.95,
+      "query_time_ms": 0.0388,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_41.json",
+      "ingest_time_ms": 8.0914,
+      "peak_memory_kb": 309.97,
+      "query_time_ms": 0.0232,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_45.json",
+      "ingest_time_ms": 8.1847,
+      "peak_memory_kb": 312.11,
+      "query_time_ms": 0.0661,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_46.json",
+      "ingest_time_ms": 6.2927,
+      "peak_memory_kb": 242.18,
+      "query_time_ms": 0.0356,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_47.json",
+      "ingest_time_ms": 8.0448,
+      "peak_memory_kb": 308.67,
+      "query_time_ms": 0.03,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_48.json",
+      "ingest_time_ms": 6.2963,
+      "peak_memory_kb": 243.6,
+      "query_time_ms": 0.0184,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_49.json",
+      "ingest_time_ms": 7.4375,
+      "peak_memory_kb": 282.84,
+      "query_time_ms": 0.0204,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_50.json",
+      "ingest_time_ms": 9.0203,
+      "peak_memory_kb": 349.73,
+      "query_time_ms": 0.0414,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_51.json",
+      "ingest_time_ms": 4.3746,
+      "peak_memory_kb": 170.67,
+      "query_time_ms": 0.0232,
+      "num_devices": 21,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_52.json",
+      "ingest_time_ms": 7.0499,
+      "peak_memory_kb": 272.3,
+      "query_time_ms": 0.0195,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_54.json",
+      "ingest_time_ms": 7.4047,
+      "peak_memory_kb": 284.29,
+      "query_time_ms": 0.0235,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_55.json",
+      "ingest_time_ms": 5.6673,
+      "peak_memory_kb": 219.31,
+      "query_time_ms": 0.035,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_57.json",
+      "ingest_time_ms": 10.02,
+      "peak_memory_kb": 392.41,
+      "query_time_ms": 0.065,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_58.json",
+      "ingest_time_ms": 5.6234,
+      "peak_memory_kb": 220.25,
+      "query_time_ms": 0.0225,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_61.json",
+      "ingest_time_ms": 9.9266,
+      "peak_memory_kb": 386.06,
+      "query_time_ms": 0.0309,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_64.json",
+      "ingest_time_ms": 5.3004,
+      "peak_memory_kb": 209.9,
+      "query_time_ms": 0.0196,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_67.json",
+      "ingest_time_ms": 6.7774,
+      "peak_memory_kb": 262.6,
+      "query_time_ms": 0.0235,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_7.json",
+      "ingest_time_ms": 8.3058,
+      "peak_memory_kb": 315.02,
+      "query_time_ms": 0.028,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_70.json",
+      "ingest_time_ms": 6.9656,
+      "peak_memory_kb": 264.84,
+      "query_time_ms": 0.0335,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_71.json",
+      "ingest_time_ms": 6.7392,
+      "peak_memory_kb": 253.72,
+      "query_time_ms": 0.0405,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_73.json",
+      "ingest_time_ms": 7.2701,
+      "peak_memory_kb": 276.42,
+      "query_time_ms": 0.0407,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_74.json",
+      "ingest_time_ms": 9.0469,
+      "peak_memory_kb": 348.64,
+      "query_time_ms": 0.0309,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_75.json",
+      "ingest_time_ms": 9.7723,
+      "peak_memory_kb": 377.79,
+      "query_time_ms": 0.0728,
+      "num_devices": 33,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_76.json",
+      "ingest_time_ms": 8.9323,
+      "peak_memory_kb": 347.99,
+      "query_time_ms": 0.0596,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_78.json",
+      "ingest_time_ms": 6.8881,
+      "peak_memory_kb": 262.4,
+      "query_time_ms": 0.0386,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_79.json",
+      "ingest_time_ms": 7.0221,
+      "peak_memory_kb": 267.46,
+      "query_time_ms": 0.0282,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_8.json",
+      "ingest_time_ms": 5.8831,
+      "peak_memory_kb": 230.98,
+      "query_time_ms": 0.0291,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_80.json",
+      "ingest_time_ms": 6.2106,
+      "peak_memory_kb": 239.09,
+      "query_time_ms": 0.0274,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_feasible_seed_81.json",
+      "ingest_time_ms": 8.559,
+      "peak_memory_kb": 325.32,
+      "query_time_ms": 0.0525,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_11.json",
+      "ingest_time_ms": 9.6588,
+      "peak_memory_kb": 372.81,
+      "query_time_ms": 0.0449,
+      "num_devices": 32,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_12.json",
+      "ingest_time_ms": 7.924,
+      "peak_memory_kb": 306.64,
+      "query_time_ms": 0.0298,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_13.json",
+      "ingest_time_ms": 7.8934,
+      "peak_memory_kb": 302.74,
+      "query_time_ms": 0.0235,
+      "num_devices": 32,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_16.json",
+      "ingest_time_ms": 6.2368,
+      "peak_memory_kb": 242.31,
+      "query_time_ms": 0.0198,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_17.json",
+      "ingest_time_ms": 9.5666,
+      "peak_memory_kb": 369.62,
+      "query_time_ms": 0.0314,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_18.json",
+      "ingest_time_ms": 9.0932,
+      "peak_memory_kb": 354.13,
+      "query_time_ms": 0.0503,
+      "num_devices": 32,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_19.json",
+      "ingest_time_ms": 5.971,
+      "peak_memory_kb": 239.17,
+      "query_time_ms": 0.0272,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_2.json",
+      "ingest_time_ms": 9.835,
+      "peak_memory_kb": 381.19,
+      "query_time_ms": 0.0346,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_20.json",
+      "ingest_time_ms": 6.3582,
+      "peak_memory_kb": 242.18,
+      "query_time_ms": 0.0295,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_21.json",
+      "ingest_time_ms": 5.6996,
+      "peak_memory_kb": 222.94,
+      "query_time_ms": 0.0212,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_22.json",
+      "ingest_time_ms": 8.7785,
+      "peak_memory_kb": 333.3,
+      "query_time_ms": 0.0556,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_23.json",
+      "ingest_time_ms": 6.8162,
+      "peak_memory_kb": 256.1,
+      "query_time_ms": 0.0194,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_27.json",
+      "ingest_time_ms": 7.4596,
+      "peak_memory_kb": 281.55,
+      "query_time_ms": 0.0151,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_28.json",
+      "ingest_time_ms": 7.0044,
+      "peak_memory_kb": 270.99,
+      "query_time_ms": 0.033,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_29.json",
+      "ingest_time_ms": 8.9001,
+      "peak_memory_kb": 342.95,
+      "query_time_ms": 0.0275,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_3.json",
+      "ingest_time_ms": 9.2446,
+      "peak_memory_kb": 357.67,
+      "query_time_ms": 0.0224,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_30.json",
+      "ingest_time_ms": 5.8767,
+      "peak_memory_kb": 238.04,
+      "query_time_ms": 0.0199,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_31.json",
+      "ingest_time_ms": 7.0614,
+      "peak_memory_kb": 270.66,
+      "query_time_ms": 0.0615,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_34.json",
+      "ingest_time_ms": 7.8537,
+      "peak_memory_kb": 300.16,
+      "query_time_ms": 0.0337,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_35.json",
+      "ingest_time_ms": 8.7222,
+      "peak_memory_kb": 328.79,
+      "query_time_ms": 0.057,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_36.json",
+      "ingest_time_ms": 8.0122,
+      "peak_memory_kb": 296.31,
+      "query_time_ms": 0.0373,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_38.json",
+      "ingest_time_ms": 7.4817,
+      "peak_memory_kb": 291.83,
+      "query_time_ms": 0.0388,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_41.json",
+      "ingest_time_ms": 8.0904,
+      "peak_memory_kb": 309.85,
+      "query_time_ms": 0.0229,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_43.json",
+      "ingest_time_ms": 9.0126,
+      "peak_memory_kb": 347.29,
+      "query_time_ms": 0.02,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_44.json",
+      "ingest_time_ms": 9.7844,
+      "peak_memory_kb": 367.13,
+      "query_time_ms": 0.0974,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_45.json",
+      "ingest_time_ms": 10.5057,
+      "peak_memory_kb": 312.0,
+      "query_time_ms": 0.1179,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_46.json",
+      "ingest_time_ms": 7.0061,
+      "peak_memory_kb": 242.06,
+      "query_time_ms": 0.0433,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_47.json",
+      "ingest_time_ms": 8.03,
+      "peak_memory_kb": 308.55,
+      "query_time_ms": 0.0322,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_48.json",
+      "ingest_time_ms": 6.3488,
+      "peak_memory_kb": 243.48,
+      "query_time_ms": 0.0191,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_49.json",
+      "ingest_time_ms": 7.3207,
+      "peak_memory_kb": 282.72,
+      "query_time_ms": 0.0216,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_50.json",
+      "ingest_time_ms": 9.0892,
+      "peak_memory_kb": 349.61,
+      "query_time_ms": 0.0466,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_51.json",
+      "ingest_time_ms": 4.3226,
+      "peak_memory_kb": 170.56,
+      "query_time_ms": 0.0199,
+      "num_devices": 21,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_52.json",
+      "ingest_time_ms": 7.1426,
+      "peak_memory_kb": 272.19,
+      "query_time_ms": 0.0199,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_54.json",
+      "ingest_time_ms": 7.3184,
+      "peak_memory_kb": 284.17,
+      "query_time_ms": 0.0228,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_55.json",
+      "ingest_time_ms": 5.6467,
+      "peak_memory_kb": 219.2,
+      "query_time_ms": 0.0349,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_57.json",
+      "ingest_time_ms": 10.0935,
+      "peak_memory_kb": 392.29,
+      "query_time_ms": 0.0998,
+      "num_devices": 31,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_58.json",
+      "ingest_time_ms": 5.6357,
+      "peak_memory_kb": 220.14,
+      "query_time_ms": 0.0233,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_60.json",
+      "ingest_time_ms": 7.5929,
+      "peak_memory_kb": 293.76,
+      "query_time_ms": 0.0195,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_61.json",
+      "ingest_time_ms": 9.9363,
+      "peak_memory_kb": 386.02,
+      "query_time_ms": 0.0325,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_64.json",
+      "ingest_time_ms": 5.3088,
+      "peak_memory_kb": 209.79,
+      "query_time_ms": 0.0201,
+      "num_devices": 25,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_67.json",
+      "ingest_time_ms": 6.7879,
+      "peak_memory_kb": 262.48,
+      "query_time_ms": 0.0237,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_7.json",
+      "ingest_time_ms": 8.34,
+      "peak_memory_kb": 314.91,
+      "query_time_ms": 0.0257,
+      "num_devices": 26,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_70.json",
+      "ingest_time_ms": 6.9119,
+      "peak_memory_kb": 264.72,
+      "query_time_ms": 0.0352,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_71.json",
+      "ingest_time_ms": 6.6898,
+      "peak_memory_kb": 253.6,
+      "query_time_ms": 0.0397,
+      "num_devices": 24,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_73.json",
+      "ingest_time_ms": 7.2179,
+      "peak_memory_kb": 276.3,
+      "query_time_ms": 0.0418,
+      "num_devices": 28,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_74.json",
+      "ingest_time_ms": 9.0649,
+      "peak_memory_kb": 348.52,
+      "query_time_ms": 0.0299,
+      "num_devices": 29,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_75.json",
+      "ingest_time_ms": 9.7444,
+      "peak_memory_kb": 377.67,
+      "query_time_ms": 0.0623,
+      "num_devices": 33,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_76.json",
+      "ingest_time_ms": 8.9031,
+      "peak_memory_kb": 347.88,
+      "query_time_ms": 0.0589,
+      "num_devices": 30,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_78.json",
+      "ingest_time_ms": 6.8192,
+      "peak_memory_kb": 262.28,
+      "query_time_ms": 0.0387,
+      "num_devices": 27,
+      "num_rooms": 5
+    },
+    {
+      "file": "qt4-3_infeasible_seed_8.json",
+      "ingest_time_ms": 5.8808,
+      "peak_memory_kb": 230.86,
+      "query_time_ms": 0.0299,
+      "num_devices": 27,
+      "num_rooms": 5
+    }
+  ],
+  "errors": []
+}
