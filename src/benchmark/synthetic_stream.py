@@ -39,7 +39,7 @@ if __name__ == "__main__":
         cluster_id="bathroom_air_conditioner_1.Thermostat",
         attr_name="LocalTemperature",
         start_value=25.0,
-        start_time="2025-08-23 08:00:00",
+        start_time="2025-08-23 10:00:00",
         duration_hours=4,
         num_changes=20,
         seed=42

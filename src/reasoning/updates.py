@@ -2,7 +2,7 @@ from src.ingestion.graph_store import GraphStore
 from src.reasoning.queries import get_intervals_for_cluster
 import os
 import json
-
+from src.reasoning.allen import parse_time
 
 def update_state(graph_store: GraphStore, cluster_id: str, attr_name: str,
                   new_value, timestamp: str) -> dict:
@@ -17,7 +17,14 @@ def update_state(graph_store: GraphStore, cluster_id: str, attr_name: str,
     """
     intervals = get_intervals_for_cluster(graph_store, cluster_id, attr_name)
     active = next((i for i in intervals if i["end_time"] is None), None)
-
+    if active is not None:
+        active_start = parse_time(active["start_time"])
+        new_time = parse_time(timestamp)
+        if new_time < active_start:
+            raise ValueError(
+            f"Cannot update interval with timestamp {timestamp} "
+            f"earlier than its start_time {active['start_time']}"
+        )
     # CASE 1 — no active interval exists yet → create the first one
     if active is None:
         new_id = f"si_{cluster_id}_{attr_name}_{timestamp}".replace(" ", "_").replace(":", "-")
